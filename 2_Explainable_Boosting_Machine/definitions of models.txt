@@ -1,0 +1,53 @@
+EXPERIMENT DEFINITIONS
+
+Each prediction method has one baseline and fifteen linguistic feature-set experiments: 48 runs across CEFR classification, level classification, and level regression. Names such as classifier__combined and regressor__combined identify the prediction method followed by the experiment below.
+
+1. majority / median
+Uses no linguistic features: classifier__majority always predicts the most common training class, while regressor__median always predicts the median training level. These provide baselines for measuring the benefit of learning from linguistic features.
+
+2. complexity
+Uses linguistic complexity features, including vocabulary, syntax, grammatical structures, and length-dependent features such as word counts. It tests how well complexity alone predicts proficiency.
+
+3. accuracy
+Uses ERRANT error and correction features, including error counts, rates, and types. It tests how well these features predict proficiency on their own.
+
+4. combined
+Uses both complexity and accuracy/error features. It tests whether combining these two sources of information improves prediction compared with using either alone.
+
+5. combined_plus_error_composition
+Adds four relative error proportions to the combined features: the shares of missing, unnecessary, replacement, and other correction operations among all errors. It tests whether the composition of errors provides additional predictive information.
+
+6. complexity_without_length_features
+Uses complexity features without the direct length features of the first section-1 length list (1_Complexity_Analysis_Full_Module/blacklist_1_direct_length_features.csv): the numbers of words and different words. The other length-dependent features stay in.
+
+7. combined_without_length_features
+Uses complexity and error features without the same list-1 features. Compared with combined and combined_without_length_correlated_features, it shows how much of the effect of text length comes from the direct word counts alone.
+
+8. complexity_without_length_correlated_features
+Uses complexity features without any length-dependent feature: everything in the two section-1 length lists (1_Complexity_Analysis_Full_Module/blacklist_1_direct_length_features.csv and blacklist_2_length_correlated_features.csv) is removed. That covers direct size measures such as word counts, other raw counts such as clause counts, and measures that follow text length such as type-token ratios.
+
+9. combined_without_length_correlated_features
+Uses complexity and error features without any length-dependent feature, removed by the same two lists (including ERRANT's raw error counts). Raw counts and length-driven measures mostly reflect how much was written, so they can predict proficiency without validly measuring it. This single model is used to compare how informative each tool's features are, overall and for each CEFR band or course level.
+
+The earlier complexity_without_text_size and combined_without_text_size experiments removed only raw text-size counts; they were retired and their models archived outside the repository. Experiments 8 and 9 were first trained as complexity_without_length and combined_without_length and renamed without retraining.
+
+10. combined_without_duplicate_features
+Uses complexity and error features without the duplicate features of the section-1 duplicate list (1_Complexity_Analysis_Full_Module/blacklist_3_duplicate_features.csv): of features whose training rank order correlates at |Spearman| >= 0.95, one is kept. Duplicates carry no extra information but share the model's credit arbitrarily, so removing them makes feature and tool comparisons clearer.
+
+11. combined_without_length_and_duplicate_features
+Removes the duplicate features and the direct length features of length list 1.
+
+12. combined_without_length_correlated_and_duplicate_features
+Removes the duplicate features and both length lists: the main model (9) with each piece of information counted once.
+
+13. polke
+Uses only the 670 POLKE features: 667 grammatical-construction rates plus POLKE's word_count, total_annotations, and unique_constructs. It shows how well POLKE output alone predicts proficiency, for comparison with studies that use POLKE features.
+
+14. training_mutual_information_features
+Uses the highest-ranked features according to Mutual Information (MI), calculated using training data only, with a default limit of 200 features. It tests whether an MI-selected subset can predict proficiency effectively compared with the broader feature sets. Earlier outputs called this experiment training_ranked_features.
+
+15. training_information_gain_features
+Uses the highest-ranked features according to Information Gain (IG), calculated using training data only, with the same default limit of 200 features. Comparing this experiment with training_mutual_information_features tests which feature-selection method produces better prediction results.
+
+16. length_only
+Uses only the 9 direct length features of the first section-1 length list (numbers of words and different words). It shows how far text length alone predicts proficiency, which is why length features can look useful without being valid.

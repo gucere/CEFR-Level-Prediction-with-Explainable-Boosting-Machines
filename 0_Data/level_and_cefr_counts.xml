@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<dataset_counts total_texts="406062">
+  <cefr name="A1" texts="191663">
+    <level number="1" texts="96762" />
+    <level number="2" texts="56839" />
+    <level number="3" texts="38062" />
+  </cefr>
+  <cefr name="A2" texts="129591">
+    <level number="4" texts="70470" />
+    <level number="5" texts="37277" />
+    <level number="6" texts="21844" />
+  </cefr>
+  <cefr name="B1" texts="61506">
+    <level number="7" texts="37460" />
+    <level number="8" texts="14157" />
+    <level number="9" texts="9889" />
+  </cefr>
+  <cefr name="B2" texts="18187">
+    <level number="10" texts="10458" />
+    <level number="11" texts="5010" />
+    <level number="12" texts="2719" />
+  </cefr>
+  <cefr name="C1" texts="5115">
+    <level number="13" texts="3264" />
+    <level number="14" texts="1194" />
+    <level number="15" texts="657" />
+  </cefr>
+</dataset_counts>

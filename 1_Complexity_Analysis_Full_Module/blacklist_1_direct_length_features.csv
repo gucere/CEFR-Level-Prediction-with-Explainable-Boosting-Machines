@@ -1,0 +1,10 @@
+source,feature,column,description,within_level_spearman_with_word_count,spearman_with_word_count
+LCA,wordtokens,complexity__LCA__wordtokens,Number of words,1.0,1.0
+TAASSC,nwords,complexity__TAASSC__nwords,Number of words,0.998,1.0
+L2SCA,W,complexity__L2SCA__W,Number of words,0.992,0.998
+POLKE,word_count,complexity__POLKE__word_count,Number of words,0.977,0.994
+TAALES,Word Count,complexity__TAALES__Word Count,Number of words,0.977,0.994
+LCA,ndw,complexity__LCA__ndw,Number of different words,0.835,0.955
+LCA,wordtypes,complexity__LCA__wordtypes,Number of different words,0.835,0.955
+LCA,lextokens,complexity__LCA__lextokens,Number of lexical (content) words,0.817,0.951
+LCA,lextypes,complexity__LCA__lextypes,Number of different lexical words,0.727,0.916

@@ -1,0 +1,45 @@
+ERRANT ANALYSIS SUMMARY
+========================================================================
+Generated: 2026-08-20T18:38:21+00:00
+ERRANT version: 3.0.2
+Successfully processed text pairs: 406,062
+Processing failures currently recorded: 0
+Unpaired files: 0
+Original word tokens: 25,375,934
+Detected edits: 1,105,310
+Corpus error rate per 100 words: 4.355741
+Error-free texts: 68,628
+Mean surface accuracy proxy: 0.948679
+
+TOP ERRANT ERROR TYPES
+------------------------------------------------------------------------
+ 1. R:SPELL: 501,256
+ 2. R:ORTH: 250,348
+ 3. U:SPACE: 242,691
+ 4. R:NOUN: 70,911
+ 5. R:OTHER: 16,189
+ 6. R:VERB: 10,483
+ 7. R:MORPH: 4,731
+ 8. R:VERB:INFL: 2,753
+ 9. R:NOUN:INFL: 1,571
+10. R:ADJ: 636
+11. U:VERB: 591
+12. U:ADV: 552
+13. U:PUNCT: 353
+14. R:PUNCT: 336
+15. U:VERB:TENSE: 299
+16. U:OTHER: 222
+17. R:ADV: 218
+18. R:PRON: 181
+19. R:NOUN:NUM: 170
+20. R:VERB:TENSE: 159
+
+INTERPRETATION NOTE
+------------------------------------------------------------------------
+surface_accuracy_proxy = max(0, 1 - correction_token_equivalents /
+original_word_count). It is an edit-based surface accuracy proxy, not a
+construction-specific estimate of grammatical mastery.
+
+When a grammatical form was not needed, ERRANT provides no attempt
+denominator. Therefore, error rates and this proxy should not be described
+as correct-attempt / all-attempt accuracy for individual constructions.

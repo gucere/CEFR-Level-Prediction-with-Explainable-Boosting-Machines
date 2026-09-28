@@ -1,0 +1,106 @@
+GRAMMAR DEVELOPMENT ANALYSIS
+
+POLKE results: C:\Users\emreg\Downloads\Thesis\1_Complexity_Analysis_Full_Module\1_Complexity_Analysis_Methods\POLKE\polke_results.csv
+POLKE metadata: C:\Users\emreg\Downloads\Thesis\1_Complexity_Analysis_Full_Module\1_Complexity_Analysis_Methods\POLKE\polke_feature_metadata.csv
+Texts analysed: 406,062
+Structures analysed: 667
+Excluded texts: 0
+
+ANALYSIS SETTINGS
+Main common-usage threshold: 5% of texts
+Thresholds compared: 2%, 5%, 10%
+Minimum valid texts per structure and level: 100
+Minimum feature coverage within a level: 95%
+Sustained usage requires common usage at every level from the reported start through level 15, including at least 2 later levels.
+First observed level can be based on one detection. Common usage requires sufficient data.
+The start is the earliest level supported by the available evidence; insufficient earlier levels may hide an earlier start.
+Missing, non-numeric, negative and non-finite feature values are excluded, not treated as absence.
+Frequency per 100 words is pooled by weighting each valid text's rate by its word count.
+These exploratory thresholds describe group-level usage, not teaching dates, grammatical accuracy or individual retention.
+
+TEXTS AVAILABLE BY COURSE LEVEL
+Level | Texts
+    1 | 96,762
+    2 | 56,839
+    3 | 38,062
+    4 | 70,470
+    5 | 37,277
+    6 | 21,844
+    7 | 37,460
+    8 | 14,157
+    9 | 9,889
+   10 | 10,458
+   11 | 5,010
+   12 | 2,719
+   13 | 3,264
+   14 | 1,194
+   15 | 657
+
+THRESHOLD COMPARISON
+2%: not common: 225; not observed: 50; sustained usage: 263; too few later levels: 13; usage not sustained: 116
+5%: not common: 314; not observed: 50; sustained usage: 205; too few later levels: 11; usage not sustained: 87
+10%: not common: 394; not observed: 50; sustained usage: 162; too few later levels: 8; usage not sustained: 53
+
+SUSTAINED USAGE AT THE MAIN THRESHOLD (up to 20)
+polke_3_per_100_words | from level 1 | Can use a limited range of adjectives attributively, before a noun. ► noun phrases
+polke_4_per_100_words | from level 1 | Can use a limited range of adjectives predicatively, after 'be'.
+polke_15_per_100_words | from level 1 | Can use a limited range of degree adverbs before an adjective.
+polke_17_per_100_words | from level 1 | Can use a limited range of adverbs in front position.
+polke_22_per_100_words | from level 1 | Can combine two main declarative clauses using co-ordinating conjunctions ('and', 'but', 'or').
+polke_27_per_100_words | from level 1 | Can form an affirmative declarative clause with modal verbs.
+polke_30_per_100_words | from level 1 | Can use single word conjunctions ('and, but, or') to connect single nouns and adjectives.
+polke_31_per_100_words | from level 1 | Can use single word conjunctions ('and, but, or') to combine phrases.
+polke_32_per_100_words | from level 1 | Can use single word conjunctions ('and, but, or') to combine clauses.
+polke_37_per_100_words | from level 1 | Can use articles 'the', 'a' and 'an' before nouns. ► noun phrases
+polke_38_per_100_words | from level 1 | Can use 'a' and 'an' before adjectives in a noun phrase. ► adjectives ►  noun phrases
+polke_41_per_100_words | from level 1 | Can use no article before a limited range of nouns in some fixed expressions with prepositions.
+polke_46_per_100_words | from level 1 | Can use possessive determiners 'my', 'your', 'his', 'her' and 'our' before nouns. ► noun phrases ► possessive pronouns
+polke_47_per_100_words | from level 1 | Can use a limited range of quantifying determiners with plural nouns ('some', 'lots of', 'a lot of' and numbers).
+polke_48_per_100_words | from level 1 | Can use a limited range of quantifying determiners with singular nouns ('a', 'every').► determiners: articles
+polke_63_per_100_words | from level 1 | Can form simple noun phrases with a limited range of determiners + singular and plural nouns. ► Nouns and noun phrases: functions
+polke_64_per_100_words | from level 1 | Can form simple noun phrases by pre-modifying singular and plural nouns with an adjective after a determiner.
+polke_65_per_100_words | from level 1 | Can form simple noun phrases by pre-modifying plural nouns with an adjective and no determiner.
+polke_66_per_100_words | from level 1 | Can form noun phrases by pre-modifying a limited range of nouns with another noun.
+polke_67_per_100_words | from level 1 | Can use a limited range of common nouns.
+
+LATER DROPS AFTER FIRST COMMON USAGE (up to 20)
+polke_1_per_100_words | first common at level 4 | below threshold at levels 6; 7; 8; 9; 10; 11; 13; 14; 15 | Can use 'and' to join a limited range of common adjectives.
+polke_16_per_100_words | first common at level 4 | below threshold at levels 5; 6; 7; 8; 9; 10; 11; 12; 13; 14 | Can use frequency adverbs in the usual mid position, between the subject and the main verb.
+polke_18_per_100_words | first common at level 14 | below threshold at levels 15 | Can use 'really' in the usual mid-position, between the subject and the main verb.
+polke_20_per_100_words | first common at level 5 | below threshold at levels 6; 7; 11 | Can use place adverbs in the usual end position.
+polke_21_per_100_words | first common at level 8 | below threshold at levels 10; 11; 15 | Can modify adverbs of time and degree with 'very'.
+polke_26_per_100_words | first common at level 2 | below threshold at levels 3; 5; 6; 7; 8; 9; 10; 12; 13 | Can form simple negative declarative clauses.
+polke_39_per_100_words | first common at level 7 | below threshold at levels 8; 9; 10; 11; 12 | Can use 'a' + 'very' + adjectives in basic noun phrases. ► adverbs ►  noun phrases
+polke_40_per_100_words | first common at level 2 | below threshold at levels 6; 7; 8; 9; 10; 11; 12; 13; 14; 15 | Can use 'the' in prepositional phrases relating to time.
+polke_49_per_100_words | first common at level 2 | below threshold at levels 3 | Can use the affirmative forms 'will' and ''ll'.
+polke_52_per_100_words | first common at level 13 | below threshold at levels 15 | Can use the negative forms.
+polke_53_per_100_words | first common at level 10 | below threshold at levels 11; 12; 13; 14; 15 | Can use the affirmative question form.
+polke_58_per_100_words | first common at level 2 | below threshold at levels 3 | Can use the affirmative forms.
+polke_76_per_100_words | first common at level 6 | below threshold at levels 13 | Can use the affirmative form with a limited range of regular and irregular verbs.
+polke_80_per_100_words | first common at level 1 | below threshold at levels 3 | Can use the affirmative form.
+polke_83_per_100_words | first common at level 2 | below threshold at levels 10 | Can use the negative form with a limited range of regular and irregular verbs.
+polke_84_per_100_words | first common at level 14 | below threshold at levels 15 | Can use the present simple with the adverb 'really' as an intensifier. ► adverbs
+polke_86_per_100_words | first common at level 4 | below threshold at levels 5 | Can use the pronoun 'it' as a direct object to refer to an object or situation already referred to.
+polke_90_per_100_words | first common at level 3 | below threshold at levels 4; 5; 6; 7; 8; 9; 11; 14; 15 | Can use the pronouns 'I', 'you', 'we' and 'they' after an auxiliary or modal verb in question forms.
+polke_91_per_100_words | first common at level 1 | below threshold at levels 2; 3; 4; 5; 6; 7; 8; 9; 13; 14; 15 | Can use the pronouns 'you' and 'it' after 'be' in question forms.
+polke_93_per_100_words | first common at level 5 | below threshold at levels 7 | Can use a limited range of indefinite pronouns as objects.
+
+ERRANT ERROR TRENDS
+Input: C:\Users\emreg\Downloads\Thesis\1_Complexity_Analysis_Full_Module\2_Basic_Analysis\2_Errant_Analysis\errant_basic_stats.csv
+These rates describe the ERRANT sample and are not matched to individual POLKE structures.
+Level | Texts | Errors per 100 words
+    1 |  96,762 | 7.2867
+    2 |  56,839 | 4.4216
+    3 |  38,062 | 4.5913
+    4 |  70,470 | 3.5564
+    5 |  37,277 | 4.2253
+    6 |  21,844 | 4.5550
+    7 |  37,460 | 4.0479
+    8 |  14,157 | 3.3192
+    9 |   9,889 | 3.4949
+   10 |  10,458 | 3.3338
+   11 |   5,010 | 3.8240
+   12 |   2,719 | 2.8613
+   13 |   3,264 | 2.9538
+   14 |   1,194 | 2.6971
+   15 |     657 | 3.0029

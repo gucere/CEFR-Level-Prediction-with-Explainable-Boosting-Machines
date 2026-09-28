@@ -1,0 +1,1501 @@
+task,experiment,evaluated_target,prediction_route,true_label,predicted_label,count,percentage_of_true_label
+level,classifier__combined,cefr,Level probabilities summed into CEFR bands,A1,A1,160937,98.85261509167408
+level,classifier__combined,cefr,Level probabilities summed into CEFR bands,A1,A2,1451,0.8912502687263905
+level,classifier__combined,cefr,Level probabilities summed into CEFR bands,A1,B1,392,0.24077884585854242
+level,classifier__combined,cefr,Level probabilities summed into CEFR bands,A1,B2,24,0.014741561991339332
+level,classifier__combined,cefr,Level probabilities summed into CEFR bands,A1,C1,1,0.0006142317496391389
+level,classifier__combined,cefr,Level probabilities summed into CEFR bands,A2,A1,1477,1.34181240063593
+level,classifier__combined,cefr,Level probabilities summed into CEFR bands,A2,A2,106811,97.03474903474904
+level,classifier__combined,cefr,Level probabilities summed into CEFR bands,A2,B1,1667,1.5144219850102203
+level,classifier__combined,cefr,Level probabilities summed into CEFR bands,A2,B2,114,0.10356575062457415
+level,classifier__combined,cefr,Level probabilities summed into CEFR bands,A2,C1,6,0.005450828980240745
+level,classifier__combined,cefr,Level probabilities summed into CEFR bands,B1,A1,164,0.3142063416036019
+level,classifier__combined,cefr,Level probabilities summed into CEFR bands,B1,A2,1200,2.2990707922214773
+level,classifier__combined,cefr,Level probabilities summed into CEFR bands,B1,B1,50293,96.35597279432896
+level,classifier__combined,cefr,Level probabilities summed into CEFR bands,B1,B2,490,0.9387872401571031
+level,classifier__combined,cefr,Level probabilities summed into CEFR bands,B1,C1,48,0.09196283168885909
+level,classifier__combined,cefr,Level probabilities summed into CEFR bands,B2,A1,18,0.11711887565879367
+level,classifier__combined,cefr,Level probabilities summed into CEFR bands,B2,A2,119,0.7742859001886915
+level,classifier__combined,cefr,Level probabilities summed into CEFR bands,B2,B1,661,4.300865378359035
+level,classifier__combined,cefr,Level probabilities summed into CEFR bands,B2,B2,14348,93.35675710846509
+level,classifier__combined,cefr,Level probabilities summed into CEFR bands,B2,C1,223,1.4509727373283883
+level,classifier__combined,cefr,Level probabilities summed into CEFR bands,C1,A1,2,0.044072278536800354
+level,classifier__combined,cefr,Level probabilities summed into CEFR bands,C1,A2,6,0.13221683561040107
+level,classifier__combined,cefr,Level probabilities summed into CEFR bands,C1,B1,101,2.2256500661084178
+level,classifier__combined,cefr,Level probabilities summed into CEFR bands,C1,B2,318,7.007492287351256
+level,classifier__combined,cefr,Level probabilities summed into CEFR bands,C1,C1,4111,90.59056853239312
+level,classifier__combined,level,Course level,1,1,79407,96.66216265566227
+level,classifier__combined,level,Course level,1,2,1443,1.756564291713837
+level,classifier__combined,level,Course level,1,3,676,0.8228949835055813
+level,classifier__combined,level,Course level,1,4,320,0.3895360868665474
+level,classifier__combined,level,Course level,1,5,52,0.06329961411581395
+level,classifier__combined,level,Course level,1,6,129,0.1570317350180769
+level,classifier__combined,level,Course level,1,7,45,0.05477851221560823
+level,classifier__combined,level,Course level,1,8,29,0.03530170787228085
+level,classifier__combined,level,Course level,1,9,43,0.052343911672692305
+level,classifier__combined,level,Course level,1,10,3,0.0036519008143738817
+level,classifier__combined,level,Course level,1,11,1,0.0012173002714579604
+level,classifier__combined,level,Course level,1,12,1,0.0012173002714579604
+level,classifier__combined,level,Course level,1,13,0,0.0
+level,classifier__combined,level,Course level,1,14,0,0.0
+level,classifier__combined,level,Course level,1,15,0,0.0
+level,classifier__combined,level,Course level,2,1,1022,2.1138850394026516
+level,classifier__combined,level,Course level,2,2,45520,94.15268786067388
+level,classifier__combined,level,Course level,2,3,810,1.675388338469812
+level,classifier__combined,level,Course level,2,4,471,0.974207293110224
+level,classifier__combined,level,Course level,2,5,147,0.3040519577222992
+level,classifier__combined,level,Course level,2,6,166,0.3433511903530726
+level,classifier__combined,level,Course level,2,7,74,0.15306016919353838
+level,classifier__combined,level,Course level,2,8,68,0.1406498852048731
+level,classifier__combined,level,Course level,2,9,52,0.10755579456843238
+level,classifier__combined,level,Course level,2,10,6,0.012410283988665274
+level,classifier__combined,level,Course level,2,11,3,0.006205141994332637
+level,classifier__combined,level,Course level,2,12,7,0.01447866465344282
+level,classifier__combined,level,Course level,2,13,1,0.002068380664777546
+level,classifier__combined,level,Course level,2,14,0,0.0
+level,classifier__combined,level,Course level,2,15,0,0.0
+level,classifier__combined,level,Course level,3,1,551,1.7054071620910582
+level,classifier__combined,level,Course level,3,2,845,2.6153703302485374
+level,classifier__combined,level,Course level,3,3,30584,94.66093039091275
+level,classifier__combined,level,Course level,3,4,114,0.3528428611222879
+level,classifier__combined,level,Course level,3,5,37,0.11451917422390046
+level,classifier__combined,level,Course level,3,6,93,0.28784549196818227
+level,classifier__combined,level,Course level,3,7,38,0.11761428704076264
+level,classifier__combined,level,Course level,3,8,24,0.07428270760469219
+level,classifier__combined,level,Course level,3,9,16,0.0495218050697948
+level,classifier__combined,level,Course level,3,10,3,0.009285338450586524
+level,classifier__combined,level,Course level,3,11,1,0.003095112816862175
+level,classifier__combined,level,Course level,3,12,3,0.009285338450586524
+level,classifier__combined,level,Course level,3,13,0,0.0
+level,classifier__combined,level,Course level,3,14,0,0.0
+level,classifier__combined,level,Course level,3,15,0,0.0
+level,classifier__combined,level,Course level,4,1,335,0.5602849927246576
+level,classifier__combined,level,Course level,4,2,551,0.921543376093392
+level,classifier__combined,level,Course level,4,3,169,0.28265123513572277
+level,classifier__combined,level,Course level,4,4,57419,96.03284775300631
+level,classifier__combined,level,Course level,4,5,414,0.692411901456741
+level,classifier__combined,level,Course level,4,6,335,0.5602849927246576
+level,classifier__combined,level,Course level,4,7,293,0.49004030706962587
+level,classifier__combined,level,Course level,4,8,150,0.2508738773393989
+level,classifier__combined,level,Course level,4,9,114,0.19066414677794316
+level,classifier__combined,level,Course level,4,10,5,0.008362462577979964
+level,classifier__combined,level,Course level,4,11,1,0.0016724925155959928
+level,classifier__combined,level,Course level,4,12,5,0.008362462577979964
+level,classifier__combined,level,Course level,4,13,0,0.0
+level,classifier__combined,level,Course level,4,14,0,0.0
+level,classifier__combined,level,Course level,4,15,0,0.0
+level,classifier__combined,level,Course level,5,1,36,0.11359692026127291
+level,classifier__combined,level,Course level,5,2,112,0.35341264081284907
+level,classifier__combined,level,Course level,5,3,41,0.12937427029756082
+level,classifier__combined,level,Course level,5,4,325,1.0255277523587139
+level,classifier__combined,level,Course level,5,5,30511,96.27654539143606
+level,classifier__combined,level,Course level,5,6,271,0.8551323719668045
+level,classifier__combined,level,Course level,5,7,167,0.526963491212016
+level,classifier__combined,level,Course level,5,8,136,0.429143920987031
+level,classifier__combined,level,Course level,5,9,38,0.11990786027578808
+level,classifier__combined,level,Course level,5,10,6,0.018932820043545486
+level,classifier__combined,level,Course level,5,11,40,0.12621880029030325
+level,classifier__combined,level,Course level,5,12,7,0.022088290050803067
+level,classifier__combined,level,Course level,5,13,0,0.0
+level,classifier__combined,level,Course level,5,14,0,0.0
+level,classifier__combined,level,Course level,5,15,1,0.003155470007257581
+level,classifier__combined,level,Course level,6,1,57,0.30656698757596945
+level,classifier__combined,level,Course level,6,2,93,0.5001882428871081
+level,classifier__combined,level,Course level,6,3,51,0.27429677835744637
+level,classifier__combined,level,Course level,6,4,202,1.086430377023611
+level,classifier__combined,level,Course level,6,5,211,1.1348356908513957
+level,classifier__combined,level,Course level,6,6,17142,92.1959877373205
+level,classifier__combined,level,Course level,6,7,423,2.2750497499058784
+level,classifier__combined,level,Course level,6,8,202,1.086430377023611
+level,classifier__combined,level,Course level,6,9,151,0.8121335986661646
+level,classifier__combined,level,Course level,6,10,24,0.12908083687409241
+level,classifier__combined,level,Course level,6,11,28,0.15059430968644114
+level,classifier__combined,level,Course level,6,12,4,0.021513472812348732
+level,classifier__combined,level,Course level,6,13,4,0.021513472812348732
+level,classifier__combined,level,Course level,6,14,0,0.0
+level,classifier__combined,level,Course level,6,15,1,0.005378368203087183
+level,classifier__combined,level,Course level,7,1,30,0.09416786992278235
+level,classifier__combined,level,Course level,7,2,36,0.11300144390733882
+level,classifier__combined,level,Course level,7,3,16,0.050222863958817254
+level,classifier__combined,level,Course level,7,4,168,0.5273400715675811
+level,classifier__combined,level,Course level,7,5,175,0.5493125745495637
+level,classifier__combined,level,Course level,7,6,409,1.283821959947266
+level,classifier__combined,level,Course level,7,7,29304,91.9831753405738
+level,classifier__combined,level,Course level,7,8,899,2.821897168686044
+level,classifier__combined,level,Course level,7,9,511,1.603992717684726
+level,classifier__combined,level,Course level,7,10,138,0.4331722016447988
+level,classifier__combined,level,Course level,7,11,95,0.29819825475547745
+level,classifier__combined,level,Course level,7,12,63,0.19775252683784292
+level,classifier__combined,level,Course level,7,13,7,0.02197250298198255
+level,classifier__combined,level,Course level,7,14,7,0.02197250298198255
+level,classifier__combined,level,Course level,7,15,0,0.0
+level,classifier__combined,level,Course level,8,1,17,0.14156049629444584
+level,classifier__combined,level,Course level,8,2,20,0.16654176034640686
+level,classifier__combined,level,Course level,8,3,14,0.1165792322424848
+level,classifier__combined,level,Course level,8,4,62,0.5162794570738612
+level,classifier__combined,level,Course level,8,5,82,0.6828212174202681
+level,classifier__combined,level,Course level,8,6,158,1.3156799067366143
+level,classifier__combined,level,Course level,8,7,616,5.1294862186693315
+level,classifier__combined,level,Course level,8,8,10597,88.24215171954367
+level,classifier__combined,level,Course level,8,9,302,2.5147805812307436
+level,classifier__combined,level,Course level,8,10,44,0.3663918727620951
+level,classifier__combined,level,Course level,8,11,66,0.5495878091431426
+level,classifier__combined,level,Course level,8,12,23,0.19152302439836788
+level,classifier__combined,level,Course level,8,13,5,0.041635440086601715
+level,classifier__combined,level,Course level,8,14,2,0.016654176034640686
+level,classifier__combined,level,Course level,8,15,1,0.008327088017320343
+level,classifier__combined,level,Course level,9,1,11,0.13208453410182516
+level,classifier__combined,level,Course level,9,2,10,0.12007684918347743
+level,classifier__combined,level,Course level,9,3,8,0.09606147934678194
+level,classifier__combined,level,Course level,9,4,43,0.516330451488953
+level,classifier__combined,level,Course level,9,5,22,0.2641690682036503
+level,classifier__combined,level,Course level,9,6,103,1.2367915465898174
+level,classifier__combined,level,Course level,9,7,367,4.406820365033622
+level,classifier__combined,level,Course level,9,8,282,3.3861671469740635
+level,classifier__combined,level,Course level,9,9,7343,88.17243035542748
+level,classifier__combined,level,Course level,9,10,46,0.5523535062439962
+level,classifier__combined,level,Course level,9,11,43,0.516330451488953
+level,classifier__combined,level,Course level,9,12,18,0.21613832853025935
+level,classifier__combined,level,Course level,9,13,20,0.24015369836695485
+level,classifier__combined,level,Course level,9,14,10,0.12007684918347743
+level,classifier__combined,level,Course level,9,15,2,0.024015369836695485
+level,classifier__combined,level,Course level,10,1,2,0.0227842333105491
+level,classifier__combined,level,Course level,10,2,3,0.03417634996582365
+level,classifier__combined,level,Course level,10,3,3,0.03417634996582365
+level,classifier__combined,level,Course level,10,4,10,0.1139211665527455
+level,classifier__combined,level,Course level,10,5,5,0.05696058327637275
+level,classifier__combined,level,Course level,10,6,32,0.3645477329687856
+level,classifier__combined,level,Course level,10,7,150,1.7088174982911826
+level,classifier__combined,level,Course level,10,8,59,0.6721348826611985
+level,classifier__combined,level,Course level,10,9,69,0.7860560492139439
+level,classifier__combined,level,Course level,10,10,8244,93.91660970608339
+level,classifier__combined,level,Course level,10,11,71,0.808840282524493
+level,classifier__combined,level,Course level,10,12,50,0.5696058327637274
+level,classifier__combined,level,Course level,10,13,47,0.5354294827979038
+level,classifier__combined,level,Course level,10,14,20,0.227842333105491
+level,classifier__combined,level,Course level,10,15,13,0.14809751651856914
+level,classifier__combined,level,Course level,11,1,0,0.0
+level,classifier__combined,level,Course level,11,2,1,0.023752969121140142
+level,classifier__combined,level,Course level,11,3,0,0.0
+level,classifier__combined,level,Course level,11,4,0,0.0
+level,classifier__combined,level,Course level,11,5,21,0.498812351543943
+level,classifier__combined,level,Course level,11,6,23,0.5463182897862233
+level,classifier__combined,level,Course level,11,7,91,2.161520190023753
+level,classifier__combined,level,Course level,11,8,89,2.1140142517814726
+level,classifier__combined,level,Course level,11,9,56,1.330166270783848
+level,classifier__combined,level,Course level,11,10,73,1.7339667458432304
+level,classifier__combined,level,Course level,11,11,3723,88.43230403800474
+level,classifier__combined,level,Course level,11,12,36,0.8551068883610451
+level,classifier__combined,level,Course level,11,13,23,0.5463182897862233
+level,classifier__combined,level,Course level,11,14,51,1.2114014251781473
+level,classifier__combined,level,Course level,11,15,23,0.5463182897862233
+level,classifier__combined,level,Course level,12,1,2,0.08399832003359933
+level,classifier__combined,level,Course level,12,2,2,0.08399832003359933
+level,classifier__combined,level,Course level,12,3,4,0.16799664006719867
+level,classifier__combined,level,Course level,12,4,2,0.08399832003359933
+level,classifier__combined,level,Course level,12,5,5,0.20999580008399832
+level,classifier__combined,level,Course level,12,6,18,0.755984880302394
+level,classifier__combined,level,Course level,12,7,39,1.6379672406551868
+level,classifier__combined,level,Course level,12,8,44,1.8479630407391852
+level,classifier__combined,level,Course level,12,9,50,2.099958000839983
+level,classifier__combined,level,Course level,12,10,57,2.393952120957581
+level,classifier__combined,level,Course level,12,11,53,2.225955480890382
+level,classifier__combined,level,Course level,12,12,2062,86.60226795464091
+level,classifier__combined,level,Course level,12,13,11,0.4619907601847963
+level,classifier__combined,level,Course level,12,14,14,0.5879882402351952
+level,classifier__combined,level,Course level,12,15,18,0.755984880302394
+level,classifier__combined,level,Course level,13,1,0,0.0
+level,classifier__combined,level,Course level,13,2,2,0.0702247191011236
+level,classifier__combined,level,Course level,13,3,0,0.0
+level,classifier__combined,level,Course level,13,4,0,0.0
+level,classifier__combined,level,Course level,13,5,2,0.0702247191011236
+level,classifier__combined,level,Course level,13,6,4,0.1404494382022472
+level,classifier__combined,level,Course level,13,7,15,0.526685393258427
+level,classifier__combined,level,Course level,13,8,20,0.702247191011236
+level,classifier__combined,level,Course level,13,9,28,0.9831460674157303
+level,classifier__combined,level,Course level,13,10,43,1.5098314606741574
+level,classifier__combined,level,Course level,13,11,31,1.0884831460674158
+level,classifier__combined,level,Course level,13,12,13,0.45646067415730335
+level,classifier__combined,level,Course level,13,13,2640,92.69662921348315
+level,classifier__combined,level,Course level,13,14,37,1.2991573033707866
+level,classifier__combined,level,Course level,13,15,13,0.45646067415730335
+level,classifier__combined,level,Course level,14,1,0,0.0
+level,classifier__combined,level,Course level,14,2,0,0.0
+level,classifier__combined,level,Course level,14,3,0,0.0
+level,classifier__combined,level,Course level,14,4,0,0.0
+level,classifier__combined,level,Course level,14,5,0,0.0
+level,classifier__combined,level,Course level,14,6,0,0.0
+level,classifier__combined,level,Course level,14,7,4,0.36798528058877644
+level,classifier__combined,level,Course level,14,8,3,0.27598896044158233
+level,classifier__combined,level,Course level,14,9,20,1.8399264029438822
+level,classifier__combined,level,Course level,14,10,34,3.1278748850045996
+level,classifier__combined,level,Course level,14,11,63,5.795768169273229
+level,classifier__combined,level,Course level,14,12,35,3.219871205151794
+level,classifier__combined,level,Course level,14,13,40,3.6798528058877644
+level,classifier__combined,level,Course level,14,14,874,80.40478380864765
+level,classifier__combined,level,Course level,14,15,14,1.2879484820607177
+level,classifier__combined,level,Course level,15,1,0,0.0
+level,classifier__combined,level,Course level,15,2,0,0.0
+level,classifier__combined,level,Course level,15,3,0,0.0
+level,classifier__combined,level,Course level,15,4,0,0.0
+level,classifier__combined,level,Course level,15,5,0,0.0
+level,classifier__combined,level,Course level,15,6,0,0.0
+level,classifier__combined,level,Course level,15,7,3,0.4975124378109453
+level,classifier__combined,level,Course level,15,8,2,0.33167495854063017
+level,classifier__combined,level,Course level,15,9,7,1.1608623548922057
+level,classifier__combined,level,Course level,15,10,20,3.316749585406302
+level,classifier__combined,level,Course level,15,11,57,9.45273631840796
+level,classifier__combined,level,Course level,15,12,23,3.814262023217247
+level,classifier__combined,level,Course level,15,13,63,10.447761194029852
+level,classifier__combined,level,Course level,15,14,16,2.6533996683250414
+level,classifier__combined,level,Course level,15,15,412,68.32504145936981
+level,regressor__combined,cefr,Numerical level rounded and mapped to CEFR,A1,A1,155767,95.67703694603973
+level,regressor__combined,cefr,Numerical level rounded and mapped to CEFR,A1,A2,6904,4.240655999508615
+level,regressor__combined,cefr,Numerical level rounded and mapped to CEFR,A1,B1,134,0.0823070544516446
+level,regressor__combined,cefr,Numerical level rounded and mapped to CEFR,A1,B2,0,0.0
+level,regressor__combined,cefr,Numerical level rounded and mapped to CEFR,A1,C1,0,0.0
+level,regressor__combined,cefr,Numerical level rounded and mapped to CEFR,A2,A1,12620,11.4649102884397
+level,regressor__combined,cefr,Numerical level rounded and mapped to CEFR,A2,A2,91627,83.24051782875313
+level,regressor__combined,cefr,Numerical level rounded and mapped to CEFR,A2,B1,5816,5.283670224846696
+level,regressor__combined,cefr,Numerical level rounded and mapped to CEFR,A2,B2,12,0.01090165796048149
+level,regressor__combined,cefr,Numerical level rounded and mapped to CEFR,A2,C1,0,0.0
+level,regressor__combined,cefr,Numerical level rounded and mapped to CEFR,B1,A1,69,0.13219657055273493
+level,regressor__combined,cefr,Numerical level rounded and mapped to CEFR,B1,A2,11567,22.161126544688187
+level,regressor__combined,cefr,Numerical level rounded and mapped to CEFR,B1,B1,38665,74.07797681770285
+level,regressor__combined,cefr,Numerical level rounded and mapped to CEFR,B1,B2,1887,3.615288820768273
+level,regressor__combined,cefr,Numerical level rounded and mapped to CEFR,B1,C1,7,0.013411246287958617
+level,regressor__combined,cefr,Numerical level rounded and mapped to CEFR,B2,A1,6,0.03903962521959789
+level,regressor__combined,cefr,Numerical level rounded and mapped to CEFR,B2,A2,201,1.3078274448565295
+level,regressor__combined,cefr,Numerical level rounded and mapped to CEFR,B2,B1,5066,32.96245689374715
+level,regressor__combined,cefr,Numerical level rounded and mapped to CEFR,B2,B2,9417,61.272691782158894
+level,regressor__combined,cefr,Numerical level rounded and mapped to CEFR,B2,C1,679,4.417984254017828
+level,regressor__combined,cefr,Numerical level rounded and mapped to CEFR,C1,A1,0,0.0
+level,regressor__combined,cefr,Numerical level rounded and mapped to CEFR,C1,A2,5,0.11018069634200088
+level,regressor__combined,cefr,Numerical level rounded and mapped to CEFR,C1,B1,220,4.8479506390480385
+level,regressor__combined,cefr,Numerical level rounded and mapped to CEFR,C1,B2,2531,55.773468488320844
+level,regressor__combined,cefr,Numerical level rounded and mapped to CEFR,C1,C1,1782,39.26840017628911
+level,regressor__combined,level,Course level,1,1,60241,73.331385652899
+level,regressor__combined,level,Course level,1,2,18409,22.409280697269594
+level,regressor__combined,level,Course level,1,3,2868,3.4912171785414308
+level,regressor__combined,level,Course level,1,4,521,0.6342134414295975
+level,regressor__combined,level,Course level,1,5,86,0.10468782334538461
+level,regressor__combined,level,Course level,1,6,24,0.029215206514991054
+level,regressor__combined,level,Course level,1,7,0,0.0
+level,regressor__combined,level,Course level,1,8,0,0.0
+level,regressor__combined,level,Course level,1,9,0,0.0
+level,regressor__combined,level,Course level,1,10,0,0.0
+level,regressor__combined,level,Course level,1,11,0,0.0
+level,regressor__combined,level,Course level,1,12,0,0.0
+level,regressor__combined,level,Course level,1,13,0,0.0
+level,regressor__combined,level,Course level,1,14,0,0.0
+level,regressor__combined,level,Course level,1,15,0,0.0
+level,regressor__combined,level,Course level,2,1,5027,10.397749601836722
+level,regressor__combined,level,Course level,2,2,29299,60.60148509731731
+level,regressor__combined,level,Course level,2,3,11523,23.833950400231657
+level,regressor__combined,level,Course level,2,4,1868,3.8637350818044554
+level,regressor__combined,level,Course level,2,5,403,0.8335574079053509
+level,regressor__combined,level,Course level,2,6,128,0.26475272509152586
+level,regressor__combined,level,Course level,2,7,70,0.1447866465344282
+level,regressor__combined,level,Course level,2,8,26,0.05377789728421619
+level,regressor__combined,level,Course level,2,9,3,0.006205141994332637
+level,regressor__combined,level,Course level,2,10,0,0.0
+level,regressor__combined,level,Course level,2,11,0,0.0
+level,regressor__combined,level,Course level,2,12,0,0.0
+level,regressor__combined,level,Course level,2,13,0,0.0
+level,regressor__combined,level,Course level,2,14,0,0.0
+level,regressor__combined,level,Course level,2,15,0,0.0
+level,regressor__combined,level,Course level,3,1,625,1.9344455105388592
+level,regressor__combined,level,Course level,3,2,6701,20.740350985793434
+level,regressor__combined,level,Course level,3,3,21074,65.22640750255347
+level,regressor__combined,level,Course level,3,4,3459,10.705995233526261
+level,regressor__combined,level,Course level,3,5,330,1.0213872295645177
+level,regressor__combined,level,Course level,3,6,85,0.26308458943328483
+level,regressor__combined,level,Course level,3,7,26,0.08047293323841655
+level,regressor__combined,level,Course level,3,8,9,0.02785601535175957
+level,regressor__combined,level,Course level,3,9,0,0.0
+level,regressor__combined,level,Course level,3,10,0,0.0
+level,regressor__combined,level,Course level,3,11,0,0.0
+level,regressor__combined,level,Course level,3,12,0,0.0
+level,regressor__combined,level,Course level,3,13,0,0.0
+level,regressor__combined,level,Course level,3,14,0,0.0
+level,regressor__combined,level,Course level,3,15,0,0.0
+level,regressor__combined,level,Course level,4,1,56,0.09365958087337559
+level,regressor__combined,level,Course level,4,2,1127,1.8848990650766837
+level,regressor__combined,level,Course level,4,3,10444,17.467511832884547
+level,regressor__combined,level,Course level,4,4,34863,58.30810657122309
+level,regressor__combined,level,Course level,4,5,11379,19.0312923349668
+level,regressor__combined,level,Course level,4,6,1682,2.8131324112324596
+level,regressor__combined,level,Course level,4,7,223,0.37296583097790637
+level,regressor__combined,level,Course level,4,8,17,0.028432372765131875
+level,regressor__combined,level,Course level,4,9,0,0.0
+level,regressor__combined,level,Course level,4,10,0,0.0
+level,regressor__combined,level,Course level,4,11,0,0.0
+level,regressor__combined,level,Course level,4,12,0,0.0
+level,regressor__combined,level,Course level,4,13,0,0.0
+level,regressor__combined,level,Course level,4,14,0,0.0
+level,regressor__combined,level,Course level,4,15,0,0.0
+level,regressor__combined,level,Course level,5,1,1,0.003155470007257581
+level,regressor__combined,level,Course level,5,2,54,0.17039538039190938
+level,regressor__combined,level,Course level,5,3,651,2.0542109747246853
+level,regressor__combined,level,Course level,5,4,6348,20.030923606071124
+level,regressor__combined,level,Course level,5,5,17409,54.93357735634723
+level,regressor__combined,level,Course level,5,6,6100,19.248367044271244
+level,regressor__combined,level,Course level,5,7,964,3.041873086996308
+level,regressor__combined,level,Course level,5,8,153,0.4827869111104099
+level,regressor__combined,level,Course level,5,9,11,0.03471017007983339
+level,regressor__combined,level,Course level,5,10,0,0.0
+level,regressor__combined,level,Course level,5,11,0,0.0
+level,regressor__combined,level,Course level,5,12,0,0.0
+level,regressor__combined,level,Course level,5,13,0,0.0
+level,regressor__combined,level,Course level,5,14,0,0.0
+level,regressor__combined,level,Course level,5,15,0,0.0
+level,regressor__combined,level,Course level,6,1,1,0.005378368203087183
+level,regressor__combined,level,Course level,6,2,27,0.14521594148335396
+level,regressor__combined,level,Course level,6,3,259,1.3929973645995806
+level,regressor__combined,level,Course level,6,4,1230,6.615392889797236
+level,regressor__combined,level,Course level,6,5,4817,25.907599634270962
+level,regressor__combined,level,Course level,6,6,7799,41.94589361587694
+level,regressor__combined,level,Course level,6,7,3643,19.593395363846607
+level,regressor__combined,level,Course level,6,8,712,3.8293981605980747
+level,regressor__combined,level,Course level,6,9,93,0.5001882428871081
+level,regressor__combined,level,Course level,6,10,11,0.05916205023395902
+level,regressor__combined,level,Course level,6,11,1,0.005378368203087183
+level,regressor__combined,level,Course level,6,12,0,0.0
+level,regressor__combined,level,Course level,6,13,0,0.0
+level,regressor__combined,level,Course level,6,14,0,0.0
+level,regressor__combined,level,Course level,6,15,0,0.0
+level,regressor__combined,level,Course level,7,1,0,0.0
+level,regressor__combined,level,Course level,7,2,2,0.006277857994852157
+level,regressor__combined,level,Course level,7,3,35,0.10986251490991274
+level,regressor__combined,level,Course level,7,4,305,0.9573733442149539
+level,regressor__combined,level,Course level,7,5,1359,4.2658045075020405
+level,regressor__combined,level,Course level,7,6,6537,20.519178856174275
+level,regressor__combined,level,Course level,7,7,15045,47.22518676627535
+level,regressor__combined,level,Course level,7,8,6816,21.39494004645615
+level,regressor__combined,level,Course level,7,9,1520,4.771172076087639
+level,regressor__combined,level,Course level,7,10,225,0.7062590244208676
+level,regressor__combined,level,Course level,7,11,14,0.0439450059639651
+level,regressor__combined,level,Course level,7,12,0,0.0
+level,regressor__combined,level,Course level,7,13,0,0.0
+level,regressor__combined,level,Course level,7,14,0,0.0
+level,regressor__combined,level,Course level,7,15,0,0.0
+level,regressor__combined,level,Course level,8,1,0,0.0
+level,regressor__combined,level,Course level,8,2,1,0.008327088017320343
+level,regressor__combined,level,Course level,8,3,21,0.1748688483637272
+level,regressor__combined,level,Course level,8,4,90,0.7494379215588308
+level,regressor__combined,level,Course level,8,5,491,4.088600216504289
+level,regressor__combined,level,Course level,8,6,1811,15.080356399367142
+level,regressor__combined,level,Course level,8,7,4010,33.39162294945458
+level,regressor__combined,level,Course level,8,8,3799,31.634607377799984
+level,regressor__combined,level,Course level,8,9,1430,11.90773586476809
+level,regressor__combined,level,Course level,8,10,291,2.4231826130402196
+level,regressor__combined,level,Course level,8,11,58,0.4829711050045799
+level,regressor__combined,level,Course level,8,12,7,0.0582896161212424
+level,regressor__combined,level,Course level,8,13,0,0.0
+level,regressor__combined,level,Course level,8,14,0,0.0
+level,regressor__combined,level,Course level,8,15,0,0.0
+level,regressor__combined,level,Course level,9,1,0,0.0
+level,regressor__combined,level,Course level,9,2,1,0.012007684918347743
+level,regressor__combined,level,Course level,9,3,9,0.10806916426512968
+level,regressor__combined,level,Course level,9,4,53,0.6364073006724303
+level,regressor__combined,level,Course level,9,5,228,2.7377521613832854
+level,regressor__combined,level,Course level,9,6,693,8.321325648414986
+level,regressor__combined,level,Course level,9,7,1897,22.778578290105667
+level,regressor__combined,level,Course level,9,8,2559,30.727665706051873
+level,regressor__combined,level,Course level,9,9,1589,19.080211335254564
+level,regressor__combined,level,Course level,9,10,720,8.645533141210375
+level,regressor__combined,level,Course level,9,11,441,5.295389048991354
+level,regressor__combined,level,Course level,9,12,131,1.5730067243035544
+level,regressor__combined,level,Course level,9,13,7,0.08405379442843419
+level,regressor__combined,level,Course level,9,14,0,0.0
+level,regressor__combined,level,Course level,9,15,0,0.0
+level,regressor__combined,level,Course level,10,1,0,0.0
+level,regressor__combined,level,Course level,10,2,1,0.01139211665527455
+level,regressor__combined,level,Course level,10,3,0,0.0
+level,regressor__combined,level,Course level,10,4,2,0.0227842333105491
+level,regressor__combined,level,Course level,10,5,18,0.2050580997949419
+level,regressor__combined,level,Course level,10,6,95,1.0822510822510822
+level,regressor__combined,level,Course level,10,7,307,3.497379813169287
+level,regressor__combined,level,Course level,10,8,861,9.808612440191387
+level,regressor__combined,level,Course level,10,9,2013,22.93233082706767
+level,regressor__combined,level,Course level,10,10,2943,33.526999316473
+level,regressor__combined,level,Course level,10,11,1747,19.90202779676464
+level,regressor__combined,level,Course level,10,12,622,7.08589655958077
+level,regressor__combined,level,Course level,10,13,159,1.8113465481886535
+level,regressor__combined,level,Course level,10,14,9,0.10252904989747096
+level,regressor__combined,level,Course level,10,15,1,0.01139211665527455
+level,regressor__combined,level,Course level,11,1,0,0.0
+level,regressor__combined,level,Course level,11,2,0,0.0
+level,regressor__combined,level,Course level,11,3,0,0.0
+level,regressor__combined,level,Course level,11,4,0,0.0
+level,regressor__combined,level,Course level,11,5,5,0.1187648456057007
+level,regressor__combined,level,Course level,11,6,35,0.831353919239905
+level,regressor__combined,level,Course level,11,7,122,2.8978622327790973
+level,regressor__combined,level,Course level,11,8,375,8.907363420427554
+level,regressor__combined,level,Course level,11,9,720,17.102137767220903
+level,regressor__combined,level,Course level,11,10,985,23.39667458432304
+level,regressor__combined,level,Course level,11,11,1045,24.82185273159145
+level,regressor__combined,level,Course level,11,12,650,15.439429928741093
+level,regressor__combined,level,Course level,11,13,236,5.605700712589074
+level,regressor__combined,level,Course level,11,14,34,0.8076009501187649
+level,regressor__combined,level,Course level,11,15,3,0.07125890736342043
+level,regressor__combined,level,Course level,12,1,0,0.0
+level,regressor__combined,level,Course level,12,2,2,0.08399832003359933
+level,regressor__combined,level,Course level,12,3,3,0.12599748005039899
+level,regressor__combined,level,Course level,12,4,3,0.12599748005039899
+level,regressor__combined,level,Course level,12,5,12,0.5039899202015959
+level,regressor__combined,level,Course level,12,6,31,1.3019739605207896
+level,regressor__combined,level,Course level,12,7,86,3.611927761444771
+level,regressor__combined,level,Course level,12,8,188,7.895842083158337
+level,regressor__combined,level,Course level,12,9,394,16.547669046619067
+level,regressor__combined,level,Course level,12,10,529,22.21755564888702
+level,regressor__combined,level,Course level,12,11,507,21.29357412851743
+level,regressor__combined,level,Course level,12,12,389,16.33767324653507
+level,regressor__combined,level,Course level,12,13,200,8.399832003359933
+level,regressor__combined,level,Course level,12,14,37,1.5539689206215876
+level,regressor__combined,level,Course level,12,15,0,0.0
+level,regressor__combined,level,Course level,13,1,0,0.0
+level,regressor__combined,level,Course level,13,2,0,0.0
+level,regressor__combined,level,Course level,13,3,0,0.0
+level,regressor__combined,level,Course level,13,4,1,0.0351123595505618
+level,regressor__combined,level,Course level,13,5,1,0.0351123595505618
+level,regressor__combined,level,Course level,13,6,3,0.10533707865168539
+level,regressor__combined,level,Course level,13,7,22,0.7724719101123596
+level,regressor__combined,level,Course level,13,8,51,1.7907303370786516
+level,regressor__combined,level,Course level,13,9,103,3.616573033707865
+level,regressor__combined,level,Course level,13,10,192,6.741573033707865
+level,regressor__combined,level,Course level,13,11,450,15.80056179775281
+level,regressor__combined,level,Course level,13,12,1033,36.271067415730336
+level,regressor__combined,level,Course level,13,13,836,29.353932584269664
+level,regressor__combined,level,Course level,13,14,152,5.337078651685394
+level,regressor__combined,level,Course level,13,15,4,0.1404494382022472
+level,regressor__combined,level,Course level,14,1,0,0.0
+level,regressor__combined,level,Course level,14,2,0,0.0
+level,regressor__combined,level,Course level,14,3,0,0.0
+level,regressor__combined,level,Course level,14,4,0,0.0
+level,regressor__combined,level,Course level,14,5,0,0.0
+level,regressor__combined,level,Course level,14,6,0,0.0
+level,regressor__combined,level,Course level,14,7,2,0.18399264029438822
+level,regressor__combined,level,Course level,14,8,6,0.5519779208831647
+level,regressor__combined,level,Course level,14,9,18,1.655933762649494
+level,regressor__combined,level,Course level,14,10,57,5.243790248390065
+level,regressor__combined,level,Course level,14,11,168,15.45538178472861
+level,regressor__combined,level,Course level,14,12,339,31.186752529898804
+level,regressor__combined,level,Course level,14,13,385,35.418583256669734
+level,regressor__combined,level,Course level,14,14,105,9.659613615455381
+level,regressor__combined,level,Course level,14,15,7,0.6439742410303588
+level,regressor__combined,level,Course level,15,1,0,0.0
+level,regressor__combined,level,Course level,15,2,0,0.0
+level,regressor__combined,level,Course level,15,3,0,0.0
+level,regressor__combined,level,Course level,15,4,0,0.0
+level,regressor__combined,level,Course level,15,5,0,0.0
+level,regressor__combined,level,Course level,15,6,0,0.0
+level,regressor__combined,level,Course level,15,7,2,0.33167495854063017
+level,regressor__combined,level,Course level,15,8,4,0.6633499170812603
+level,regressor__combined,level,Course level,15,9,12,1.9900497512437811
+level,regressor__combined,level,Course level,15,10,19,3.1509121061359866
+level,regressor__combined,level,Course level,15,11,66,10.945273631840797
+level,regressor__combined,level,Course level,15,12,207,34.32835820895522
+level,regressor__combined,level,Course level,15,13,218,36.15257048092869
+level,regressor__combined,level,Course level,15,14,67,11.11111111111111
+level,regressor__combined,level,Course level,15,15,8,1.3266998341625207
+level,classifier__combined_without_length_correlated_features,cefr,Level probabilities summed into CEFR bands,A1,A1,160858,98.8040907834526
+level,classifier__combined_without_length_correlated_features,cefr,Level probabilities summed into CEFR bands,A1,A2,1502,0.9225760879579865
+level,classifier__combined_without_length_correlated_features,cefr,Level probabilities summed into CEFR bands,A1,B1,417,0.2561346395995209
+level,classifier__combined_without_length_correlated_features,cefr,Level probabilities summed into CEFR bands,A1,B2,27,0.01658425724025675
+level,classifier__combined_without_length_correlated_features,cefr,Level probabilities summed into CEFR bands,A1,C1,1,0.0006142317496391389
+level,classifier__combined_without_length_correlated_features,cefr,Level probabilities summed into CEFR bands,A2,A1,1505,1.3672496025437202
+level,classifier__combined_without_length_correlated_features,cefr,Level probabilities summed into CEFR bands,A2,A2,106755,96.98387463093346
+level,classifier__combined_without_length_correlated_features,cefr,Level probabilities summed into CEFR bands,A2,B1,1674,1.5207812854871678
+level,classifier__combined_without_length_correlated_features,cefr,Level probabilities summed into CEFR bands,A2,B2,133,0.12082670906200318
+level,classifier__combined_without_length_correlated_features,cefr,Level probabilities summed into CEFR bands,A2,C1,8,0.0072677719736543266
+level,classifier__combined_without_length_correlated_features,cefr,Level probabilities summed into CEFR bands,B1,A1,168,0.3218699109110068
+level,classifier__combined_without_length_correlated_features,cefr,Level probabilities summed into CEFR bands,B1,A2,1225,2.346968100392758
+level,classifier__combined_without_length_correlated_features,cefr,Level probabilities summed into CEFR bands,B1,B1,50196,96.17013123862439
+level,classifier__combined_without_length_correlated_features,cefr,Level probabilities summed into CEFR bands,B1,B2,543,1.0403295334802185
+level,classifier__combined_without_length_correlated_features,cefr,Level probabilities summed into CEFR bands,B1,C1,63,0.12070121659162755
+level,classifier__combined_without_length_correlated_features,cefr,Level probabilities summed into CEFR bands,B2,A1,21,0.13663868826859263
+level,classifier__combined_without_length_correlated_features,cefr,Level probabilities summed into CEFR bands,B2,A2,133,0.86537835903442
+level,classifier__combined_without_length_correlated_features,cefr,Level probabilities summed into CEFR bands,B2,B1,673,4.37894462879823
+level,classifier__combined_without_length_correlated_features,cefr,Level probabilities summed into CEFR bands,B2,B2,14323,93.19409200338343
+level,classifier__combined_without_length_correlated_features,cefr,Level probabilities summed into CEFR bands,B2,C1,219,1.424946320515323
+level,classifier__combined_without_length_correlated_features,cefr,Level probabilities summed into CEFR bands,C1,A1,3,0.06610841780520053
+level,classifier__combined_without_length_correlated_features,cefr,Level probabilities summed into CEFR bands,C1,A2,10,0.22036139268400176
+level,classifier__combined_without_length_correlated_features,cefr,Level probabilities summed into CEFR bands,C1,B1,123,2.7104451300132215
+level,classifier__combined_without_length_correlated_features,cefr,Level probabilities summed into CEFR bands,C1,B2,309,6.809167033935655
+level,classifier__combined_without_length_correlated_features,cefr,Level probabilities summed into CEFR bands,C1,C1,4093,90.19391802556193
+level,classifier__combined_without_length_correlated_features,level,Course level,1,1,79383,96.63294744914728
+level,classifier__combined_without_length_correlated_features,level,Course level,1,2,1425,1.7346528868275937
+level,classifier__combined_without_length_correlated_features,level,Course level,1,3,684,0.832633385677245
+level,classifier__combined_without_length_correlated_features,level,Course level,1,4,317,0.3858841860521735
+level,classifier__combined_without_length_correlated_features,level,Course level,1,5,61,0.0742553165589356
+level,classifier__combined_without_length_correlated_features,level,Course level,1,6,137,0.1667701371897406
+level,classifier__combined_without_length_correlated_features,level,Course level,1,7,55,0.06695151493018783
+level,classifier__combined_without_length_correlated_features,level,Course level,1,8,29,0.03530170787228085
+level,classifier__combined_without_length_correlated_features,level,Course level,1,9,55,0.06695151493018783
+level,classifier__combined_without_length_correlated_features,level,Course level,1,10,2,0.002434600542915921
+level,classifier__combined_without_length_correlated_features,level,Course level,1,11,1,0.0012173002714579604
+level,classifier__combined_without_length_correlated_features,level,Course level,1,12,0,0.0
+level,classifier__combined_without_length_correlated_features,level,Course level,1,13,0,0.0
+level,classifier__combined_without_length_correlated_features,level,Course level,1,14,0,0.0
+level,classifier__combined_without_length_correlated_features,level,Course level,1,15,0,0.0
+level,classifier__combined_without_length_correlated_features,level,Course level,2,1,1017,2.103543136078764
+level,classifier__combined_without_length_correlated_features,level,Course level,2,2,45494,94.09890996338966
+level,classifier__combined_without_length_correlated_features,level,Course level,2,3,799,1.652636151157259
+level,classifier__combined_without_length_correlated_features,level,Course level,2,4,483,0.9990278610875546
+level,classifier__combined_without_length_correlated_features,level,Course level,2,5,155,0.3205990030405196
+level,classifier__combined_without_length_correlated_features,level,Course level,2,6,183,0.37851366165429084
+level,classifier__combined_without_length_correlated_features,level,Course level,2,7,72,0.14892340786398328
+level,classifier__combined_without_length_correlated_features,level,Course level,2,8,77,0.15926531118787102
+level,classifier__combined_without_length_correlated_features,level,Course level,2,9,48,0.09928227190932219
+level,classifier__combined_without_length_correlated_features,level,Course level,2,10,10,0.020683806647775457
+level,classifier__combined_without_length_correlated_features,level,Course level,2,11,3,0.006205141994332637
+level,classifier__combined_without_length_correlated_features,level,Course level,2,12,5,0.010341903323887729
+level,classifier__combined_without_length_correlated_features,level,Course level,2,13,1,0.002068380664777546
+level,classifier__combined_without_length_correlated_features,level,Course level,2,14,0,0.0
+level,classifier__combined_without_length_correlated_features,level,Course level,2,15,0,0.0
+level,classifier__combined_without_length_correlated_features,level,Course level,3,1,557,1.7239778389922313
+level,classifier__combined_without_length_correlated_features,level,Course level,3,2,813,2.516326720108948
+level,classifier__combined_without_length_correlated_features,level,Course level,3,3,30596,94.6980717447151
+level,classifier__combined_without_length_correlated_features,level,Course level,3,4,121,0.37450865084032314
+level,classifier__combined_without_length_correlated_features,level,Course level,3,5,38,0.11761428704076264
+level,classifier__combined_without_length_correlated_features,level,Course level,3,6,90,0.2785601535175957
+level,classifier__combined_without_length_correlated_features,level,Course level,3,7,43,0.13308985112507352
+level,classifier__combined_without_length_correlated_features,level,Course level,3,8,27,0.08356804605527872
+level,classifier__combined_without_length_correlated_features,level,Course level,3,9,17,0.05261691788665697
+level,classifier__combined_without_length_correlated_features,level,Course level,3,10,3,0.009285338450586524
+level,classifier__combined_without_length_correlated_features,level,Course level,3,11,2,0.00619022563372435
+level,classifier__combined_without_length_correlated_features,level,Course level,3,12,2,0.00619022563372435
+level,classifier__combined_without_length_correlated_features,level,Course level,3,13,0,0.0
+level,classifier__combined_without_length_correlated_features,level,Course level,3,14,0,0.0
+level,classifier__combined_without_length_correlated_features,level,Course level,3,15,0,0.0
+level,classifier__combined_without_length_correlated_features,level,Course level,4,1,332,0.5552675151778695
+level,classifier__combined_without_length_correlated_features,level,Course level,4,2,568,0.9499757488585239
+level,classifier__combined_without_length_correlated_features,level,Course level,4,3,179,0.2993761602916827
+level,classifier__combined_without_length_correlated_features,level,Course level,4,4,57389,95.98267297753843
+level,classifier__combined_without_length_correlated_features,level,Course level,4,5,412,0.689066916425549
+level,classifier__combined_without_length_correlated_features,level,Course level,4,6,331,0.5535950226622736
+level,classifier__combined_without_length_correlated_features,level,Course level,4,7,295,0.49338529210081783
+level,classifier__combined_without_length_correlated_features,level,Course level,4,8,153,0.25589135488618686
+level,classifier__combined_without_length_correlated_features,level,Course level,4,9,120,0.20069910187151913
+level,classifier__combined_without_length_correlated_features,level,Course level,4,10,7,0.011707447609171948
+level,classifier__combined_without_length_correlated_features,level,Course level,4,11,2,0.0033449850311919856
+level,classifier__combined_without_length_correlated_features,level,Course level,4,12,3,0.005017477546787978
+level,classifier__combined_without_length_correlated_features,level,Course level,4,13,0,0.0
+level,classifier__combined_without_length_correlated_features,level,Course level,4,14,0,0.0
+level,classifier__combined_without_length_correlated_features,level,Course level,4,15,0,0.0
+level,classifier__combined_without_length_correlated_features,level,Course level,5,1,32,0.10097504023224259
+level,classifier__combined_without_length_correlated_features,level,Course level,5,2,120,0.37865640087090974
+level,classifier__combined_without_length_correlated_features,level,Course level,5,3,39,0.12306333028304565
+level,classifier__combined_without_length_correlated_features,level,Course level,5,4,310,0.9781957022498501
+level,classifier__combined_without_length_correlated_features,level,Course level,5,5,30504,96.25445710138526
+level,classifier__combined_without_length_correlated_features,level,Course level,5,6,284,0.896153482061153
+level,classifier__combined_without_length_correlated_features,level,Course level,5,7,164,0.5174970811902433
+level,classifier__combined_without_length_correlated_features,level,Course level,5,8,142,0.4480767410305765
+level,classifier__combined_without_length_correlated_features,level,Course level,5,9,40,0.12621880029030325
+level,classifier__combined_without_length_correlated_features,level,Course level,5,10,4,0.012621880029030324
+level,classifier__combined_without_length_correlated_features,level,Course level,5,11,45,0.14199615032659116
+level,classifier__combined_without_length_correlated_features,level,Course level,5,12,6,0.018932820043545486
+level,classifier__combined_without_length_correlated_features,level,Course level,5,13,0,0.0
+level,classifier__combined_without_length_correlated_features,level,Course level,5,14,0,0.0
+level,classifier__combined_without_length_correlated_features,level,Course level,5,15,1,0.003155470007257581
+level,classifier__combined_without_length_correlated_features,level,Course level,6,1,65,0.3495939332006669
+level,classifier__combined_without_length_correlated_features,level,Course level,6,2,88,0.47329640187167216
+level,classifier__combined_without_length_correlated_features,level,Course level,6,3,51,0.27429677835744637
+level,classifier__combined_without_length_correlated_features,level,Course level,6,4,198,1.0649169042112623
+level,classifier__combined_without_length_correlated_features,level,Course level,6,5,222,1.1939977410853546
+level,classifier__combined_without_length_correlated_features,level,Course level,6,6,17124,92.09917710966492
+level,classifier__combined_without_length_correlated_features,level,Course level,6,7,415,2.232022804281181
+level,classifier__combined_without_length_correlated_features,level,Course level,6,8,202,1.086430377023611
+level,classifier__combined_without_length_correlated_features,level,Course level,6,9,148,0.7959984940569031
+level,classifier__combined_without_length_correlated_features,level,Course level,6,10,29,0.15597267788952832
+level,classifier__combined_without_length_correlated_features,level,Course level,6,11,34,0.18286451890496425
+level,classifier__combined_without_length_correlated_features,level,Course level,6,12,10,0.05378368203087183
+level,classifier__combined_without_length_correlated_features,level,Course level,6,13,6,0.032270209218523103
+level,classifier__combined_without_length_correlated_features,level,Course level,6,14,0,0.0
+level,classifier__combined_without_length_correlated_features,level,Course level,6,15,1,0.005378368203087183
+level,classifier__combined_without_length_correlated_features,level,Course level,7,1,33,0.10358465691506058
+level,classifier__combined_without_length_correlated_features,level,Course level,7,2,37,0.1161403729047649
+level,classifier__combined_without_length_correlated_features,level,Course level,7,3,17,0.05336179295624333
+level,classifier__combined_without_length_correlated_features,level,Course level,7,4,172,0.5398957875572854
+level,classifier__combined_without_length_correlated_features,level,Course level,7,5,168,0.5273400715675811
+level,classifier__combined_without_length_correlated_features,level,Course level,7,6,423,1.327766965911231
+level,classifier__combined_without_length_correlated_features,level,Course level,7,7,29193,91.6347542218595
+level,classifier__combined_without_length_correlated_features,level,Course level,7,8,900,2.8250360976834705
+level,classifier__combined_without_length_correlated_features,level,Course level,7,9,564,1.770355954548308
+level,classifier__combined_without_length_correlated_features,level,Course level,7,10,151,0.4739782786113378
+level,classifier__combined_without_length_correlated_features,level,Course level,7,11,108,0.33900433172201644
+level,classifier__combined_without_length_correlated_features,level,Course level,7,12,70,0.21972502981982547
+level,classifier__combined_without_length_correlated_features,level,Course level,7,13,8,0.025111431979408627
+level,classifier__combined_without_length_correlated_features,level,Course level,7,14,11,0.03452821897168686
+level,classifier__combined_without_length_correlated_features,level,Course level,7,15,3,0.009416786992278235
+level,classifier__combined_without_length_correlated_features,level,Course level,8,1,14,0.1165792322424848
+level,classifier__combined_without_length_correlated_features,level,Course level,8,2,25,0.20817720043300858
+level,classifier__combined_without_length_correlated_features,level,Course level,8,3,8,0.06661670413856274
+level,classifier__combined_without_length_correlated_features,level,Course level,8,4,59,0.49129819302190025
+level,classifier__combined_without_length_correlated_features,level,Course level,8,5,81,0.6744941294029478
+level,classifier__combined_without_length_correlated_features,level,Course level,8,6,164,1.3656424348405363
+level,classifier__combined_without_length_correlated_features,level,Course level,8,7,596,4.962944458322925
+level,classifier__combined_without_length_correlated_features,level,Course level,8,8,10591,88.19218919143975
+level,classifier__combined_without_length_correlated_features,level,Course level,8,9,305,2.5397618452827047
+level,classifier__combined_without_length_correlated_features,level,Course level,8,10,44,0.3663918727620951
+level,classifier__combined_without_length_correlated_features,level,Course level,8,11,77,0.6411857773336664
+level,classifier__combined_without_length_correlated_features,level,Course level,8,12,30,0.2498126405196103
+level,classifier__combined_without_length_correlated_features,level,Course level,8,13,10,0.08327088017320343
+level,classifier__combined_without_length_correlated_features,level,Course level,8,14,3,0.02498126405196103
+level,classifier__combined_without_length_correlated_features,level,Course level,8,15,2,0.016654176034640686
+level,classifier__combined_without_length_correlated_features,level,Course level,9,1,14,0.16810758885686838
+level,classifier__combined_without_length_correlated_features,level,Course level,9,2,12,0.1440922190201729
+level,classifier__combined_without_length_correlated_features,level,Course level,9,3,11,0.13208453410182516
+level,classifier__combined_without_length_correlated_features,level,Course level,9,4,44,0.5283381364073007
+level,classifier__combined_without_length_correlated_features,level,Course level,9,5,18,0.21613832853025935
+level,classifier__combined_without_length_correlated_features,level,Course level,9,6,117,1.404899135446686
+level,classifier__combined_without_length_correlated_features,level,Course level,9,7,352,4.226705091258405
+level,classifier__combined_without_length_correlated_features,level,Course level,9,8,281,3.3741594620557156
+level,classifier__combined_without_length_correlated_features,level,Course level,9,9,7343,88.17243035542748
+level,classifier__combined_without_length_correlated_features,level,Course level,9,10,44,0.5283381364073007
+level,classifier__combined_without_length_correlated_features,level,Course level,9,11,44,0.5283381364073007
+level,classifier__combined_without_length_correlated_features,level,Course level,9,12,19,0.2281460134486071
+level,classifier__combined_without_length_correlated_features,level,Course level,9,13,19,0.2281460134486071
+level,classifier__combined_without_length_correlated_features,level,Course level,9,14,9,0.10806916426512968
+level,classifier__combined_without_length_correlated_features,level,Course level,9,15,1,0.012007684918347743
+level,classifier__combined_without_length_correlated_features,level,Course level,10,1,2,0.0227842333105491
+level,classifier__combined_without_length_correlated_features,level,Course level,10,2,5,0.05696058327637275
+level,classifier__combined_without_length_correlated_features,level,Course level,10,3,2,0.0227842333105491
+level,classifier__combined_without_length_correlated_features,level,Course level,10,4,12,0.1367053998632946
+level,classifier__combined_without_length_correlated_features,level,Course level,10,5,5,0.05696058327637275
+level,classifier__combined_without_length_correlated_features,level,Course level,10,6,31,0.35315561631351106
+level,classifier__combined_without_length_correlated_features,level,Course level,10,7,142,1.617680565048986
+level,classifier__combined_without_length_correlated_features,level,Course level,10,8,61,0.6949191159717476
+level,classifier__combined_without_length_correlated_features,level,Course level,10,9,76,0.8658008658008658
+level,classifier__combined_without_length_correlated_features,level,Course level,10,10,8237,93.83686488949647
+level,classifier__combined_without_length_correlated_features,level,Course level,10,11,77,0.8771929824561403
+level,classifier__combined_without_length_correlated_features,level,Course level,10,12,48,0.5468215994531784
+level,classifier__combined_without_length_correlated_features,level,Course level,10,13,50,0.5696058327637274
+level,classifier__combined_without_length_correlated_features,level,Course level,10,14,20,0.227842333105491
+level,classifier__combined_without_length_correlated_features,level,Course level,10,15,10,0.1139211665527455
+level,classifier__combined_without_length_correlated_features,level,Course level,11,1,0,0.0
+level,classifier__combined_without_length_correlated_features,level,Course level,11,2,2,0.047505938242280284
+level,classifier__combined_without_length_correlated_features,level,Course level,11,3,0,0.0
+level,classifier__combined_without_length_correlated_features,level,Course level,11,4,0,0.0
+level,classifier__combined_without_length_correlated_features,level,Course level,11,5,28,0.665083135391924
+level,classifier__combined_without_length_correlated_features,level,Course level,11,6,29,0.6888361045130641
+level,classifier__combined_without_length_correlated_features,level,Course level,11,7,92,2.1852731591448933
+level,classifier__combined_without_length_correlated_features,level,Course level,11,8,85,2.019002375296912
+level,classifier__combined_without_length_correlated_features,level,Course level,11,9,61,1.4489311163895486
+level,classifier__combined_without_length_correlated_features,level,Course level,11,10,72,1.7102137767220902
+level,classifier__combined_without_length_correlated_features,level,Course level,11,11,3706,88.02850356294537
+level,classifier__combined_without_length_correlated_features,level,Course level,11,12,34,0.8076009501187649
+level,classifier__combined_without_length_correlated_features,level,Course level,11,13,27,0.6413301662707839
+level,classifier__combined_without_length_correlated_features,level,Course level,11,14,47,1.1163895486935866
+level,classifier__combined_without_length_correlated_features,level,Course level,11,15,27,0.6413301662707839
+level,classifier__combined_without_length_correlated_features,level,Course level,12,1,2,0.08399832003359933
+level,classifier__combined_without_length_correlated_features,level,Course level,12,2,4,0.16799664006719867
+level,classifier__combined_without_length_correlated_features,level,Course level,12,3,3,0.12599748005039899
+level,classifier__combined_without_length_correlated_features,level,Course level,12,4,2,0.08399832003359933
+level,classifier__combined_without_length_correlated_features,level,Course level,12,5,8,0.33599328013439733
+level,classifier__combined_without_length_correlated_features,level,Course level,12,6,19,0.7979840403191936
+level,classifier__combined_without_length_correlated_features,level,Course level,12,7,43,1.8059638807223855
+level,classifier__combined_without_length_correlated_features,level,Course level,12,8,36,1.511969760604788
+level,classifier__combined_without_length_correlated_features,level,Course level,12,9,54,2.267954640907182
+level,classifier__combined_without_length_correlated_features,level,Course level,12,10,60,2.51994960100798
+level,classifier__combined_without_length_correlated_features,level,Course level,12,11,48,2.0159596808063838
+level,classifier__combined_without_length_correlated_features,level,Course level,12,12,2062,86.60226795464091
+level,classifier__combined_without_length_correlated_features,level,Course level,12,13,13,0.5459890802183957
+level,classifier__combined_without_length_correlated_features,level,Course level,12,14,13,0.5459890802183957
+level,classifier__combined_without_length_correlated_features,level,Course level,12,15,14,0.5879882402351952
+level,classifier__combined_without_length_correlated_features,level,Course level,13,1,0,0.0
+level,classifier__combined_without_length_correlated_features,level,Course level,13,2,2,0.0702247191011236
+level,classifier__combined_without_length_correlated_features,level,Course level,13,3,1,0.0351123595505618
+level,classifier__combined_without_length_correlated_features,level,Course level,13,4,0,0.0
+level,classifier__combined_without_length_correlated_features,level,Course level,13,5,1,0.0351123595505618
+level,classifier__combined_without_length_correlated_features,level,Course level,13,6,8,0.2808988764044944
+level,classifier__combined_without_length_correlated_features,level,Course level,13,7,23,0.8075842696629213
+level,classifier__combined_without_length_correlated_features,level,Course level,13,8,23,0.8075842696629213
+level,classifier__combined_without_length_correlated_features,level,Course level,13,9,25,0.8778089887640449
+level,classifier__combined_without_length_correlated_features,level,Course level,13,10,44,1.5449438202247192
+level,classifier__combined_without_length_correlated_features,level,Course level,13,11,29,1.0182584269662922
+level,classifier__combined_without_length_correlated_features,level,Course level,13,12,11,0.3862359550561798
+level,classifier__combined_without_length_correlated_features,level,Course level,13,13,2635,92.52106741573034
+level,classifier__combined_without_length_correlated_features,level,Course level,13,14,32,1.1235955056179776
+level,classifier__combined_without_length_correlated_features,level,Course level,13,15,14,0.49157303370786515
+level,classifier__combined_without_length_correlated_features,level,Course level,14,1,0,0.0
+level,classifier__combined_without_length_correlated_features,level,Course level,14,2,0,0.0
+level,classifier__combined_without_length_correlated_features,level,Course level,14,3,0,0.0
+level,classifier__combined_without_length_correlated_features,level,Course level,14,4,0,0.0
+level,classifier__combined_without_length_correlated_features,level,Course level,14,5,0,0.0
+level,classifier__combined_without_length_correlated_features,level,Course level,14,6,0,0.0
+level,classifier__combined_without_length_correlated_features,level,Course level,14,7,8,0.7359705611775529
+level,classifier__combined_without_length_correlated_features,level,Course level,14,8,7,0.6439742410303588
+level,classifier__combined_without_length_correlated_features,level,Course level,14,9,12,1.1039558417663293
+level,classifier__combined_without_length_correlated_features,level,Course level,14,10,29,2.6678932842686294
+level,classifier__combined_without_length_correlated_features,level,Course level,14,11,64,5.887764489420423
+level,classifier__combined_without_length_correlated_features,level,Course level,14,12,36,3.311867525298988
+level,classifier__combined_without_length_correlated_features,level,Course level,14,13,39,3.5878564857405704
+level,classifier__combined_without_length_correlated_features,level,Course level,14,14,877,80.68077276908923
+level,classifier__combined_without_length_correlated_features,level,Course level,14,15,15,1.3799448022079117
+level,classifier__combined_without_length_correlated_features,level,Course level,15,1,0,0.0
+level,classifier__combined_without_length_correlated_features,level,Course level,15,2,0,0.0
+level,classifier__combined_without_length_correlated_features,level,Course level,15,3,0,0.0
+level,classifier__combined_without_length_correlated_features,level,Course level,15,4,0,0.0
+level,classifier__combined_without_length_correlated_features,level,Course level,15,5,0,0.0
+level,classifier__combined_without_length_correlated_features,level,Course level,15,6,2,0.33167495854063017
+level,classifier__combined_without_length_correlated_features,level,Course level,15,7,3,0.4975124378109453
+level,classifier__combined_without_length_correlated_features,level,Course level,15,8,4,0.6633499170812603
+level,classifier__combined_without_length_correlated_features,level,Course level,15,9,10,1.658374792703151
+level,classifier__combined_without_length_correlated_features,level,Course level,15,10,17,2.8192371475953566
+level,classifier__combined_without_length_correlated_features,level,Course level,15,11,55,9.12106135986733
+level,classifier__combined_without_length_correlated_features,level,Course level,15,12,23,3.814262023217247
+level,classifier__combined_without_length_correlated_features,level,Course level,15,13,63,10.447761194029852
+level,classifier__combined_without_length_correlated_features,level,Course level,15,14,16,2.6533996683250414
+level,classifier__combined_without_length_correlated_features,level,Course level,15,15,410,67.99336650082918
+level,regressor__combined_without_length_correlated_features,cefr,Numerical level rounded and mapped to CEFR,A1,A1,155407,95.45591351616964
+level,regressor__combined_without_length_correlated_features,cefr,Numerical level rounded and mapped to CEFR,A1,A2,7252,4.454408648383035
+level,regressor__combined_without_length_correlated_features,cefr,Numerical level rounded and mapped to CEFR,A1,B1,146,0.08967783544731427
+level,regressor__combined_without_length_correlated_features,cefr,Numerical level rounded and mapped to CEFR,A1,B2,0,0.0
+level,regressor__combined_without_length_correlated_features,cefr,Numerical level rounded and mapped to CEFR,A1,C1,0,0.0
+level,regressor__combined_without_length_correlated_features,cefr,Numerical level rounded and mapped to CEFR,A2,A1,12913,11.731092436974789
+level,regressor__combined_without_length_correlated_features,cefr,Numerical level rounded and mapped to CEFR,A2,A2,91081,82.74449239155122
+level,regressor__combined_without_length_correlated_features,cefr,Numerical level rounded and mapped to CEFR,A2,B1,6063,5.5080626845332725
+level,regressor__combined_without_length_correlated_features,cefr,Numerical level rounded and mapped to CEFR,A2,B2,18,0.016352486940722236
+level,regressor__combined_without_length_correlated_features,cefr,Numerical level rounded and mapped to CEFR,A2,C1,0,0.0
+level,regressor__combined_without_length_correlated_features,cefr,Numerical level rounded and mapped to CEFR,B1,A1,59,0.11303764728422262
+level,regressor__combined_without_length_correlated_features,cefr,Numerical level rounded and mapped to CEFR,B1,A2,11826,22.657342657342657
+level,regressor__combined_without_length_correlated_features,cefr,Numerical level rounded and mapped to CEFR,B1,B1,38481,73.72545262956221
+level,regressor__combined_without_length_correlated_features,cefr,Numerical level rounded and mapped to CEFR,B1,B2,1818,3.4830922502155377
+level,regressor__combined_without_length_correlated_features,cefr,Numerical level rounded and mapped to CEFR,B1,C1,11,0.02107481559536354
+level,regressor__combined_without_length_correlated_features,cefr,Numerical level rounded and mapped to CEFR,B2,A1,6,0.03903962521959789
+level,regressor__combined_without_length_correlated_features,cefr,Numerical level rounded and mapped to CEFR,B2,A2,210,1.3663868826859262
+level,regressor__combined_without_length_correlated_features,cefr,Numerical level rounded and mapped to CEFR,B2,B1,5439,35.38942026156549
+level,regressor__combined_without_length_correlated_features,cefr,Numerical level rounded and mapped to CEFR,B2,B2,9053,58.90428785216995
+level,regressor__combined_without_length_correlated_features,cefr,Numerical level rounded and mapped to CEFR,B2,C1,661,4.300865378359035
+level,regressor__combined_without_length_correlated_features,cefr,Numerical level rounded and mapped to CEFR,C1,A1,1,0.022036139268400177
+level,regressor__combined_without_length_correlated_features,cefr,Numerical level rounded and mapped to CEFR,C1,A2,4,0.08814455707360071
+level,regressor__combined_without_length_correlated_features,cefr,Numerical level rounded and mapped to CEFR,C1,B1,273,6.015866020273248
+level,regressor__combined_without_length_correlated_features,cefr,Numerical level rounded and mapped to CEFR,C1,B2,2732,60.20273248126928
+level,regressor__combined_without_length_correlated_features,cefr,Numerical level rounded and mapped to CEFR,C1,C1,1528,33.67122080211547
+level,regressor__combined_without_length_correlated_features,level,Course level,1,1,59200,72.06417607031126
+level,regressor__combined_without_length_correlated_features,level,Course level,1,2,19095,23.244348683489758
+level,regressor__combined_without_length_correlated_features,level,Course level,1,3,3170,3.8588418605217347
+level,regressor__combined_without_length_correlated_features,level,Course level,1,4,557,0.678036251202084
+level,regressor__combined_without_length_correlated_features,level,Course level,1,5,102,0.12416462768871198
+level,regressor__combined_without_length_correlated_features,level,Course level,1,6,21,0.02556330570061717
+level,regressor__combined_without_length_correlated_features,level,Course level,1,7,4,0.004869201085831842
+level,regressor__combined_without_length_correlated_features,level,Course level,1,8,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,1,9,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,1,10,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,1,11,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,1,12,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,1,13,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,1,14,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,1,15,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,2,1,5445,11.262332719713736
+level,regressor__combined_without_length_correlated_features,level,Course level,2,2,28305,58.54551471652843
+level,regressor__combined_without_length_correlated_features,level,Course level,2,3,11977,24.772995222040663
+level,regressor__combined_without_length_correlated_features,level,Course level,2,4,1978,4.091256954929985
+level,regressor__combined_without_length_correlated_features,level,Course level,2,5,401,0.8294206465757958
+level,regressor__combined_without_length_correlated_features,level,Course level,2,6,136,0.2812997704097462
+level,regressor__combined_without_length_correlated_features,level,Course level,2,7,72,0.14892340786398328
+level,regressor__combined_without_length_correlated_features,level,Course level,2,8,29,0.059983039278548825
+level,regressor__combined_without_length_correlated_features,level,Course level,2,9,4,0.008273522659110183
+level,regressor__combined_without_length_correlated_features,level,Course level,2,10,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,2,11,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,2,12,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,2,13,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,2,14,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,2,15,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,3,1,697,2.1572936333529356
+level,regressor__combined_without_length_correlated_features,level,Course level,3,2,6641,20.554644216781703
+level,regressor__combined_without_length_correlated_features,level,Course level,3,3,20877,64.61667027763161
+level,regressor__combined_without_length_correlated_features,level,Course level,3,4,3625,11.219783961125383
+level,regressor__combined_without_length_correlated_features,level,Course level,3,5,342,1.0585285833668636
+level,regressor__combined_without_length_correlated_features,level,Course level,3,6,90,0.2785601535175957
+level,regressor__combined_without_length_correlated_features,level,Course level,3,7,29,0.08975827168900306
+level,regressor__combined_without_length_correlated_features,level,Course level,3,8,8,0.0247609025348974
+level,regressor__combined_without_length_correlated_features,level,Course level,3,9,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,3,10,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,3,11,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,3,12,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,3,13,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,3,14,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,3,15,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,4,1,67,0.11205699854493151
+level,regressor__combined_without_length_correlated_features,level,Course level,4,2,1113,1.86148416985834
+level,regressor__combined_without_length_correlated_features,level,Course level,4,3,10783,18.03448679567159
+level,regressor__combined_without_length_correlated_features,level,Course level,4,4,34284,57.339733404693014
+level,regressor__combined_without_length_correlated_features,level,Course level,4,5,11569,19.34906591293004
+level,regressor__combined_without_length_correlated_features,level,Course level,4,6,1710,2.8599622016691475
+level,regressor__combined_without_length_correlated_features,level,Course level,4,7,244,0.4080881738054222
+level,regressor__combined_without_length_correlated_features,level,Course level,4,8,21,0.03512234282751585
+level,regressor__combined_without_length_correlated_features,level,Course level,4,9,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,4,10,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,4,11,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,4,12,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,4,13,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,4,14,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,4,15,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,5,1,2,0.006310940014515162
+level,regressor__combined_without_length_correlated_features,level,Course level,5,2,47,0.1483070903411063
+level,regressor__combined_without_length_correlated_features,level,Course level,5,3,627,1.9784796945505032
+level,regressor__combined_without_length_correlated_features,level,Course level,5,4,6551,20.67148401754441
+level,regressor__combined_without_length_correlated_features,level,Course level,5,5,17084,53.908049603988516
+level,regressor__combined_without_length_correlated_features,level,Course level,5,6,6166,19.456628064750245
+level,regressor__combined_without_length_correlated_features,level,Course level,5,7,1058,3.338487267678521
+level,regressor__combined_without_length_correlated_features,level,Course level,5,8,144,0.45438768104509164
+level,regressor__combined_without_length_correlated_features,level,Course level,5,9,11,0.03471017007983339
+level,regressor__combined_without_length_correlated_features,level,Course level,5,10,1,0.003155470007257581
+level,regressor__combined_without_length_correlated_features,level,Course level,5,11,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,5,12,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,5,13,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,5,14,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,5,15,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,6,1,2,0.010756736406174366
+level,regressor__combined_without_length_correlated_features,level,Course level,6,2,27,0.14521594148335396
+level,regressor__combined_without_length_correlated_features,level,Course level,6,3,245,1.31770020975636
+level,regressor__combined_without_length_correlated_features,level,Course level,6,4,1271,6.83590598612381
+level,regressor__combined_without_length_correlated_features,level,Course level,6,5,4809,25.864572688646266
+level,regressor__combined_without_length_correlated_features,level,Course level,6,6,7637,41.07459796697682
+level,regressor__combined_without_length_correlated_features,level,Course level,6,7,3696,19.87844887861023
+level,regressor__combined_without_length_correlated_features,level,Course level,6,8,769,4.135965148174044
+level,regressor__combined_without_length_correlated_features,level,Course level,6,9,120,0.645404184370462
+level,regressor__combined_without_length_correlated_features,level,Course level,6,10,17,0.09143225945248212
+level,regressor__combined_without_length_correlated_features,level,Course level,6,11,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,6,12,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,6,13,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,6,14,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,6,15,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,7,1,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,7,2,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,7,3,32,0.10044572791763451
+level,regressor__combined_without_length_correlated_features,level,Course level,7,4,277,0.8694833322870237
+level,regressor__combined_without_length_correlated_features,level,Course level,7,5,1422,4.463557034339884
+level,regressor__combined_without_length_correlated_features,level,Course level,7,6,6675,20.952351057819072
+level,regressor__combined_without_length_correlated_features,level,Course level,7,7,14589,45.79383514344906
+level,regressor__combined_without_length_correlated_features,level,Course level,7,8,6971,21.881474041057192
+level,regressor__combined_without_length_correlated_features,level,Course level,7,9,1621,5.088203904827672
+level,regressor__combined_without_length_correlated_features,level,Course level,7,10,249,0.7815933203590935
+level,regressor__combined_without_length_correlated_features,level,Course level,7,11,22,0.06905643794337372
+level,regressor__combined_without_length_correlated_features,level,Course level,7,12,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,7,13,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,7,14,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,7,15,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,8,1,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,8,2,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,8,3,17,0.14156049629444584
+level,regressor__combined_without_length_correlated_features,level,Course level,8,4,91,0.7577650095761512
+level,regressor__combined_without_length_correlated_features,level,Course level,8,5,492,4.096927304521609
+level,regressor__combined_without_length_correlated_features,level,Course level,8,6,1888,15.721542176700808
+level,regressor__combined_without_length_correlated_features,level,Course level,8,7,3913,32.5838954117745
+level,regressor__combined_without_length_correlated_features,level,Course level,8,8,3764,31.343159297193772
+level,regressor__combined_without_length_correlated_features,level,Course level,8,9,1464,12.190856857356982
+level,regressor__combined_without_length_correlated_features,level,Course level,8,10,326,2.714630693646432
+level,regressor__combined_without_length_correlated_features,level,Course level,8,11,47,0.3913731368140561
+level,regressor__combined_without_length_correlated_features,level,Course level,8,12,7,0.0582896161212424
+level,regressor__combined_without_length_correlated_features,level,Course level,8,13,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,8,14,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,8,15,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,9,1,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,9,2,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,9,3,10,0.12007684918347743
+level,regressor__combined_without_length_correlated_features,level,Course level,9,4,58,0.696445725264169
+level,regressor__combined_without_length_correlated_features,level,Course level,9,5,240,2.881844380403458
+level,regressor__combined_without_length_correlated_features,level,Course level,9,6,683,8.201248799231507
+level,regressor__combined_without_length_correlated_features,level,Course level,9,7,1954,23.463016330451488
+level,regressor__combined_without_length_correlated_features,level,Course level,9,8,2516,30.211335254562922
+level,regressor__combined_without_length_correlated_features,level,Course level,9,9,1689,20.280979827089336
+level,regressor__combined_without_length_correlated_features,level,Course level,9,10,706,8.477425552353505
+level,regressor__combined_without_length_correlated_features,level,Course level,9,11,349,4.190682036503362
+level,regressor__combined_without_length_correlated_features,level,Course level,9,12,112,1.344860710854947
+level,regressor__combined_without_length_correlated_features,level,Course level,9,13,8,0.09606147934678194
+level,regressor__combined_without_length_correlated_features,level,Course level,9,14,3,0.03602305475504323
+level,regressor__combined_without_length_correlated_features,level,Course level,9,15,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,10,1,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,10,2,1,0.01139211665527455
+level,regressor__combined_without_length_correlated_features,level,Course level,10,3,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,10,4,3,0.03417634996582365
+level,regressor__combined_without_length_correlated_features,level,Course level,10,5,20,0.227842333105491
+level,regressor__combined_without_length_correlated_features,level,Course level,10,6,96,1.0936431989063569
+level,regressor__combined_without_length_correlated_features,level,Course level,10,7,322,3.668261562998405
+level,regressor__combined_without_length_correlated_features,level,Course level,10,8,966,11.004784688995215
+level,regressor__combined_without_length_correlated_features,level,Course level,10,9,2189,24.93734335839599
+level,regressor__combined_without_length_correlated_features,level,Course level,10,10,2794,31.829573934837093
+level,regressor__combined_without_length_correlated_features,level,Course level,10,11,1639,18.671679197994987
+level,regressor__combined_without_length_correlated_features,level,Course level,10,12,587,6.687172476646161
+level,regressor__combined_without_length_correlated_features,level,Course level,10,13,134,1.5265436318067898
+level,regressor__combined_without_length_correlated_features,level,Course level,10,14,26,0.2961950330371383
+level,regressor__combined_without_length_correlated_features,level,Course level,10,15,1,0.01139211665527455
+level,regressor__combined_without_length_correlated_features,level,Course level,11,1,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,11,2,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,11,3,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,11,4,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,11,5,6,0.14251781472684086
+level,regressor__combined_without_length_correlated_features,level,Course level,11,6,36,0.8551068883610451
+level,regressor__combined_without_length_correlated_features,level,Course level,11,7,117,2.7790973871733966
+level,regressor__combined_without_length_correlated_features,level,Course level,11,8,388,9.216152019002376
+level,regressor__combined_without_length_correlated_features,level,Course level,11,9,758,18.004750593824227
+level,regressor__combined_without_length_correlated_features,level,Course level,11,10,1002,23.80047505938242
+level,regressor__combined_without_length_correlated_features,level,Course level,11,11,964,22.897862232779097
+level,regressor__combined_without_length_correlated_features,level,Course level,11,12,644,15.296912114014251
+level,regressor__combined_without_length_correlated_features,level,Course level,11,13,246,5.843230403800475
+level,regressor__combined_without_length_correlated_features,level,Course level,11,14,39,0.9263657957244655
+level,regressor__combined_without_length_correlated_features,level,Course level,11,15,10,0.2375296912114014
+level,regressor__combined_without_length_correlated_features,level,Course level,12,1,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,12,2,2,0.08399832003359933
+level,regressor__combined_without_length_correlated_features,level,Course level,12,3,3,0.12599748005039899
+level,regressor__combined_without_length_correlated_features,level,Course level,12,4,4,0.16799664006719867
+level,regressor__combined_without_length_correlated_features,level,Course level,12,5,10,0.41999160016799664
+level,regressor__combined_without_length_correlated_features,level,Course level,12,6,35,1.4699706005879882
+level,regressor__combined_without_length_correlated_features,level,Course level,12,7,82,3.4439311213775725
+level,regressor__combined_without_length_correlated_features,level,Course level,12,8,194,8.147837043259134
+level,regressor__combined_without_length_correlated_features,level,Course level,12,9,423,17.765644687106256
+level,regressor__combined_without_length_correlated_features,level,Course level,12,10,519,21.797564048719025
+level,regressor__combined_without_length_correlated_features,level,Course level,12,11,541,22.72154556908862
+level,regressor__combined_without_length_correlated_features,level,Course level,12,12,363,15.245695086098278
+level,regressor__combined_without_length_correlated_features,level,Course level,12,13,150,6.29987400251995
+level,regressor__combined_without_length_correlated_features,level,Course level,12,14,49,2.0579588408231837
+level,regressor__combined_without_length_correlated_features,level,Course level,12,15,6,0.25199496010079797
+level,regressor__combined_without_length_correlated_features,level,Course level,13,1,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,13,2,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,13,3,1,0.0351123595505618
+level,regressor__combined_without_length_correlated_features,level,Course level,13,4,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,13,5,1,0.0351123595505618
+level,regressor__combined_without_length_correlated_features,level,Course level,13,6,3,0.10533707865168539
+level,regressor__combined_without_length_correlated_features,level,Course level,13,7,18,0.6320224719101124
+level,regressor__combined_without_length_correlated_features,level,Course level,13,8,69,2.422752808988764
+level,regressor__combined_without_length_correlated_features,level,Course level,13,9,132,4.634831460674158
+level,regressor__combined_without_length_correlated_features,level,Course level,13,10,288,10.112359550561798
+level,regressor__combined_without_length_correlated_features,level,Course level,13,11,629,22.08567415730337
+level,regressor__combined_without_length_correlated_features,level,Course level,13,12,891,31.285112359550563
+level,regressor__combined_without_length_correlated_features,level,Course level,13,13,590,20.71629213483146
+level,regressor__combined_without_length_correlated_features,level,Course level,13,14,191,6.706460674157303
+level,regressor__combined_without_length_correlated_features,level,Course level,13,15,35,1.228932584269663
+level,regressor__combined_without_length_correlated_features,level,Course level,14,1,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,14,2,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,14,3,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,14,4,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,14,5,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,14,6,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,14,7,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,14,8,8,0.7359705611775529
+level,regressor__combined_without_length_correlated_features,level,Course level,14,9,23,2.1159153633854646
+level,regressor__combined_without_length_correlated_features,level,Course level,14,10,78,7.175712971481141
+level,regressor__combined_without_length_correlated_features,level,Course level,14,11,184,16.927322907083717
+level,regressor__combined_without_length_correlated_features,level,Course level,14,12,340,31.278748850045996
+level,regressor__combined_without_length_correlated_features,level,Course level,14,13,307,28.24287028518859
+level,regressor__combined_without_length_correlated_features,level,Course level,14,14,126,11.591536338546458
+level,regressor__combined_without_length_correlated_features,level,Course level,14,15,21,1.9319227230910763
+level,regressor__combined_without_length_correlated_features,level,Course level,15,1,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,15,2,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,15,3,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,15,4,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,15,5,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,15,6,0,0.0
+level,regressor__combined_without_length_correlated_features,level,Course level,15,7,2,0.33167495854063017
+level,regressor__combined_without_length_correlated_features,level,Course level,15,8,3,0.4975124378109453
+level,regressor__combined_without_length_correlated_features,level,Course level,15,9,18,2.985074626865672
+level,regressor__combined_without_length_correlated_features,level,Course level,15,10,55,9.12106135986733
+level,regressor__combined_without_length_correlated_features,level,Course level,15,11,101,16.749585406301826
+level,regressor__combined_without_length_correlated_features,level,Course level,15,12,166,27.529021558872305
+level,regressor__combined_without_length_correlated_features,level,Course level,15,13,158,26.202321724709783
+level,regressor__combined_without_length_correlated_features,level,Course level,15,14,79,13.101160862354892
+level,regressor__combined_without_length_correlated_features,level,Course level,15,15,21,3.482587064676617
+level,classifier__majority,cefr,Level probabilities summed into CEFR bands,A1,A1,162805,100.0
+level,classifier__majority,cefr,Level probabilities summed into CEFR bands,A1,A2,0,0.0
+level,classifier__majority,cefr,Level probabilities summed into CEFR bands,A1,B1,0,0.0
+level,classifier__majority,cefr,Level probabilities summed into CEFR bands,A1,B2,0,0.0
+level,classifier__majority,cefr,Level probabilities summed into CEFR bands,A1,C1,0,0.0
+level,classifier__majority,cefr,Level probabilities summed into CEFR bands,A2,A1,110075,100.0
+level,classifier__majority,cefr,Level probabilities summed into CEFR bands,A2,A2,0,0.0
+level,classifier__majority,cefr,Level probabilities summed into CEFR bands,A2,B1,0,0.0
+level,classifier__majority,cefr,Level probabilities summed into CEFR bands,A2,B2,0,0.0
+level,classifier__majority,cefr,Level probabilities summed into CEFR bands,A2,C1,0,0.0
+level,classifier__majority,cefr,Level probabilities summed into CEFR bands,B1,A1,52195,100.0
+level,classifier__majority,cefr,Level probabilities summed into CEFR bands,B1,A2,0,0.0
+level,classifier__majority,cefr,Level probabilities summed into CEFR bands,B1,B1,0,0.0
+level,classifier__majority,cefr,Level probabilities summed into CEFR bands,B1,B2,0,0.0
+level,classifier__majority,cefr,Level probabilities summed into CEFR bands,B1,C1,0,0.0
+level,classifier__majority,cefr,Level probabilities summed into CEFR bands,B2,A1,15369,100.0
+level,classifier__majority,cefr,Level probabilities summed into CEFR bands,B2,A2,0,0.0
+level,classifier__majority,cefr,Level probabilities summed into CEFR bands,B2,B1,0,0.0
+level,classifier__majority,cefr,Level probabilities summed into CEFR bands,B2,B2,0,0.0
+level,classifier__majority,cefr,Level probabilities summed into CEFR bands,B2,C1,0,0.0
+level,classifier__majority,cefr,Level probabilities summed into CEFR bands,C1,A1,4538,100.0
+level,classifier__majority,cefr,Level probabilities summed into CEFR bands,C1,A2,0,0.0
+level,classifier__majority,cefr,Level probabilities summed into CEFR bands,C1,B1,0,0.0
+level,classifier__majority,cefr,Level probabilities summed into CEFR bands,C1,B2,0,0.0
+level,classifier__majority,cefr,Level probabilities summed into CEFR bands,C1,C1,0,0.0
+level,classifier__majority,level,Course level,1,1,82149,100.0
+level,classifier__majority,level,Course level,1,2,0,0.0
+level,classifier__majority,level,Course level,1,3,0,0.0
+level,classifier__majority,level,Course level,1,4,0,0.0
+level,classifier__majority,level,Course level,1,5,0,0.0
+level,classifier__majority,level,Course level,1,6,0,0.0
+level,classifier__majority,level,Course level,1,7,0,0.0
+level,classifier__majority,level,Course level,1,8,0,0.0
+level,classifier__majority,level,Course level,1,9,0,0.0
+level,classifier__majority,level,Course level,1,10,0,0.0
+level,classifier__majority,level,Course level,1,11,0,0.0
+level,classifier__majority,level,Course level,1,12,0,0.0
+level,classifier__majority,level,Course level,1,13,0,0.0
+level,classifier__majority,level,Course level,1,14,0,0.0
+level,classifier__majority,level,Course level,1,15,0,0.0
+level,classifier__majority,level,Course level,2,1,48347,100.0
+level,classifier__majority,level,Course level,2,2,0,0.0
+level,classifier__majority,level,Course level,2,3,0,0.0
+level,classifier__majority,level,Course level,2,4,0,0.0
+level,classifier__majority,level,Course level,2,5,0,0.0
+level,classifier__majority,level,Course level,2,6,0,0.0
+level,classifier__majority,level,Course level,2,7,0,0.0
+level,classifier__majority,level,Course level,2,8,0,0.0
+level,classifier__majority,level,Course level,2,9,0,0.0
+level,classifier__majority,level,Course level,2,10,0,0.0
+level,classifier__majority,level,Course level,2,11,0,0.0
+level,classifier__majority,level,Course level,2,12,0,0.0
+level,classifier__majority,level,Course level,2,13,0,0.0
+level,classifier__majority,level,Course level,2,14,0,0.0
+level,classifier__majority,level,Course level,2,15,0,0.0
+level,classifier__majority,level,Course level,3,1,32309,100.0
+level,classifier__majority,level,Course level,3,2,0,0.0
+level,classifier__majority,level,Course level,3,3,0,0.0
+level,classifier__majority,level,Course level,3,4,0,0.0
+level,classifier__majority,level,Course level,3,5,0,0.0
+level,classifier__majority,level,Course level,3,6,0,0.0
+level,classifier__majority,level,Course level,3,7,0,0.0
+level,classifier__majority,level,Course level,3,8,0,0.0
+level,classifier__majority,level,Course level,3,9,0,0.0
+level,classifier__majority,level,Course level,3,10,0,0.0
+level,classifier__majority,level,Course level,3,11,0,0.0
+level,classifier__majority,level,Course level,3,12,0,0.0
+level,classifier__majority,level,Course level,3,13,0,0.0
+level,classifier__majority,level,Course level,3,14,0,0.0
+level,classifier__majority,level,Course level,3,15,0,0.0
+level,classifier__majority,level,Course level,4,1,59791,100.0
+level,classifier__majority,level,Course level,4,2,0,0.0
+level,classifier__majority,level,Course level,4,3,0,0.0
+level,classifier__majority,level,Course level,4,4,0,0.0
+level,classifier__majority,level,Course level,4,5,0,0.0
+level,classifier__majority,level,Course level,4,6,0,0.0
+level,classifier__majority,level,Course level,4,7,0,0.0
+level,classifier__majority,level,Course level,4,8,0,0.0
+level,classifier__majority,level,Course level,4,9,0,0.0
+level,classifier__majority,level,Course level,4,10,0,0.0
+level,classifier__majority,level,Course level,4,11,0,0.0
+level,classifier__majority,level,Course level,4,12,0,0.0
+level,classifier__majority,level,Course level,4,13,0,0.0
+level,classifier__majority,level,Course level,4,14,0,0.0
+level,classifier__majority,level,Course level,4,15,0,0.0
+level,classifier__majority,level,Course level,5,1,31691,100.0
+level,classifier__majority,level,Course level,5,2,0,0.0
+level,classifier__majority,level,Course level,5,3,0,0.0
+level,classifier__majority,level,Course level,5,4,0,0.0
+level,classifier__majority,level,Course level,5,5,0,0.0
+level,classifier__majority,level,Course level,5,6,0,0.0
+level,classifier__majority,level,Course level,5,7,0,0.0
+level,classifier__majority,level,Course level,5,8,0,0.0
+level,classifier__majority,level,Course level,5,9,0,0.0
+level,classifier__majority,level,Course level,5,10,0,0.0
+level,classifier__majority,level,Course level,5,11,0,0.0
+level,classifier__majority,level,Course level,5,12,0,0.0
+level,classifier__majority,level,Course level,5,13,0,0.0
+level,classifier__majority,level,Course level,5,14,0,0.0
+level,classifier__majority,level,Course level,5,15,0,0.0
+level,classifier__majority,level,Course level,6,1,18593,100.0
+level,classifier__majority,level,Course level,6,2,0,0.0
+level,classifier__majority,level,Course level,6,3,0,0.0
+level,classifier__majority,level,Course level,6,4,0,0.0
+level,classifier__majority,level,Course level,6,5,0,0.0
+level,classifier__majority,level,Course level,6,6,0,0.0
+level,classifier__majority,level,Course level,6,7,0,0.0
+level,classifier__majority,level,Course level,6,8,0,0.0
+level,classifier__majority,level,Course level,6,9,0,0.0
+level,classifier__majority,level,Course level,6,10,0,0.0
+level,classifier__majority,level,Course level,6,11,0,0.0
+level,classifier__majority,level,Course level,6,12,0,0.0
+level,classifier__majority,level,Course level,6,13,0,0.0
+level,classifier__majority,level,Course level,6,14,0,0.0
+level,classifier__majority,level,Course level,6,15,0,0.0
+level,classifier__majority,level,Course level,7,1,31858,100.0
+level,classifier__majority,level,Course level,7,2,0,0.0
+level,classifier__majority,level,Course level,7,3,0,0.0
+level,classifier__majority,level,Course level,7,4,0,0.0
+level,classifier__majority,level,Course level,7,5,0,0.0
+level,classifier__majority,level,Course level,7,6,0,0.0
+level,classifier__majority,level,Course level,7,7,0,0.0
+level,classifier__majority,level,Course level,7,8,0,0.0
+level,classifier__majority,level,Course level,7,9,0,0.0
+level,classifier__majority,level,Course level,7,10,0,0.0
+level,classifier__majority,level,Course level,7,11,0,0.0
+level,classifier__majority,level,Course level,7,12,0,0.0
+level,classifier__majority,level,Course level,7,13,0,0.0
+level,classifier__majority,level,Course level,7,14,0,0.0
+level,classifier__majority,level,Course level,7,15,0,0.0
+level,classifier__majority,level,Course level,8,1,12009,100.0
+level,classifier__majority,level,Course level,8,2,0,0.0
+level,classifier__majority,level,Course level,8,3,0,0.0
+level,classifier__majority,level,Course level,8,4,0,0.0
+level,classifier__majority,level,Course level,8,5,0,0.0
+level,classifier__majority,level,Course level,8,6,0,0.0
+level,classifier__majority,level,Course level,8,7,0,0.0
+level,classifier__majority,level,Course level,8,8,0,0.0
+level,classifier__majority,level,Course level,8,9,0,0.0
+level,classifier__majority,level,Course level,8,10,0,0.0
+level,classifier__majority,level,Course level,8,11,0,0.0
+level,classifier__majority,level,Course level,8,12,0,0.0
+level,classifier__majority,level,Course level,8,13,0,0.0
+level,classifier__majority,level,Course level,8,14,0,0.0
+level,classifier__majority,level,Course level,8,15,0,0.0
+level,classifier__majority,level,Course level,9,1,8328,100.0
+level,classifier__majority,level,Course level,9,2,0,0.0
+level,classifier__majority,level,Course level,9,3,0,0.0
+level,classifier__majority,level,Course level,9,4,0,0.0
+level,classifier__majority,level,Course level,9,5,0,0.0
+level,classifier__majority,level,Course level,9,6,0,0.0
+level,classifier__majority,level,Course level,9,7,0,0.0
+level,classifier__majority,level,Course level,9,8,0,0.0
+level,classifier__majority,level,Course level,9,9,0,0.0
+level,classifier__majority,level,Course level,9,10,0,0.0
+level,classifier__majority,level,Course level,9,11,0,0.0
+level,classifier__majority,level,Course level,9,12,0,0.0
+level,classifier__majority,level,Course level,9,13,0,0.0
+level,classifier__majority,level,Course level,9,14,0,0.0
+level,classifier__majority,level,Course level,9,15,0,0.0
+level,classifier__majority,level,Course level,10,1,8778,100.0
+level,classifier__majority,level,Course level,10,2,0,0.0
+level,classifier__majority,level,Course level,10,3,0,0.0
+level,classifier__majority,level,Course level,10,4,0,0.0
+level,classifier__majority,level,Course level,10,5,0,0.0
+level,classifier__majority,level,Course level,10,6,0,0.0
+level,classifier__majority,level,Course level,10,7,0,0.0
+level,classifier__majority,level,Course level,10,8,0,0.0
+level,classifier__majority,level,Course level,10,9,0,0.0
+level,classifier__majority,level,Course level,10,10,0,0.0
+level,classifier__majority,level,Course level,10,11,0,0.0
+level,classifier__majority,level,Course level,10,12,0,0.0
+level,classifier__majority,level,Course level,10,13,0,0.0
+level,classifier__majority,level,Course level,10,14,0,0.0
+level,classifier__majority,level,Course level,10,15,0,0.0
+level,classifier__majority,level,Course level,11,1,4210,100.0
+level,classifier__majority,level,Course level,11,2,0,0.0
+level,classifier__majority,level,Course level,11,3,0,0.0
+level,classifier__majority,level,Course level,11,4,0,0.0
+level,classifier__majority,level,Course level,11,5,0,0.0
+level,classifier__majority,level,Course level,11,6,0,0.0
+level,classifier__majority,level,Course level,11,7,0,0.0
+level,classifier__majority,level,Course level,11,8,0,0.0
+level,classifier__majority,level,Course level,11,9,0,0.0
+level,classifier__majority,level,Course level,11,10,0,0.0
+level,classifier__majority,level,Course level,11,11,0,0.0
+level,classifier__majority,level,Course level,11,12,0,0.0
+level,classifier__majority,level,Course level,11,13,0,0.0
+level,classifier__majority,level,Course level,11,14,0,0.0
+level,classifier__majority,level,Course level,11,15,0,0.0
+level,classifier__majority,level,Course level,12,1,2381,100.0
+level,classifier__majority,level,Course level,12,2,0,0.0
+level,classifier__majority,level,Course level,12,3,0,0.0
+level,classifier__majority,level,Course level,12,4,0,0.0
+level,classifier__majority,level,Course level,12,5,0,0.0
+level,classifier__majority,level,Course level,12,6,0,0.0
+level,classifier__majority,level,Course level,12,7,0,0.0
+level,classifier__majority,level,Course level,12,8,0,0.0
+level,classifier__majority,level,Course level,12,9,0,0.0
+level,classifier__majority,level,Course level,12,10,0,0.0
+level,classifier__majority,level,Course level,12,11,0,0.0
+level,classifier__majority,level,Course level,12,12,0,0.0
+level,classifier__majority,level,Course level,12,13,0,0.0
+level,classifier__majority,level,Course level,12,14,0,0.0
+level,classifier__majority,level,Course level,12,15,0,0.0
+level,classifier__majority,level,Course level,13,1,2848,100.0
+level,classifier__majority,level,Course level,13,2,0,0.0
+level,classifier__majority,level,Course level,13,3,0,0.0
+level,classifier__majority,level,Course level,13,4,0,0.0
+level,classifier__majority,level,Course level,13,5,0,0.0
+level,classifier__majority,level,Course level,13,6,0,0.0
+level,classifier__majority,level,Course level,13,7,0,0.0
+level,classifier__majority,level,Course level,13,8,0,0.0
+level,classifier__majority,level,Course level,13,9,0,0.0
+level,classifier__majority,level,Course level,13,10,0,0.0
+level,classifier__majority,level,Course level,13,11,0,0.0
+level,classifier__majority,level,Course level,13,12,0,0.0
+level,classifier__majority,level,Course level,13,13,0,0.0
+level,classifier__majority,level,Course level,13,14,0,0.0
+level,classifier__majority,level,Course level,13,15,0,0.0
+level,classifier__majority,level,Course level,14,1,1087,100.0
+level,classifier__majority,level,Course level,14,2,0,0.0
+level,classifier__majority,level,Course level,14,3,0,0.0
+level,classifier__majority,level,Course level,14,4,0,0.0
+level,classifier__majority,level,Course level,14,5,0,0.0
+level,classifier__majority,level,Course level,14,6,0,0.0
+level,classifier__majority,level,Course level,14,7,0,0.0
+level,classifier__majority,level,Course level,14,8,0,0.0
+level,classifier__majority,level,Course level,14,9,0,0.0
+level,classifier__majority,level,Course level,14,10,0,0.0
+level,classifier__majority,level,Course level,14,11,0,0.0
+level,classifier__majority,level,Course level,14,12,0,0.0
+level,classifier__majority,level,Course level,14,13,0,0.0
+level,classifier__majority,level,Course level,14,14,0,0.0
+level,classifier__majority,level,Course level,14,15,0,0.0
+level,classifier__majority,level,Course level,15,1,603,100.0
+level,classifier__majority,level,Course level,15,2,0,0.0
+level,classifier__majority,level,Course level,15,3,0,0.0
+level,classifier__majority,level,Course level,15,4,0,0.0
+level,classifier__majority,level,Course level,15,5,0,0.0
+level,classifier__majority,level,Course level,15,6,0,0.0
+level,classifier__majority,level,Course level,15,7,0,0.0
+level,classifier__majority,level,Course level,15,8,0,0.0
+level,classifier__majority,level,Course level,15,9,0,0.0
+level,classifier__majority,level,Course level,15,10,0,0.0
+level,classifier__majority,level,Course level,15,11,0,0.0
+level,classifier__majority,level,Course level,15,12,0,0.0
+level,classifier__majority,level,Course level,15,13,0,0.0
+level,classifier__majority,level,Course level,15,14,0,0.0
+level,classifier__majority,level,Course level,15,15,0,0.0
+level,regressor__median,cefr,Numerical level rounded and mapped to CEFR,A1,A1,0,0.0
+level,regressor__median,cefr,Numerical level rounded and mapped to CEFR,A1,A2,162805,100.0
+level,regressor__median,cefr,Numerical level rounded and mapped to CEFR,A1,B1,0,0.0
+level,regressor__median,cefr,Numerical level rounded and mapped to CEFR,A1,B2,0,0.0
+level,regressor__median,cefr,Numerical level rounded and mapped to CEFR,A1,C1,0,0.0
+level,regressor__median,cefr,Numerical level rounded and mapped to CEFR,A2,A1,0,0.0
+level,regressor__median,cefr,Numerical level rounded and mapped to CEFR,A2,A2,110075,100.0
+level,regressor__median,cefr,Numerical level rounded and mapped to CEFR,A2,B1,0,0.0
+level,regressor__median,cefr,Numerical level rounded and mapped to CEFR,A2,B2,0,0.0
+level,regressor__median,cefr,Numerical level rounded and mapped to CEFR,A2,C1,0,0.0
+level,regressor__median,cefr,Numerical level rounded and mapped to CEFR,B1,A1,0,0.0
+level,regressor__median,cefr,Numerical level rounded and mapped to CEFR,B1,A2,52195,100.0
+level,regressor__median,cefr,Numerical level rounded and mapped to CEFR,B1,B1,0,0.0
+level,regressor__median,cefr,Numerical level rounded and mapped to CEFR,B1,B2,0,0.0
+level,regressor__median,cefr,Numerical level rounded and mapped to CEFR,B1,C1,0,0.0
+level,regressor__median,cefr,Numerical level rounded and mapped to CEFR,B2,A1,0,0.0
+level,regressor__median,cefr,Numerical level rounded and mapped to CEFR,B2,A2,15369,100.0
+level,regressor__median,cefr,Numerical level rounded and mapped to CEFR,B2,B1,0,0.0
+level,regressor__median,cefr,Numerical level rounded and mapped to CEFR,B2,B2,0,0.0
+level,regressor__median,cefr,Numerical level rounded and mapped to CEFR,B2,C1,0,0.0
+level,regressor__median,cefr,Numerical level rounded and mapped to CEFR,C1,A1,0,0.0
+level,regressor__median,cefr,Numerical level rounded and mapped to CEFR,C1,A2,4538,100.0
+level,regressor__median,cefr,Numerical level rounded and mapped to CEFR,C1,B1,0,0.0
+level,regressor__median,cefr,Numerical level rounded and mapped to CEFR,C1,B2,0,0.0
+level,regressor__median,cefr,Numerical level rounded and mapped to CEFR,C1,C1,0,0.0
+level,regressor__median,level,Course level,1,1,0,0.0
+level,regressor__median,level,Course level,1,2,0,0.0
+level,regressor__median,level,Course level,1,3,0,0.0
+level,regressor__median,level,Course level,1,4,82149,100.0
+level,regressor__median,level,Course level,1,5,0,0.0
+level,regressor__median,level,Course level,1,6,0,0.0
+level,regressor__median,level,Course level,1,7,0,0.0
+level,regressor__median,level,Course level,1,8,0,0.0
+level,regressor__median,level,Course level,1,9,0,0.0
+level,regressor__median,level,Course level,1,10,0,0.0
+level,regressor__median,level,Course level,1,11,0,0.0
+level,regressor__median,level,Course level,1,12,0,0.0
+level,regressor__median,level,Course level,1,13,0,0.0
+level,regressor__median,level,Course level,1,14,0,0.0
+level,regressor__median,level,Course level,1,15,0,0.0
+level,regressor__median,level,Course level,2,1,0,0.0
+level,regressor__median,level,Course level,2,2,0,0.0
+level,regressor__median,level,Course level,2,3,0,0.0
+level,regressor__median,level,Course level,2,4,48347,100.0
+level,regressor__median,level,Course level,2,5,0,0.0
+level,regressor__median,level,Course level,2,6,0,0.0
+level,regressor__median,level,Course level,2,7,0,0.0
+level,regressor__median,level,Course level,2,8,0,0.0
+level,regressor__median,level,Course level,2,9,0,0.0
+level,regressor__median,level,Course level,2,10,0,0.0
+level,regressor__median,level,Course level,2,11,0,0.0
+level,regressor__median,level,Course level,2,12,0,0.0
+level,regressor__median,level,Course level,2,13,0,0.0
+level,regressor__median,level,Course level,2,14,0,0.0
+level,regressor__median,level,Course level,2,15,0,0.0
+level,regressor__median,level,Course level,3,1,0,0.0
+level,regressor__median,level,Course level,3,2,0,0.0
+level,regressor__median,level,Course level,3,3,0,0.0
+level,regressor__median,level,Course level,3,4,32309,100.0
+level,regressor__median,level,Course level,3,5,0,0.0
+level,regressor__median,level,Course level,3,6,0,0.0
+level,regressor__median,level,Course level,3,7,0,0.0
+level,regressor__median,level,Course level,3,8,0,0.0
+level,regressor__median,level,Course level,3,9,0,0.0
+level,regressor__median,level,Course level,3,10,0,0.0
+level,regressor__median,level,Course level,3,11,0,0.0
+level,regressor__median,level,Course level,3,12,0,0.0
+level,regressor__median,level,Course level,3,13,0,0.0
+level,regressor__median,level,Course level,3,14,0,0.0
+level,regressor__median,level,Course level,3,15,0,0.0
+level,regressor__median,level,Course level,4,1,0,0.0
+level,regressor__median,level,Course level,4,2,0,0.0
+level,regressor__median,level,Course level,4,3,0,0.0
+level,regressor__median,level,Course level,4,4,59791,100.0
+level,regressor__median,level,Course level,4,5,0,0.0
+level,regressor__median,level,Course level,4,6,0,0.0
+level,regressor__median,level,Course level,4,7,0,0.0
+level,regressor__median,level,Course level,4,8,0,0.0
+level,regressor__median,level,Course level,4,9,0,0.0
+level,regressor__median,level,Course level,4,10,0,0.0
+level,regressor__median,level,Course level,4,11,0,0.0
+level,regressor__median,level,Course level,4,12,0,0.0
+level,regressor__median,level,Course level,4,13,0,0.0
+level,regressor__median,level,Course level,4,14,0,0.0
+level,regressor__median,level,Course level,4,15,0,0.0
+level,regressor__median,level,Course level,5,1,0,0.0
+level,regressor__median,level,Course level,5,2,0,0.0
+level,regressor__median,level,Course level,5,3,0,0.0
+level,regressor__median,level,Course level,5,4,31691,100.0
+level,regressor__median,level,Course level,5,5,0,0.0
+level,regressor__median,level,Course level,5,6,0,0.0
+level,regressor__median,level,Course level,5,7,0,0.0
+level,regressor__median,level,Course level,5,8,0,0.0
+level,regressor__median,level,Course level,5,9,0,0.0
+level,regressor__median,level,Course level,5,10,0,0.0
+level,regressor__median,level,Course level,5,11,0,0.0
+level,regressor__median,level,Course level,5,12,0,0.0
+level,regressor__median,level,Course level,5,13,0,0.0
+level,regressor__median,level,Course level,5,14,0,0.0
+level,regressor__median,level,Course level,5,15,0,0.0
+level,regressor__median,level,Course level,6,1,0,0.0
+level,regressor__median,level,Course level,6,2,0,0.0
+level,regressor__median,level,Course level,6,3,0,0.0
+level,regressor__median,level,Course level,6,4,18593,100.0
+level,regressor__median,level,Course level,6,5,0,0.0
+level,regressor__median,level,Course level,6,6,0,0.0
+level,regressor__median,level,Course level,6,7,0,0.0
+level,regressor__median,level,Course level,6,8,0,0.0
+level,regressor__median,level,Course level,6,9,0,0.0
+level,regressor__median,level,Course level,6,10,0,0.0
+level,regressor__median,level,Course level,6,11,0,0.0
+level,regressor__median,level,Course level,6,12,0,0.0
+level,regressor__median,level,Course level,6,13,0,0.0
+level,regressor__median,level,Course level,6,14,0,0.0
+level,regressor__median,level,Course level,6,15,0,0.0
+level,regressor__median,level,Course level,7,1,0,0.0
+level,regressor__median,level,Course level,7,2,0,0.0
+level,regressor__median,level,Course level,7,3,0,0.0
+level,regressor__median,level,Course level,7,4,31858,100.0
+level,regressor__median,level,Course level,7,5,0,0.0
+level,regressor__median,level,Course level,7,6,0,0.0
+level,regressor__median,level,Course level,7,7,0,0.0
+level,regressor__median,level,Course level,7,8,0,0.0
+level,regressor__median,level,Course level,7,9,0,0.0
+level,regressor__median,level,Course level,7,10,0,0.0
+level,regressor__median,level,Course level,7,11,0,0.0
+level,regressor__median,level,Course level,7,12,0,0.0
+level,regressor__median,level,Course level,7,13,0,0.0
+level,regressor__median,level,Course level,7,14,0,0.0
+level,regressor__median,level,Course level,7,15,0,0.0
+level,regressor__median,level,Course level,8,1,0,0.0
+level,regressor__median,level,Course level,8,2,0,0.0
+level,regressor__median,level,Course level,8,3,0,0.0
+level,regressor__median,level,Course level,8,4,12009,100.0
+level,regressor__median,level,Course level,8,5,0,0.0
+level,regressor__median,level,Course level,8,6,0,0.0
+level,regressor__median,level,Course level,8,7,0,0.0
+level,regressor__median,level,Course level,8,8,0,0.0
+level,regressor__median,level,Course level,8,9,0,0.0
+level,regressor__median,level,Course level,8,10,0,0.0
+level,regressor__median,level,Course level,8,11,0,0.0
+level,regressor__median,level,Course level,8,12,0,0.0
+level,regressor__median,level,Course level,8,13,0,0.0
+level,regressor__median,level,Course level,8,14,0,0.0
+level,regressor__median,level,Course level,8,15,0,0.0
+level,regressor__median,level,Course level,9,1,0,0.0
+level,regressor__median,level,Course level,9,2,0,0.0
+level,regressor__median,level,Course level,9,3,0,0.0
+level,regressor__median,level,Course level,9,4,8328,100.0
+level,regressor__median,level,Course level,9,5,0,0.0
+level,regressor__median,level,Course level,9,6,0,0.0
+level,regressor__median,level,Course level,9,7,0,0.0
+level,regressor__median,level,Course level,9,8,0,0.0
+level,regressor__median,level,Course level,9,9,0,0.0
+level,regressor__median,level,Course level,9,10,0,0.0
+level,regressor__median,level,Course level,9,11,0,0.0
+level,regressor__median,level,Course level,9,12,0,0.0
+level,regressor__median,level,Course level,9,13,0,0.0
+level,regressor__median,level,Course level,9,14,0,0.0
+level,regressor__median,level,Course level,9,15,0,0.0
+level,regressor__median,level,Course level,10,1,0,0.0
+level,regressor__median,level,Course level,10,2,0,0.0
+level,regressor__median,level,Course level,10,3,0,0.0
+level,regressor__median,level,Course level,10,4,8778,100.0
+level,regressor__median,level,Course level,10,5,0,0.0
+level,regressor__median,level,Course level,10,6,0,0.0
+level,regressor__median,level,Course level,10,7,0,0.0
+level,regressor__median,level,Course level,10,8,0,0.0
+level,regressor__median,level,Course level,10,9,0,0.0
+level,regressor__median,level,Course level,10,10,0,0.0
+level,regressor__median,level,Course level,10,11,0,0.0
+level,regressor__median,level,Course level,10,12,0,0.0
+level,regressor__median,level,Course level,10,13,0,0.0
+level,regressor__median,level,Course level,10,14,0,0.0
+level,regressor__median,level,Course level,10,15,0,0.0
+level,regressor__median,level,Course level,11,1,0,0.0
+level,regressor__median,level,Course level,11,2,0,0.0
+level,regressor__median,level,Course level,11,3,0,0.0
+level,regressor__median,level,Course level,11,4,4210,100.0
+level,regressor__median,level,Course level,11,5,0,0.0
+level,regressor__median,level,Course level,11,6,0,0.0
+level,regressor__median,level,Course level,11,7,0,0.0
+level,regressor__median,level,Course level,11,8,0,0.0
+level,regressor__median,level,Course level,11,9,0,0.0
+level,regressor__median,level,Course level,11,10,0,0.0
+level,regressor__median,level,Course level,11,11,0,0.0
+level,regressor__median,level,Course level,11,12,0,0.0
+level,regressor__median,level,Course level,11,13,0,0.0
+level,regressor__median,level,Course level,11,14,0,0.0
+level,regressor__median,level,Course level,11,15,0,0.0
+level,regressor__median,level,Course level,12,1,0,0.0
+level,regressor__median,level,Course level,12,2,0,0.0
+level,regressor__median,level,Course level,12,3,0,0.0
+level,regressor__median,level,Course level,12,4,2381,100.0
+level,regressor__median,level,Course level,12,5,0,0.0
+level,regressor__median,level,Course level,12,6,0,0.0
+level,regressor__median,level,Course level,12,7,0,0.0
+level,regressor__median,level,Course level,12,8,0,0.0
+level,regressor__median,level,Course level,12,9,0,0.0
+level,regressor__median,level,Course level,12,10,0,0.0
+level,regressor__median,level,Course level,12,11,0,0.0
+level,regressor__median,level,Course level,12,12,0,0.0
+level,regressor__median,level,Course level,12,13,0,0.0
+level,regressor__median,level,Course level,12,14,0,0.0
+level,regressor__median,level,Course level,12,15,0,0.0
+level,regressor__median,level,Course level,13,1,0,0.0
+level,regressor__median,level,Course level,13,2,0,0.0
+level,regressor__median,level,Course level,13,3,0,0.0
+level,regressor__median,level,Course level,13,4,2848,100.0
+level,regressor__median,level,Course level,13,5,0,0.0
+level,regressor__median,level,Course level,13,6,0,0.0
+level,regressor__median,level,Course level,13,7,0,0.0
+level,regressor__median,level,Course level,13,8,0,0.0
+level,regressor__median,level,Course level,13,9,0,0.0
+level,regressor__median,level,Course level,13,10,0,0.0
+level,regressor__median,level,Course level,13,11,0,0.0
+level,regressor__median,level,Course level,13,12,0,0.0
+level,regressor__median,level,Course level,13,13,0,0.0
+level,regressor__median,level,Course level,13,14,0,0.0
+level,regressor__median,level,Course level,13,15,0,0.0
+level,regressor__median,level,Course level,14,1,0,0.0
+level,regressor__median,level,Course level,14,2,0,0.0
+level,regressor__median,level,Course level,14,3,0,0.0
+level,regressor__median,level,Course level,14,4,1087,100.0
+level,regressor__median,level,Course level,14,5,0,0.0
+level,regressor__median,level,Course level,14,6,0,0.0
+level,regressor__median,level,Course level,14,7,0,0.0
+level,regressor__median,level,Course level,14,8,0,0.0
+level,regressor__median,level,Course level,14,9,0,0.0
+level,regressor__median,level,Course level,14,10,0,0.0
+level,regressor__median,level,Course level,14,11,0,0.0
+level,regressor__median,level,Course level,14,12,0,0.0
+level,regressor__median,level,Course level,14,13,0,0.0
+level,regressor__median,level,Course level,14,14,0,0.0
+level,regressor__median,level,Course level,14,15,0,0.0
+level,regressor__median,level,Course level,15,1,0,0.0
+level,regressor__median,level,Course level,15,2,0,0.0
+level,regressor__median,level,Course level,15,3,0,0.0
+level,regressor__median,level,Course level,15,4,603,100.0
+level,regressor__median,level,Course level,15,5,0,0.0
+level,regressor__median,level,Course level,15,6,0,0.0
+level,regressor__median,level,Course level,15,7,0,0.0
+level,regressor__median,level,Course level,15,8,0,0.0
+level,regressor__median,level,Course level,15,9,0,0.0
+level,regressor__median,level,Course level,15,10,0,0.0
+level,regressor__median,level,Course level,15,11,0,0.0
+level,regressor__median,level,Course level,15,12,0,0.0
+level,regressor__median,level,Course level,15,13,0,0.0
+level,regressor__median,level,Course level,15,14,0,0.0
+level,regressor__median,level,Course level,15,15,0,0.0

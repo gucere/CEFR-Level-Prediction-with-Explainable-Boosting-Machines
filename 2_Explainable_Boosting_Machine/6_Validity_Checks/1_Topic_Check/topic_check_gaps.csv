@@ -1,0 +1,19 @@
+family,algorithm,model,level_macro_f1_seen_minus_unseen,level_accuracy_seen_minus_unseen,level_quadratic_weighted_kappa_seen_minus_unseen,cefr_macro_f1_seen_minus_unseen,regression_mae_seen_minus_unseen
+combined,classifier,main_model_all_topics,0.0,0.0,0.0,0.0,
+combined,classifier,topic_restricted,0.7647434935546265,0.6569386856216224,0.19638243212917744,0.43644651979206295,
+combined,regressor,main_model_all_topics,0.0,0.0,0.0,0.0,0.0
+combined,regressor,topic_restricted,0.1636669200657399,0.2763809581278819,0.08545828492604945,0.13665504997051825,-0.480606232559351
+combined_without_length_correlated_and_duplicate_features,classifier,main_model_all_topics,0.0,0.0,0.0,0.0,
+combined_without_length_correlated_and_duplicate_features,classifier,topic_restricted,0.7616942243676041,0.6513290504976292,0.20170445779514828,0.4417336627086537,
+combined_without_length_correlated_and_duplicate_features,regressor,main_model_all_topics,0.0,0.0,0.0,0.0,0.0
+combined_without_length_correlated_and_duplicate_features,regressor,topic_restricted,0.15967731913843672,0.26109697334883175,0.08727886669963592,0.1357075431883769,-0.47345288852777395
+combined_without_length_correlated_features,classifier,main_model_all_topics,0.0,0.0,0.0,0.0,
+combined_without_length_correlated_features,classifier,topic_restricted,0.7666591127379055,0.6552736090057599,0.20062908833524962,0.4455722689642239,
+combined_without_length_correlated_features,regressor,main_model_all_topics,0.0,0.0,0.0,0.0,0.0
+combined_without_length_correlated_features,regressor,topic_restricted,0.16369302697374735,0.26348984087742644,0.08837543459281272,0.14068076620400805,-0.4814921557426809
+combined,classifier,topic_effect: restricted gap minus main-model gap,0.7647434935546265,0.6569386856216224,0.19638243212917744,0.43644651979206295,
+combined,regressor,topic_effect: restricted gap minus main-model gap,0.1636669200657399,0.2763809581278819,0.08545828492604945,0.13665504997051825,-0.480606232559351
+combined_without_length_correlated_and_duplicate_features,classifier,topic_effect: restricted gap minus main-model gap,0.7616942243676041,0.6513290504976292,0.20170445779514828,0.4417336627086537,
+combined_without_length_correlated_and_duplicate_features,regressor,topic_effect: restricted gap minus main-model gap,0.15967731913843672,0.26109697334883175,0.08727886669963592,0.1357075431883769,-0.47345288852777395
+combined_without_length_correlated_features,classifier,topic_effect: restricted gap minus main-model gap,0.7666591127379055,0.6552736090057599,0.20062908833524962,0.4455722689642239,
+combined_without_length_correlated_features,regressor,topic_effect: restricted gap minus main-model gap,0.16369302697374735,0.26348984087742644,0.08837543459281272,0.14068076620400805,-0.4814921557426809

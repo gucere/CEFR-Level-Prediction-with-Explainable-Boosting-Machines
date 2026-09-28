@@ -1,0 +1,38 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+
+# EFCAMDAT data and anything derived per text: never commit (data licence)
+0_Data/Final database (main prompts).xlsx
+0_Data/raw_texts/
+0_Data/corrected_texts/
+1_Complexity_Analysis_Full_Module/1_Complexity_Analysis_Methods/*/*_results.csv
+1_Complexity_Analysis_Full_Module/1_Complexity_Analysis_Methods/TAALES/taales_results_final*
+1_Complexity_Analysis_Full_Module/1_Complexity_Analysis_Methods/ERRANT/errant_edits.csv.gz
+1_Complexity_Analysis_Full_Module/2_Basic_Analysis/0_Feature_Dataframe/feature_dataframe.*
+1_Complexity_Analysis_Full_Module/2_Basic_Analysis/0_Feature_Dataframe/text_metadata.parquet
+1_Complexity_Analysis_Full_Module/2_Basic_Analysis/0_Feature_Dataframe/dataframe_preview.csv
+1_Complexity_Analysis_Full_Module/2_Basic_Analysis/2_Errant_Analysis/errant_specific_correction_patterns.csv
+2_Explainable_Boosting_Machine/0_Shared_Data_And_Splits/splits.csv
+2_Explainable_Boosting_Machine/*/1_Intermediate_Calculations/
+2_Explainable_Boosting_Machine/5_Cross_Validation/1_Folds/folds.csv
+2_Explainable_Boosting_Machine/6_Validity_Checks/*/runs/
+2_Explainable_Boosting_Machine/6_Validity_Checks/*/logs/
+2_Explainable_Boosting_Machine/5_Cross_Validation/2_Jobs/logs/
+2_Explainable_Boosting_Machine/5_Cross_Validation/2_Jobs/*.log
+
+# Third-party tool code and content (see the notes in each tool folder)
+1_Complexity_Analysis_Full_Module/1_Complexity_Analysis_Methods/LCA/lca_of_Xiaofei_Lu/
+1_Complexity_Analysis_Full_Module/1_Complexity_Analysis_Methods/TAASSC/TAASSC_by_kristopherkyle/
+1_Complexity_Analysis_Full_Module/1_Complexity_Analysis_Methods/L2SCA/L2SCA-2023-08-15/
+1_Complexity_Analysis_Full_Module/1_Complexity_Analysis_Methods/TAALES/taales_2.2_windows_7_8_10/
+1_Complexity_Analysis_Full_Module/1_Complexity_Analysis_Methods/POLKE/polke-main/
+
+# Pipeline scratch space and job locks
+.ebm_analysis_*/
+.reports_*/
+.prepare_*/
+**/.*.lock

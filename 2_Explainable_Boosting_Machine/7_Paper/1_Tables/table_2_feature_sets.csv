@@ -1,0 +1,17 @@
+﻿Feature set,Name in the code,Features used
+All features,combined,1719
+All − direct length,combined_without_length_features,1710
+All − counts and length-dependent (main),combined_without_length_correlated_features,1675
+All − near-duplicates,combined_without_duplicate_features,1184
+All − direct length and near-duplicates,combined_without_length_and_duplicate_features,1182
+"All − counts, length-dependent and near-duplicates",combined_without_length_correlated_and_duplicate_features,1158
+All + error composition,combined_plus_error_composition,1722
+Complexity (no ERRANT),complexity,1650
+Complexity − direct length,complexity_without_length_features,1641
+Complexity − counts and length-dependent,complexity_without_length_correlated_features,1613
+Top 200 by mutual information,training_mutual_information_features,200
+Top 200 by information gain,training_information_gain_features,200
+POLKE only,polke,618
+ERRANT error rates only,accuracy,69
+Text length only,length_only,9
+Majority class / median level,majority,0

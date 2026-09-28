@@ -1,0 +1,25 @@
+{
+  "dataset_id": "ff253cb8d5bf1d458f50a022c256536fbf77150a457c1cc51f72f7b6d6ac9a22",
+  "folds_sha256": "85359a9b84a0ba974d78be04c650c88708283d2e9b2c9647a738bd2899748213",
+  "fold": 1,
+  "min_observations": 20,
+  "seed": 42,
+  "kind": "fit",
+  "task": "level",
+  "algorithm": "classifier",
+  "feature_set": "combined",
+  "columns_sha256": "dc657826a10a9c886a9233ffb12cbbb7845caa277dfeb77d016173567f535f01",
+  "rounds": 200,
+  "interactions": 0,
+  "max_bins": 128,
+  "learning_rate": 0.04,
+  "outer_bags": 1,
+  "class_weight": "balanced",
+  "packages": {
+    "interpret": "0.7.8",
+    "scikit-learn": "1.9.0",
+    "numpy": "2.1.2",
+    "duckdb": "1.5.5",
+    "pandas": "3.0.5"
+  }
+}

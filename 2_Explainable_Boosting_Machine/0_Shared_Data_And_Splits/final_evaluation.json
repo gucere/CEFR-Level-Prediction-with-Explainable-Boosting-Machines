@@ -1,0 +1,61 @@
+{
+  "dataset_id": "ff253cb8d5bf1d458f50a022c256536fbf77150a457c1cc51f72f7b6d6ac9a22",
+  "locations": {
+    "cefr": "Thesis/2_Explainable_Boosting_Machine/2_CEFR_Classification",
+    "level": "Thesis/2_Explainable_Boosting_Machine/3_Level_Prediction"
+  },
+  "runs": {
+    "cefr": {
+      "classifier__accuracy": "d6f9516d43156a155381dbce00a6deed6e0ebab8b3d1f402696dccf18d4d6d0c",
+      "classifier__combined": "886236720d5b9829c5e8cf3aa603e5918c7318841a4f7d1bff7ecc4e82a47614",
+      "classifier__combined_plus_error_composition": "2ff15e05564c1e0c74c35816bebe18e665e44aec16917ff767860434ab196e68",
+      "classifier__combined_without_duplicate_features": "74963a0ab173ceddfdd83a1bdda6daabb6dcf8fe224d99530ba106eddccd8940",
+      "classifier__combined_without_length_and_duplicate_features": "969369e1496ab992cbe55f027b0dd61146373459fb73bf2914765ef7fb735bc1",
+      "classifier__combined_without_length_correlated_and_duplicate_features": "080cf012ff684179bd276f176a03549fb677e8fec929f6064cf949beb45da03e",
+      "classifier__combined_without_length_correlated_features": "ec907d1edca6fedaefc96fd5611d4b93e50d031c08f59984ff30806905ed9f8f",
+      "classifier__combined_without_length_features": "9ef4a0c4e43ecaaf5dafc79c3c7e8fa9a0f45d3c109339d38f091dafd7eb91d6",
+      "classifier__complexity": "4a5e1e8578e7f32247a5a25d5058995877bb607258d7404073e88b468da728eb",
+      "classifier__complexity_without_length_correlated_features": "751e7634d60486dbaf65972e96c1564941a4eb8fce6dda976fa32b6f980e31ca",
+      "classifier__complexity_without_length_features": "d55c48e10c7cdf3c998e24c80272206109c494d0cfe479cd4662da84b6e2e3f3",
+      "classifier__length_only": "bcddc0f1fe46f175802ba70ad1c2ad07fdf305bcdddaa53872e5a85368a71633",
+      "classifier__majority": "587db538cbdf9ad1541de0b7a970df8913136b40757eb60309fdf3c5a8d4fdc7",
+      "classifier__polke": "0d9f50065f765e5dbcc76f6eb6b3363990b778819d16f0fdce757a7884db5289",
+      "classifier__training_information_gain_features": "0418d2bc0a50b59f15cf549b1506baa40c2af0bd8ca37da5d0781990f7a9cd75",
+      "classifier__training_mutual_information_features": "0d863c2254c234472546de69bfca7c6cac91b46251a3789627f5a04c69291566"
+    },
+    "level": {
+      "classifier__accuracy": "a00a5fffca85644c37b43b5988b169f7958a7ebf64bd8f1e71dac0c0ea25bf3c",
+      "classifier__combined": "89a2271841da5d13d6ab0dd4a28e0f6199985225418fa9bb18a5a2c062e58a75",
+      "classifier__combined_plus_error_composition": "d0f6fd6fe4a1d5650217652d42703c87c09e02829d22afc4fa012251bccb8657",
+      "classifier__combined_without_duplicate_features": "5a802e7b03111a021f6f5c1e4b761826764932e5d6a33e389d15fe49b0710a7b",
+      "classifier__combined_without_length_and_duplicate_features": "8c8b0018a739cc4e6a4e6e1548869b90507ae6e2b3d74a3d49155ddcaebc8721",
+      "classifier__combined_without_length_correlated_and_duplicate_features": "66c92f7028156cc3f1ebec35806fc0f4839567d21bf58db3406f643fdb831bcd",
+      "classifier__combined_without_length_correlated_features": "615ad6c5b0c96c86ee469250c3a8162d9f570309ac5bd295c4e560c89ff2a1d9",
+      "classifier__combined_without_length_features": "59fa7efe69e2e21e05d7c2a1be25cd5428eea5ed22566483a3645382cea9d5bf",
+      "classifier__complexity": "0839ed7c8bfb176ae5f009ff978f125fbc8aad269dd8b295a16aec31eeb14284",
+      "classifier__complexity_without_length_correlated_features": "6f3a652821edb96dcdc9fe4bb711c7781fa3eba313d012ca91cb49c1a4e3f87d",
+      "classifier__complexity_without_length_features": "32625e45e3ed76f1297ebc117a3be692d12ce07ce25cc723d78307697e40d884",
+      "classifier__length_only": "5e01db1b49df10a36e6188dabe36f682a527c37f6cefdd6233145da42f2a1fc6",
+      "classifier__majority": "cdef206a5bf0967aa3af47afff3fda161aabcab8fde9f21e16dc965d75c3d5ca",
+      "classifier__polke": "58a2ab21f3f5b276909b5b5d499eee247830561cdf4b9c4cdcd896d9704f02cf",
+      "classifier__training_information_gain_features": "dbdf6a232f536c437fd936f29c921f66a9353dd6be915764740333a7f5e23754",
+      "classifier__training_mutual_information_features": "5fd878c7125387581d2fa8f0218bcbb0b5f06bfb833cd1fabc35f1e602e2b05a",
+      "regressor__accuracy": "6b2cdc8ca10fc942a8f72efdd3cdf7f47d111075a2b4062f6dd773fd661ef67e",
+      "regressor__combined": "da5e23a31214926810ee223e5523aef3e0e2f881f900bd2e90d7159ad2f96fa6",
+      "regressor__combined_plus_error_composition": "81025ccf3af5caf27b742cd4960499286fc7c20af11730a8770eef20595b973f",
+      "regressor__combined_without_duplicate_features": "b1acf083b754c92d0a4acd2dc1f9b1898489d030ff6a6ca8f284adae09a59d18",
+      "regressor__combined_without_length_and_duplicate_features": "243b7611e16543acd53199283162c5469318077d5860e889329399f57f11c02f",
+      "regressor__combined_without_length_correlated_and_duplicate_features": "7c2c30fd6736c062a9237838dab51b68d52e87c4e37ad4886738a463d1dc7b4f",
+      "regressor__combined_without_length_correlated_features": "092463984680be00f84814d259ded58bbad5886e3ef37dffe0f15252a596a324",
+      "regressor__combined_without_length_features": "5789bde53e318d00a13ae93c1506496ff841030a2cfdc0cfcd2b2105361e5528",
+      "regressor__complexity": "98dc5d949d7640e464f56bcd0028c8b02e3ee52dbd53485dfe8aea68c8c26cc8",
+      "regressor__complexity_without_length_correlated_features": "e4f5c80627d67a073e2ab2b1893117a9d0aeea56d07d83fc41f876d5a71ccbaf",
+      "regressor__complexity_without_length_features": "d39e3417ce96e3b2dfc483b41a1f55af8bf149b634bfe094544090194491a9f7",
+      "regressor__length_only": "422bf9a6ae234a23756e78940a89a0be83a95e2d02830bbd66f7871fa3f8cd20",
+      "regressor__median": "8aaca174d1d24b1e2f89eaf2c6527aa4cea837738d7fe842e39c1aa1a0dc5e58",
+      "regressor__polke": "74ac819b6f757e4863b9d480ab07756a9ecc0a9df17789bdb873bcf710df2f58",
+      "regressor__training_information_gain_features": "67c7560b178c354b6addc8cf1ef1c08f3f4a7ffceb7517c67978e811591b1ea4",
+      "regressor__training_mutual_information_features": "27e1d16470c6bbe901a164b756ba04a1e21251581cb8c94cb0b12e8e50e372ad"
+    }
+  }
+}

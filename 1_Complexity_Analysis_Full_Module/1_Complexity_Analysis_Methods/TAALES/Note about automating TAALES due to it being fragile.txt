@@ -1,0 +1,1 @@
+TAALES is a very fragile software that crashes too often. Therefore, I've created the automation that runs it in batches and merges the results. This automation is prone to errors. Even after errors it will restart and keep track of failed files to be tried again at the end of the run.
