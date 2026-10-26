@@ -1,0 +1,68 @@
+{
+  "rows": 406062,
+  "columns": 1786,
+  "feature_counts": {
+    "complexity": 1712,
+    "accuracy": 72
+  },
+  "identifier": "text_id",
+  "target": "cefr_level",
+  "sources": {
+    "LCA": {
+      "file": "lca_results.csv",
+      "bytes": 84677336,
+      "modified_ns": 1784309503462865500
+    },
+    "L2SCA": {
+      "file": "l2sca_results.csv",
+      "bytes": 61863022,
+      "modified_ns": 1784550799424582200
+    },
+    "TAASSC": {
+      "file": "taassc_results.csv",
+      "bytes": 483506557,
+      "modified_ns": 1784561659296058400
+    },
+    "TAALES": {
+      "file": "taales_results_final.csv",
+      "bytes": 2600717623,
+      "modified_ns": 1784976572915234000
+    },
+    "TAALES_COVERAGE": {
+      "file": "taales_results_final_index_coverage.csv",
+      "bytes": 1633290910,
+      "modified_ns": 1784976584798210500
+    },
+    "POLKE": {
+      "file": "polke_results.csv",
+      "bytes": 725005631,
+      "modified_ns": 1786449021790492600
+    },
+    "ERRANT": {
+      "file": "errant_results.csv",
+      "bytes": 163119366,
+      "modified_ns": 1789488939416299000
+    }
+  },
+  "source_row_counts": {
+    "LCA": 406062,
+    "L2SCA": 406062,
+    "TAASSC": 406062,
+    "TAALES": 406062,
+    "TAALES_COVERAGE": 406062,
+    "POLKE": 406062,
+    "ERRANT": 406062
+  },
+  "memory_limit": "3660MiB",
+  "cefr_counts": {
+    "A1": 191663,
+    "A2": 129591,
+    "B1": 61506,
+    "B2": 18187,
+    "C1": 5115
+  },
+  "numeric_storage": "float64; missing/non-numeric/nonfinite measurements are null, never zero-filled",
+  "row_policy": "All source IDs and CEFR labels must match exactly; one row per text.",
+  "feature_policy": "Existing complexity measurements, ERRANT error counts/rates and accuracy proxies; no statistical feature selection.",
+  "preview": "First 100 rows ordered by text_id; same columns as the full dataframe."
+}

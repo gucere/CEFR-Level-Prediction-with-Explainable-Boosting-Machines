@@ -1,0 +1,110 @@
+MUTUAL INFORMATION SUMMARY
+========================================================================
+Sources analyzed: LCA, L2SCA, TAASSC, TAALES, TAALES_COVERAGE, POLKE, ERRANT
+Sources skipped: none
+Features scored: 1,776
+Features that are not length-dependent: 1,739
+Length-dependent features removed: 37
+Nearest neighbours: 3
+Random state: 42
+
+Normalized MI = MI divided by the entropy of the available level labels.
+A higher score indicates stronger dependence but gives no direction.
+Scores are univariate and do not measure feature interactions.
+The filtered version removes the length-dependent features.
+Length-dependent features are the features on either section-1 length list: blacklist_1_direct_length_features.csv (numbers of words and different words) and blacklist_2_length_correlated_features.csv (other raw counts, and measures that still follow text length within course levels).
+
+TOP 25 FEATURES (ALL FEATURES)
+------------------------------
+1. TAALES | Word Count: MI=0.647425, normalized=0.294963
+2. POLKE | word_count: MI=0.646065, normalized=0.294344
+3. LCA | wordtokens: MI=0.624772, normalized=0.284643
+4. TAASSC | nwords: MI=0.622353, normalized=0.283541
+5. L2SCA | W: MI=0.617844, normalized=0.281486
+6. LCA | wordtypes: MI=0.615091, normalized=0.280232
+7. LCA | ndw: MI=0.613178, normalized=0.279360
+8. TAASSC | mattr: MI=0.605516, normalized=0.275870
+9. LCA | lextokens: MI=0.562875, normalized=0.256443
+10. LCA | lextypes: MI=0.552385, normalized=0.251663
+11. POLKE | total_annotations: MI=0.550331, normalized=0.250728
+12. POLKE | unique_constructs: MI=0.518538, normalized=0.236243
+13. LCA | uber: MI=0.517079, normalized=0.235578
+14. TAASSC | mean_nominal_deps: MI=0.511617, normalized=0.233090
+15. TAALES | BNC_Spoken_Range_FW: MI=0.481894, normalized=0.219548
+16. LCA | svv1: MI=0.473761, normalized=0.215843
+17. TAALES | eat_tokens_FW: MI=0.472108, normalized=0.215090
+18. LCA | cvv1: MI=0.468332, normalized=0.213370
+19. LCA | rttr: MI=0.464342, normalized=0.211552
+20. TAALES_COVERAGE | TL_Freq_AW_Log: MI=0.456817, normalized=0.208123
+21. TAALES_COVERAGE | TL_Freq_AW: MI=0.455993, normalized=0.207748
+22. LCA | cttr: MI=0.447349, normalized=0.203810
+23. LCA | ndwerz: MI=0.445931, normalized=0.203164
+24. LCA | ndwesz: MI=0.443325, normalized=0.201977
+25. TAASSC | mean_verbal_deps: MI=0.440620, normalized=0.200744
+
+TOP 25 FEATURES (WITHOUT LENGTH-DEPENDENT FEATURES)
+---------------------------------------------------
+1. LCA | uber: MI=0.517079, normalized=0.235578
+2. TAALES | BNC_Spoken_Range_FW: MI=0.481894, normalized=0.219548
+3. TAALES | eat_tokens_FW: MI=0.472108, normalized=0.215090
+4. TAALES_COVERAGE | TL_Freq_AW_Log: MI=0.456817, normalized=0.208123
+5. TAALES_COVERAGE | TL_Freq_AW: MI=0.455993, normalized=0.207748
+6. TAALES_COVERAGE | Kuperman_AoA_AW: MI=0.430826, normalized=0.196282
+7. TAASSC | nonfinite_prop: MI=0.430696, normalized=0.196223
+8. TAALES_COVERAGE | Sem_D: MI=0.428066, normalized=0.195025
+9. TAALES | hyper_verb_Sav_P1: MI=0.422573, normalized=0.192522
+10. TAALES | hyper_verb_Sav_Pav: MI=0.422308, normalized=0.192401
+11. TAALES | PLD_FW: MI=0.416393, normalized=0.189707
+12. TAASSC | activity_verb: MI=0.412268, normalized=0.187827
+13. TAALES_COVERAGE | fw_percentage: MI=0.410009, normalized=0.186798
+14. TAALES_COVERAGE | cw_percentage: MI=0.409879, normalized=0.186739
+15. TAALES_COVERAGE | PLDF: MI=0.407395, normalized=0.185607
+16. TAALES_COVERAGE | SUBTLEXus_Range_AW_Log: MI=0.407114, normalized=0.185479
+17. TAASSC | det_dep: MI=0.407030, normalized=0.185441
+18. TAALES_COVERAGE | SUBTLEXus_Freq_AW: MI=0.406647, normalized=0.185266
+19. TAALES_COVERAGE | OLD: MI=0.406504, normalized=0.185201
+20. TAALES_COVERAGE | SUBTLEXus_Freq_AW_Log: MI=0.406318, normalized=0.185116
+21. TAALES_COVERAGE | SUBTLEXus_Range_AW: MI=0.406285, normalized=0.185101
+22. TAASSC | det_nominal: MI=0.406190, normalized=0.185058
+23. TAALES_COVERAGE | PLD: MI=0.405969, normalized=0.184957
+24. TAALES_COVERAGE | OLDF: MI=0.405653, normalized=0.184813
+25. TAASSC | pp1: MI=0.403131, normalized=0.183664
+
+For unbiased model evaluation, feature selection must be repeated using
+training data only inside each cross-validation fold.
+
+GRAMMAR DEVELOPMENT CONTEXT
+POLKE structures in this feature set: 667
+With corpus progression information: 667
+Corpus progression is descriptive context; predictor values, rankings and weights do not use it.
+Corpus common-usage threshold: 5% of texts
+  not common: 314
+  not observed: 50
+  sustained usage: 205
+  too few later levels: 11
+  usage not sustained: 87
+  polke_63_per_100_words | Can form simple noun phrases with a limited range of determiners + singular and plural nouns. ► Nouns and noun phrases: functions | first common: 1 | sustained from: 1
+  polke_67_per_100_words | Can use a limited range of common nouns. | first common: 1 | sustained from: 1
+  polke_78_per_100_words | Can use a limited range of simple (single-word) prepositions. | first common: 1 | sustained from: 1
+  polke_82_per_100_words | Can use the affirmative form with a limited range of regular and irregular verbs. | first common: 1 | sustained from: 1
+  polke_72_per_100_words | Can use nouns and noun phrases as objects of the clause. | first common: 1 | sustained from: 1
+  polke_312_per_100_words | Can use the affirmative form with an increasing range of regular and irregular verbs. | first common: 1 | sustained from: 1
+  polke_37_per_100_words | Can use articles 'the', 'a' and 'an' before nouns. ► noun phrases | first common: 1 | sustained from: 1
+  polke_301_per_100_words | Can use an increasing range of simple (single-word) prepositions. | first common: 1 | sustained from: 1
+  polke_79_per_100_words | Can form prepositional phrases with a preposition and a noun phrase. | first common: 1 | sustained from: 1
+  polke_71_per_100_words | Can use nouns and noun phrases as subjects of the clause. | first common: 1 | sustained from: 1
+  polke_277_per_100_words | Can form some irregular plural nouns. | first common: 1 | sustained from: 1
+  polke_279_per_100_words | Can use a limited range of uncountable nouns. | first common: 1 | sustained from: 1
+  polke_92_per_100_words | Can use the pronouns 'I', 'you', 'he', 'she', 'it', 'we' and 'they' in the subject position before a verb in statements. | first common: 1 | sustained from: 1
+  polke_73_per_100_words | Can use nouns and noun phrases as complements of prepositions in prepositional phrases. | first common: 1 | sustained from: 1
+  polke_70_per_100_words | Can form plurals by adding '-s' to common countable nouns. | first common: 1 | sustained from: 1
+  polke_860_per_100_words | Can use uncountable nouns without a definite article to refer to an abstract thing in general. | first common: 1 | sustained from: 1
+  polke_46_per_100_words | Can use possessive determiners 'my', 'your', 'his', 'her' and 'our' before nouns. ► noun phrases ► possessive pronouns | first common: 1 | sustained from: 1
+  polke_280_per_100_words | Can use uncountable nouns with 'the' to talk about something specific. | first common: 1 | sustained from: 1
+  polke_48_per_100_words | Can use a limited range of quantifying determiners with singular nouns ('a', 'every').► determiners: articles | first common: 1 | sustained from: 1
+  polke_477_per_100_words | Can use no article before an increasing range of nouns in some fixed expressions with prepositions. | first common: 1 | sustained from: 1
+  polke_68_per_100_words | Can use proper nouns with a capital letter to refer to specific people, places, days and things. | first common: 1 | sustained from: 1
+  polke_66_per_100_words | Can form noun phrases by pre-modifying a limited range of nouns with another noun. | first common: 1 | sustained from: 1
+  polke_688_per_100_words | Can use an increasing range of prepositional verbs followed by noun or pronoun objects. | first common: 1 | sustained from: 1
+  polke_69_per_100_words | Can use a range of compound nouns, as one-word, two-word and hyphenated compounds, formed from verb + noun, noun + noun and adjective + noun combinations. | first common: 1 | sustained from: 1
+  polke_959_per_100_words | Can use a wide range of linking verbs with complements. | first common: 1 | sustained from: 1

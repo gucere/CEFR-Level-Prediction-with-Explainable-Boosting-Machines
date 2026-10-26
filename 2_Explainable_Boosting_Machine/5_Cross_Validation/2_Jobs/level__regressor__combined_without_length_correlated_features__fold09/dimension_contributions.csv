@@ -1,0 +1,6 @@
+dimension,output,features,contribution
+lexical_diversity_and_density,numerical_level,14,0.13277453539759368
+syntactic_complexity,numerical_level,148,0.8269070876220004
+lexical_sophistication,numerical_level,836,0.8059451463070731
+grammatical_constructions,numerical_level,616,0.6036056866332683
+accuracy,numerical_level,63,0.02027861116134116

@@ -1,0 +1,110 @@
+INFORMATION GAIN SUMMARY
+========================================================================
+Definition: entropy reduction from each feature's best binary split
+Minimum observations on either split side: 0.500%
+Sources analyzed: LCA, L2SCA, TAASSC, TAALES, TAALES_COVERAGE, POLKE, ERRANT
+Sources skipped: none
+Features scored: 1,776
+Features that are not length-dependent: 1,739
+Length-dependent features removed: 37
+Random state: 42
+
+Normalized Information Gain = split gain divided by target entropy.
+The direction compares mean levels below and above the selected threshold.
+Scores are univariate and do not measure feature interactions.
+The filtered version removes the length-dependent features.
+Length-dependent features are the features on either section-1 length list: blacklist_1_direct_length_features.csv (numbers of words and different words) and blacklist_2_length_correlated_features.csv (other raw counts, and measures that still follow text length within course levels).
+
+TOP 25 FEATURES (ALL FEATURES)
+------------------------------
+1. POLKE | word_count: IG=0.533634 bits, normalized=0.168518, threshold=49.5
+2. TAALES | Word Count: IG=0.532038 bits, normalized=0.168014, threshold=49.5
+3. LCA | wordtokens: IG=0.525667 bits, normalized=0.166002, threshold=49.5
+4. TAASSC | nwords: IG=0.525448 bits, normalized=0.165933, threshold=49.5
+5. L2SCA | W: IG=0.515120 bits, normalized=0.162672, threshold=49.5
+6. LCA | ndw: IG=0.492010 bits, normalized=0.155374, threshold=37.5
+6. LCA | wordtypes: IG=0.492010 bits, normalized=0.155374, threshold=37.5
+8. POLKE | total_annotations: IG=0.475706 bits, normalized=0.150225, threshold=108.5
+9. TAASSC | mattr: IG=0.469656 bits, normalized=0.148314, threshold=144.596
+10. LCA | lextokens: IG=0.463015 bits, normalized=0.146217, threshold=24.5
+11. LCA | lextypes: IG=0.462299 bits, normalized=0.145991, threshold=22.5
+12. POLKE | unique_constructs: IG=0.459241 bits, normalized=0.145026, threshold=46.5
+13. TAASSC | mean_nominal_deps: IG=0.397348 bits, normalized=0.125480, threshold=238.017
+14. LCA | ndwerz: IG=0.395326 bits, normalized=0.124841, threshold=32.05
+15. LCA | cttr: IG=0.382885 bits, normalized=0.120913, threshold=3.825
+16. LCA | rttr: IG=0.382380 bits, normalized=0.120753, threshold=5.415
+17. LCA | ndwesz: IG=0.367311 bits, normalized=0.115995, threshold=32.05
+18. L2SCA | VP: IG=0.355842 bits, normalized=0.112373, threshold=8.5
+19. LCA | ndwz: IG=0.341392 bits, normalized=0.107810, threshold=31.5
+20. LCA | cvv1: IG=0.323668 bits, normalized=0.102213, threshold=1.585
+20. LCA | svv1: IG=0.323668 bits, normalized=0.102213, threshold=5.02
+22. L2SCA | CN: IG=0.282574 bits, normalized=0.089235, threshold=5.5
+23. L2SCA | C: IG=0.271883 bits, normalized=0.085859, threshold=7.5
+24. TAALES | MRC_Imageability_AW: IG=0.263803 bits, normalized=0.083308, threshold=356.583
+25. TAALES | Kuperman_AoA_AW: IG=0.262849 bits, normalized=0.083006, threshold=4.71534
+
+TOP 25 FEATURES (WITHOUT LENGTH-DEPENDENT FEATURES)
+---------------------------------------------------
+1. TAALES | MRC_Imageability_AW: IG=0.263803 bits, normalized=0.083308, threshold=356.583
+2. TAALES | Kuperman_AoA_AW: IG=0.262849 bits, normalized=0.083006, threshold=4.71534
+3. TAALES | Kuperman_AoA_CW: IG=0.261689 bits, normalized=0.082640, threshold=5.08796
+4. TAALES | All_AWL_Normed: IG=0.260546 bits, normalized=0.082279, threshold=0.00209205
+5. TAALES | MRC_Meaningfulness_AW: IG=0.235008 bits, normalized=0.074214, threshold=385.68
+6. TAALES | MRC_Concreteness_AW: IG=0.228384 bits, normalized=0.072122, threshold=330.658
+7. TAALES_COVERAGE | TL_Freq_AW: IG=0.226422 bits, normalized=0.071503, threshold=0.75061
+7. TAALES_COVERAGE | TL_Freq_AW_Log: IG=0.226422 bits, normalized=0.071503, threshold=0.75061
+9. TAASSC | poss_nominal: IG=0.221263 bits, normalized=0.069874, threshold=53.6492
+10. POLKE | polke_588_per_100_words: IG=0.219070 bits, normalized=0.069181, threshold=0.208333
+11. TAALES | poly_adv: IG=0.214992 bits, normalized=0.067893, threshold=1.13393
+12. POLKE | polke_586_per_100_words: IG=0.213442 bits, normalized=0.067404, threshold=0.208333
+13. TAALES_COVERAGE | Kuperman_AoA_AW: IG=0.211380 bits, normalized=0.066753, threshold=0.800552
+14. LCA | advv: IG=0.202319 bits, normalized=0.063891, threshold=0.005
+15. TAALES_COVERAGE | poly_adv: IG=0.197496 bits, normalized=0.062368, threshold=0.133929
+16. TAALES | hyper_verb_Sav_Pav: IG=0.193781 bits, normalized=0.061195, threshold=1.3158
+17. TAALES | SUBTLEXus_Range_FW_Log: IG=0.193267 bits, normalized=0.061033, threshold=3.9213
+18. TAALES | hyper_verb_Sav_P1: IG=0.193195 bits, normalized=0.061010, threshold=1.3158
+19. TAALES | SUBTLEXus_Range_FW: IG=0.191976 bits, normalized=0.060625, threshold=8340.99
+20. TAASSC | dc_c: IG=0.191488 bits, normalized=0.060471, threshold=1.15741
+20. TAASSC | finite_dep_clause: IG=0.191488 bits, normalized=0.060471, threshold=20.4082
+22. TAALES_COVERAGE | cw_percentage: IG=0.188546 bits, normalized=0.059542, threshold=0.692084
+22. TAALES_COVERAGE | fw_percentage: IG=0.188546 bits, normalized=0.059542, threshold=0.307916
+24. TAASSC | nominalization: IG=0.181378 bits, normalized=0.057278, threshold=19.7628
+25. POLKE | polke_63_per_100_words: IG=0.180375 bits, normalized=0.056961, threshold=0.227273
+
+For unbiased model evaluation, feature selection must be repeated using
+training data only inside each cross-validation fold.
+
+GRAMMAR DEVELOPMENT CONTEXT
+POLKE structures in this feature set: 313
+With corpus progression information: 313
+Corpus progression is descriptive context; predictor values, rankings and weights do not use it.
+Corpus common-usage threshold: 5% of texts
+  not common: 26
+  sustained usage: 205
+  too few later levels: 6
+  usage not sustained: 76
+  polke_588_per_100_words | Can use an increasing range of uncountable nouns. | first common: 1 | sustained from: 1
+  polke_586_per_100_words | Can use an increasing range of common nouns. | first common: 1 | sustained from: 1
+  polke_63_per_100_words | Can form simple noun phrases with a limited range of determiners + singular and plural nouns. ► Nouns and noun phrases: functions | first common: 1 | sustained from: 1
+  polke_460_per_100_words | Can use a defining relative clause with 'who' or 'that' as the object. | first common: 4 | sustained from: 4
+  polke_280_per_100_words | Can use uncountable nouns with 'the' to talk about something specific. | first common: 1 | sustained from: 1
+  polke_37_per_100_words | Can use articles 'the', 'a' and 'an' before nouns. ► noun phrases | first common: 1 | sustained from: 1
+  polke_636_per_100_words | Can end a reported question clause and a relative clause with a preposition, where the preposition is stranded from its complement. ► Clauses: relative | first common: 1 | sustained from: 1
+  polke_48_per_100_words | Can use a limited range of quantifying determiners with singular nouns ('a', 'every').► determiners: articles | first common: 1 | sustained from: 1
+  polke_187_per_100_words | Can use a limited range of simple subordinating conjunctions '(if, when, so, while)' to introduce a subordinate clause. | first common: 4 | sustained from: 4
+  polke_290_per_100_words | Can use the affirmative form with an increasing range of verbs. | first common: 3 | sustained from: 3
+  polke_959_per_100_words | Can use a wide range of linking verbs with complements. | first common: 1 | sustained from: 1
+  polke_372_per_100_words | Can use an increasing range of verbs followed by a 'to'-infinitive. | first common: 1 | sustained from: 1
+  polke_695_per_100_words | Can use a wide range of verbs followed by a 'to-' infinitive. | first common: 1 | sustained from: 1
+  polke_271_per_100_words | Can post-modify noun phrases by using a non-defining relative clause. ► Clauses: relative | first common: 4 | sustained from: 4
+  polke_100_per_100_words | Can use a limited range of modal auxiliary verbs ('can', 'will', 'would'). | first common: 1 | sustained from: 1
+  polke_64_per_100_words | Can form simple noun phrases by pre-modifying singular and plural nouns with an adjective after a determiner. | first common: 1 | sustained from: 1
+  polke_82_per_100_words | Can use the affirmative form with a limited range of regular and irregular verbs. | first common: 1 | sustained from: 1
+  polke_27_per_100_words | Can form an affirmative declarative clause with modal verbs. | first common: 1 | sustained from: 1
+  polke_47_per_100_words | Can use a limited range of quantifying determiners with plural nouns ('some', 'lots of', 'a lot of' and numbers). | first common: 1 | sustained from: 1
+  polke_98_per_100_words | Can use linking verb 'be'. | first common: 1 | sustained from: 1
+  polke_930_per_100_words | Can leave out the subject pronoun with a limited range of verbs, in informal contexts. ► ellipsis | first common: 1 | sustained from: 1
+  polke_273_per_100_words | Can use possessive determiner ''s' with a singular noun. | first common: 1 | sustained from: 7
+  polke_38_per_100_words | Can use 'a' and 'an' before adjectives in a noun phrase. ► adjectives ►  noun phrases | first common: 1 | sustained from: 1
+  polke_613_per_100_words | Can use the affirmative form with a wide range of verbs. | first common: 4 | sustained from: 4
+  polke_101_per_100_words | Can use a limited range of verbs followed by a 'to'- infinitive. | first common: 1 | sustained from: 1

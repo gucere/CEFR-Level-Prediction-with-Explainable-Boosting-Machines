@@ -1,0 +1,250 @@
+[
+  {
+    "feature": "complexity__TAASSC__modal_possibility",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__TAASSC__modal_necessity",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__TAASSC__modal_predictive",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__TAASSC__attitudinal_adj",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__TAASSC__likelihood_adj",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__TAASSC__certainty_adj",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__TAASSC__ability_willingness_adj",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__TAASSC__personal_affect_adj",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__TAASSC__ease_difficulty_adj",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__TAASSC__evaluative_adj",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_97_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_104_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_105_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_111_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_130_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_153_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_173_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_175_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_176_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_177_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_178_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_179_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_180_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_181_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_182_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_272_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_284_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_285_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_338_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_377_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_385_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_386_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_488_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_596_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_646_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_719_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_724_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_768_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_798_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_801_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_900_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_923_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_932_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_954_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_966_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_990_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_1020_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_1040_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_1045_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_1147_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_1152_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_1161_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_1162_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_1166_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_1167_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_1168_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_1172_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_1176_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_1182_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_1184_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "complexity__POLKE__polke_1185_per_100_words",
+    "reason": "constant_in_training"
+  },
+  {
+    "feature": "accuracy__ERRANT__other_errors_per_100_words",
+    "reason": "constant_in_training"
+  }
+]

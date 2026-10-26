@@ -1,0 +1,23 @@
+{
+  "dataset_id": "ff253cb8d5bf1d458f50a022c256536fbf77150a457c1cc51f72f7b6d6ac9a22",
+  "folds": 10,
+  "seed": 42,
+  "method": "StratifiedGroupKFold over training and validation texts: grouped by learner, stratified by course level; the test texts are not used",
+  "texts": 344982,
+  "learners": 76047,
+  "held_out_texts": {
+    "1": 34499,
+    "2": 34498,
+    "3": 34498,
+    "4": 34499,
+    "5": 34498,
+    "6": 34498,
+    "7": 34498,
+    "8": 34498,
+    "9": 34498,
+    "10": 34498
+  },
+  "mean_training_texts": 310483.8,
+  "mean_held_out_texts": 34498.2,
+  "folds_sha256": "85359a9b84a0ba974d78be04c650c88708283d2e9b2c9647a738bd2899748213"
+}

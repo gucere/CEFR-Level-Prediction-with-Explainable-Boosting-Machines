@@ -1,0 +1,1 @@
+I used "Final database (main prompts)" dataset from EFCAMDAT data. Since I do not have ownership on this data, I can't share the data, but I've shared some analysis on texts.

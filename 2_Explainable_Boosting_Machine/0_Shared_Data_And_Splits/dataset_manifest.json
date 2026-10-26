@@ -1,0 +1,113 @@
+{
+  "schema_version": 2,
+  "seed": 42,
+  "sample_per_level": 0,
+  "scope": "full_corpus",
+  "data_directory": "Thesis/1_Complexity_Analysis_Full_Module/2_Basic_Analysis/0_Feature_Dataframe",
+  "labels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2",
+    "C1"
+  ],
+  "rows": 406062,
+  "level_to_cefr": {
+    "1": "A1",
+    "2": "A1",
+    "3": "A1",
+    "4": "A2",
+    "5": "A2",
+    "6": "A2",
+    "7": "B1",
+    "8": "B1",
+    "9": "B1",
+    "10": "B2",
+    "11": "B2",
+    "12": "B2",
+    "13": "C1",
+    "14": "C1",
+    "15": "C1"
+  },
+  "split_method": "SHA256(seed:learner_id); 70/15/15; disjoint learners shared by all tasks",
+  "metadata_input": {
+    "path": "Thesis/0_Data/Final database (main prompts).xlsx",
+    "bytes": 92472012,
+    "sha256": "9265eb0588811fc333cdba8532e715ff98f64626785d8c2ea33f3a24c3f8e573"
+  },
+  "sources": [
+    {
+      "path": "Thesis/1_Complexity_Analysis_Full_Module/2_Basic_Analysis/0_Feature_Dataframe/feature_dataframe.parquet",
+      "bytes": 1579019743,
+      "sha256": "edc0e4e6e6d8dc16789962dd1212673300b7075551580a9d437c5630ce78e512"
+    },
+    {
+      "path": "Thesis/1_Complexity_Analysis_Full_Module/2_Basic_Analysis/0_Feature_Dataframe/feature_dictionary.csv",
+      "bytes": 183313,
+      "sha256": "4265102561de243f570daafbe3e48bd37b0f325830032c0d1e1979f50c4be0a1"
+    },
+    {
+      "path": "Thesis/1_Complexity_Analysis_Full_Module/2_Basic_Analysis/0_Feature_Dataframe/text_metadata.parquet",
+      "bytes": 2710126,
+      "sha256": "8513b54a00486a97d5184ea834a3b3998acd188a3af0474b230357308a63bdaa"
+    }
+  ],
+  "files": {
+    "splits.csv": "0b8889c919df905a3fabf22e561c56b5dde48385f85b639aa22410ce96966b22",
+    "feature_definitions.json": "4b6f94eae71ee9c0b1fc78ecb89c72b3603e91cce74f39dd1a24268ce3b63411",
+    "feature_experiments.json": "47b9108fa122c5c013cebbec81b9f22b683d33db9e8a10b96958fc68cc9f82f2"
+  },
+  "counts": {
+    "test": {
+      "1": 14613,
+      "2": 8492,
+      "3": 5753,
+      "4": 10679,
+      "5": 5586,
+      "6": 3251,
+      "7": 5602,
+      "8": 2148,
+      "9": 1561,
+      "10": 1680,
+      "11": 800,
+      "12": 338,
+      "13": 416,
+      "14": 107,
+      "15": 54
+    },
+    "train": {
+      "1": 67594,
+      "2": 39656,
+      "3": 26730,
+      "4": 49303,
+      "5": 26274,
+      "6": 15545,
+      "7": 26149,
+      "8": 9855,
+      "9": 7048,
+      "10": 7310,
+      "11": 3511,
+      "12": 2002,
+      "13": 2353,
+      "14": 901,
+      "15": 521
+    },
+    "validation": {
+      "1": 14555,
+      "2": 8691,
+      "3": 5579,
+      "4": 10488,
+      "5": 5417,
+      "6": 3048,
+      "7": 5709,
+      "8": 2154,
+      "9": 1280,
+      "10": 1468,
+      "11": 699,
+      "12": 379,
+      "13": 495,
+      "14": 186,
+      "15": 82
+    }
+  }
+}

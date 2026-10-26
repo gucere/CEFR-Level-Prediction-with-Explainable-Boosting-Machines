@@ -1,0 +1,382 @@
+LEVEL CORRELATION SUMMARY
+========================================================================
+Features checked: 1,776
+Features that are not length-dependent: 1,739
+Length-dependent features: 37
+Target: EFCAMDAT level (1-15)
+Pearson: linear association
+Spearman: monotonic association using average ranks for ties
+Benjamini-Hochberg FDR alpha: 0.05
+Length-dependent features are the features on either section-1 length list: blacklist_1_direct_length_features.csv (numbers of words and different words) and blacklist_2_length_correlated_features.csv (other raw counts, and measures that still follow text length within course levels).
+
+SPEARMAN STRENGTH COUNTS
+------------------------------------------------------------------------
+very strong: 9
+strong: 14
+moderate: 106
+weak: 585
+very weak: 1,001
+not calculable: 61
+Significant after FDR: 1,675
+
+TOP 20 SPEARMAN CORRELATIONS (ALL FEATURES)
+-------------------------------------------
+LCA | ndw: rho=0.8209 (very strong, q=0)
+LCA | wordtypes: rho=0.8209 (very strong, q=0)
+POLKE | word_count: rho=0.8150 (very strong, q=0)
+TAALES | Word Count: rho=0.8148 (very strong, q=0)
+LCA | wordtokens: rho=0.8080 (very strong, q=0)
+TAASSC | nwords: rho=0.8075 (very strong, q=0)
+L2SCA | W: rho=0.8053 (very strong, q=0)
+LCA | lextypes: rho=0.8019 (very strong, q=0)
+LCA | lextokens: rho=0.8003 (very strong, q=0)
+POLKE | unique_constructs: rho=0.7850 (strong, q=0)
+POLKE | total_annotations: rho=0.7830 (strong, q=0)
+TAASSC | mattr: rho=-0.7536 (strong, q=0)
+LCA | rttr: rho=0.7297 (strong, q=0)
+LCA | cttr: rho=0.7297 (strong, q=0)
+LCA | ndwerz: rho=0.7193 (strong, q=0)
+LCA | ndwesz: rho=0.7015 (strong, q=0)
+L2SCA | VP: rho=0.7005 (strong, q=0)
+LCA | ndwz: rho=0.6925 (strong, q=0)
+LCA | svv1: rho=0.6855 (strong, q=0)
+LCA | cvv1: rho=0.6855 (strong, q=0)
+
+TOP 20 POSITIVE SPEARMAN CORRELATIONS (ALL FEATURES)
+----------------------------------------------------
+LCA | ndw: rho=0.8209 (very strong, q=0)
+LCA | wordtypes: rho=0.8209 (very strong, q=0)
+POLKE | word_count: rho=0.8150 (very strong, q=0)
+TAALES | Word Count: rho=0.8148 (very strong, q=0)
+LCA | wordtokens: rho=0.8080 (very strong, q=0)
+TAASSC | nwords: rho=0.8075 (very strong, q=0)
+L2SCA | W: rho=0.8053 (very strong, q=0)
+LCA | lextypes: rho=0.8019 (very strong, q=0)
+LCA | lextokens: rho=0.8003 (very strong, q=0)
+POLKE | unique_constructs: rho=0.7850 (strong, q=0)
+POLKE | total_annotations: rho=0.7830 (strong, q=0)
+LCA | rttr: rho=0.7297 (strong, q=0)
+LCA | cttr: rho=0.7297 (strong, q=0)
+LCA | ndwerz: rho=0.7193 (strong, q=0)
+LCA | ndwesz: rho=0.7015 (strong, q=0)
+L2SCA | VP: rho=0.7005 (strong, q=0)
+LCA | ndwz: rho=0.6925 (strong, q=0)
+LCA | svv1: rho=0.6855 (strong, q=0)
+LCA | cvv1: rho=0.6855 (strong, q=0)
+L2SCA | CN: rho=0.6329 (strong, q=0)
+
+TOP 20 NEGATIVE SPEARMAN CORRELATIONS (ALL FEATURES)
+----------------------------------------------------
+TAASSC | mattr: rho=-0.7536 (strong, q=0)
+TAASSC | mean_nominal_deps: rho=-0.6798 (strong, q=0)
+TAALES | MRC_Imageability_AW: rho=-0.5510 (moderate, q=0)
+TAALES | MRC_Meaningfulness_AW: rho=-0.5383 (moderate, q=0)
+TAALES_COVERAGE | cw_percentage: rho=-0.4899 (moderate, q=0)
+TAALES | SUBTLEXus_Range_FW_Log: rho=-0.4647 (moderate, q=0)
+TAALES | SUBTLEXus_Range_FW: rho=-0.4579 (moderate, q=0)
+TAALES | MRC_Concreteness_AW: rho=-0.4520 (moderate, q=0)
+TAALES | Brysbaert_Concreteness_Combined_AW: rho=-0.4265 (moderate, q=0)
+LCA | ttr: rho=-0.4177 (moderate, q=0)
+TAALES | OLDF_CW: rho=-0.4080 (moderate, q=0)
+TAALES | COCA_spoken_Range_Log_FW: rho=-0.4027 (moderate, q=0)
+TAALES | MRC_Familiarity_FW: rho=-0.4010 (moderate, q=0)
+TAALES | MRC_Familiarity_CW: rho=-0.3923 (weak, q=0)
+TAASSC | mlc: rho=-0.3903 (weak, q=0)
+TAASSC | poss_nominal: rho=-0.3764 (weak, q=0)
+LCA | ls1: rho=-0.3764 (weak, q=0)
+TAALES | hyper_verb_noun_Sav_Pav: rho=-0.3722 (weak, q=0)
+TAALES | hyper_verb_noun_Sav_P1: rho=-0.3662 (weak, q=0)
+TAASSC | nn_all: rho=-0.3636 (weak, q=0)
+
+TOP 20 SPEARMAN CORRELATIONS (WITHOUT LENGTH-DEPENDENT FEATURES)
+----------------------------------------------------------------
+TAALES | MRC_Imageability_AW: rho=-0.5510 (moderate, q=0)
+TAALES_COVERAGE | TL_Freq_AW_Log: rho=0.5442 (moderate, q=0)
+TAALES_COVERAGE | TL_Freq_AW: rho=0.5442 (moderate, q=0)
+TAALES | MRC_Meaningfulness_AW: rho=-0.5383 (moderate, q=0)
+TAALES_COVERAGE | Kuperman_AoA_AW: rho=0.5164 (moderate, q=0)
+TAALES | Kuperman_AoA_AW: rho=0.5140 (moderate, q=0)
+TAALES | Kuperman_AoA_CW: rho=0.5117 (moderate, q=0)
+TAALES | COCA_Academic_Range_AW: rho=0.4979 (moderate, q=0)
+TAALES_COVERAGE | cw_percentage: rho=-0.4899 (moderate, q=0)
+TAALES_COVERAGE | fw_percentage: rho=0.4899 (moderate, q=0)
+TAALES_COVERAGE | Kuperman_AoA_CW: rho=0.4806 (moderate, q=0)
+TAALES | COCA_academic_tri_prop_60k: rho=0.4794 (moderate, q=0)
+TAALES_COVERAGE | TL_Freq_CW_Log: rho=0.4786 (moderate, q=0)
+TAALES_COVERAGE | TL_Freq_CW: rho=0.4786 (moderate, q=0)
+TAALES | COCA_academic_bi_prop_10k: rho=0.4725 (moderate, q=0)
+TAALES_COVERAGE | Sem_D: rho=0.4717 (moderate, q=0)
+TAALES | COCA_academic_tri_prop_40k: rho=0.4705 (moderate, q=0)
+TAALES | COCA_academic_bi_prop_30k: rho=0.4701 (moderate, q=0)
+TAALES | COCA_academic_tri_prop_50k: rho=0.4670 (moderate, q=0)
+POLKE | polke_588_per_100_words: rho=0.4649 (moderate, q=0)
+
+TOP 20 POSITIVE SPEARMAN CORRELATIONS (WITHOUT LENGTH-DEPENDENT FEATURES)
+-------------------------------------------------------------------------
+TAALES_COVERAGE | TL_Freq_AW_Log: rho=0.5442 (moderate, q=0)
+TAALES_COVERAGE | TL_Freq_AW: rho=0.5442 (moderate, q=0)
+TAALES_COVERAGE | Kuperman_AoA_AW: rho=0.5164 (moderate, q=0)
+TAALES | Kuperman_AoA_AW: rho=0.5140 (moderate, q=0)
+TAALES | Kuperman_AoA_CW: rho=0.5117 (moderate, q=0)
+TAALES | COCA_Academic_Range_AW: rho=0.4979 (moderate, q=0)
+TAALES_COVERAGE | fw_percentage: rho=0.4899 (moderate, q=0)
+TAALES_COVERAGE | Kuperman_AoA_CW: rho=0.4806 (moderate, q=0)
+TAALES | COCA_academic_tri_prop_60k: rho=0.4794 (moderate, q=0)
+TAALES_COVERAGE | TL_Freq_CW_Log: rho=0.4786 (moderate, q=0)
+TAALES_COVERAGE | TL_Freq_CW: rho=0.4786 (moderate, q=0)
+TAALES | COCA_academic_bi_prop_10k: rho=0.4725 (moderate, q=0)
+TAALES_COVERAGE | Sem_D: rho=0.4717 (moderate, q=0)
+TAALES | COCA_academic_tri_prop_40k: rho=0.4705 (moderate, q=0)
+TAALES | COCA_academic_bi_prop_30k: rho=0.4701 (moderate, q=0)
+TAALES | COCA_academic_tri_prop_50k: rho=0.4670 (moderate, q=0)
+POLKE | polke_588_per_100_words: rho=0.4649 (moderate, q=0)
+TAALES | poly_adv: rho=0.4646 (moderate, q=0)
+TAALES_COVERAGE | SUBTLEXus_Freq_AW: rho=0.4598 (moderate, q=0)
+TAALES_COVERAGE | SUBTLEXus_Freq_AW_Log: rho=0.4598 (moderate, q=0)
+
+TOP 20 NEGATIVE SPEARMAN CORRELATIONS (WITHOUT LENGTH-DEPENDENT FEATURES)
+-------------------------------------------------------------------------
+TAALES | MRC_Imageability_AW: rho=-0.5510 (moderate, q=0)
+TAALES | MRC_Meaningfulness_AW: rho=-0.5383 (moderate, q=0)
+TAALES_COVERAGE | cw_percentage: rho=-0.4899 (moderate, q=0)
+TAALES | SUBTLEXus_Range_FW_Log: rho=-0.4647 (moderate, q=0)
+TAALES | SUBTLEXus_Range_FW: rho=-0.4579 (moderate, q=0)
+TAALES | MRC_Concreteness_AW: rho=-0.4520 (moderate, q=0)
+TAALES | Brysbaert_Concreteness_Combined_AW: rho=-0.4265 (moderate, q=0)
+TAALES | OLDF_CW: rho=-0.4080 (moderate, q=0)
+TAALES | COCA_spoken_Range_Log_FW: rho=-0.4027 (moderate, q=0)
+TAALES | MRC_Familiarity_FW: rho=-0.4010 (moderate, q=0)
+TAALES | MRC_Familiarity_CW: rho=-0.3923 (weak, q=0)
+TAASSC | poss_nominal: rho=-0.3764 (weak, q=0)
+LCA | ls1: rho=-0.3764 (weak, q=0)
+TAALES | hyper_verb_noun_Sav_Pav: rho=-0.3722 (weak, q=0)
+TAALES | hyper_verb_noun_Sav_P1: rho=-0.3662 (weak, q=0)
+TAASSC | nn_all: rho=-0.3636 (weak, q=0)
+TAALES | BNC_Spoken_Range_FW: rho=-0.3635 (weak, q=0)
+POLKE | polke_67_per_100_words: rho=-0.3586 (weak, q=0)
+TAALES | COCA_spoken_Range_FW: rho=-0.3540 (weak, q=0)
+TAALES | PLDF_CW: rho=-0.3537 (weak, q=0)
+
+PEARSON STRENGTH COUNTS
+------------------------------------------------------------------------
+very strong: 11
+strong: 11
+moderate: 50
+weak: 493
+very weak: 1,150
+not calculable: 61
+Significant after FDR: 1,647
+
+TOP 20 PEARSON CORRELATIONS (ALL FEATURES)
+------------------------------------------
+LCA | ndw: r=0.8483 (very strong, q=0)
+LCA | wordtypes: r=0.8483 (very strong, q=0)
+TAALES | Word Count: r=0.8410 (very strong, q=0)
+POLKE | word_count: r=0.8399 (very strong, q=0)
+LCA | wordtokens: r=0.8363 (very strong, q=0)
+TAASSC | nwords: r=0.8359 (very strong, q=0)
+L2SCA | W: r=0.8341 (very strong, q=0)
+LCA | lextypes: r=0.8186 (very strong, q=0)
+LCA | lextokens: r=0.8179 (very strong, q=0)
+POLKE | unique_constructs: r=0.8015 (very strong, q=0)
+POLKE | total_annotations: r=0.8004 (very strong, q=0)
+LCA | rttr: r=0.7547 (strong, q=0)
+LCA | cttr: r=0.7546 (strong, q=0)
+L2SCA | VP: r=0.7251 (strong, q=0)
+LCA | svv1: r=0.7128 (strong, q=0)
+L2SCA | CN: r=0.7073 (strong, q=0)
+LCA | cvv1: r=0.6731 (strong, q=0)
+LCA | ndwerz: r=0.6470 (strong, q=0)
+L2SCA | C: r=0.6432 (strong, q=0)
+TAASSC | mattr: r=-0.6404 (strong, q=0)
+
+TOP 20 POSITIVE PEARSON CORRELATIONS (ALL FEATURES)
+---------------------------------------------------
+LCA | ndw: r=0.8483 (very strong, q=0)
+LCA | wordtypes: r=0.8483 (very strong, q=0)
+TAALES | Word Count: r=0.8410 (very strong, q=0)
+POLKE | word_count: r=0.8399 (very strong, q=0)
+LCA | wordtokens: r=0.8363 (very strong, q=0)
+TAASSC | nwords: r=0.8359 (very strong, q=0)
+L2SCA | W: r=0.8341 (very strong, q=0)
+LCA | lextypes: r=0.8186 (very strong, q=0)
+LCA | lextokens: r=0.8179 (very strong, q=0)
+POLKE | unique_constructs: r=0.8015 (very strong, q=0)
+POLKE | total_annotations: r=0.8004 (very strong, q=0)
+LCA | rttr: r=0.7547 (strong, q=0)
+LCA | cttr: r=0.7546 (strong, q=0)
+L2SCA | VP: r=0.7251 (strong, q=0)
+LCA | svv1: r=0.7128 (strong, q=0)
+L2SCA | CN: r=0.7073 (strong, q=0)
+LCA | cvv1: r=0.6731 (strong, q=0)
+LCA | ndwerz: r=0.6470 (strong, q=0)
+L2SCA | C: r=0.6432 (strong, q=0)
+LCA | ndwesz: r=0.6386 (strong, q=0)
+
+TOP 20 NEGATIVE PEARSON CORRELATIONS (ALL FEATURES)
+---------------------------------------------------
+TAASSC | mattr: r=-0.6404 (strong, q=0)
+TAASSC | mean_nominal_deps: r=-0.5335 (moderate, q=0)
+TAALES | MRC_Imageability_AW: r=-0.5172 (moderate, q=0)
+TAALES | MRC_Meaningfulness_AW: r=-0.5080 (moderate, q=0)
+TAALES | MRC_Concreteness_AW: r=-0.4424 (moderate, q=0)
+TAALES_COVERAGE | cw_percentage: r=-0.4342 (moderate, q=0)
+TAALES | Brysbaert_Concreteness_Combined_AW: r=-0.4271 (moderate, q=0)
+TAASSC | poss_nominal: r=-0.4099 (moderate, q=0)
+TAALES | MRC_Familiarity_CW: r=-0.3870 (weak, q=0)
+LCA | ttr: r=-0.3841 (weak, q=0)
+TAALES | OLDF_CW: r=-0.3829 (weak, q=0)
+TAASSC | mlc: r=-0.3611 (weak, q=0)
+LCA | ls1: r=-0.3565 (weak, q=0)
+TAALES | MRC_Imageability_CW: r=-0.3559 (weak, q=0)
+POLKE | polke_82_per_100_words: r=-0.3554 (weak, q=0)
+POLKE | polke_67_per_100_words: r=-0.3541 (weak, q=0)
+TAALES | hyper_verb_noun_Sav_Pav: r=-0.3539 (weak, q=0)
+TAASSC | pp1: r=-0.3505 (weak, q=0)
+TAALES | hyper_verb_noun_Sav_P1: r=-0.3490 (weak, q=0)
+TAALES | Brysbaert_Concreteness_Combined_CW: r=-0.3479 (weak, q=0)
+
+TOP 20 PEARSON CORRELATIONS (WITHOUT LENGTH-DEPENDENT FEATURES)
+---------------------------------------------------------------
+TAALES | Kuperman_AoA_CW: r=0.5438 (moderate, q=0)
+TAALES | Kuperman_AoA_AW: r=0.5323 (moderate, q=0)
+TAALES | MRC_Imageability_AW: r=-0.5172 (moderate, q=0)
+TAALES | MRC_Meaningfulness_AW: r=-0.5080 (moderate, q=0)
+TAALES_COVERAGE | TL_Freq_AW_Log: r=0.5049 (moderate, q=0)
+TAALES_COVERAGE | TL_Freq_AW: r=0.5049 (moderate, q=0)
+TAALES | COCA_academic_bi_prop_10k: r=0.4764 (moderate, q=0)
+TAALES | COCA_academic_bi_prop_30k: r=0.4663 (moderate, q=0)
+TAALES_COVERAGE | Kuperman_AoA_AW: r=0.4648 (moderate, q=0)
+TAALES | COCA_academic_bi_prop_20k: r=0.4540 (moderate, q=0)
+TAALES | COCA_academic_tri_prop_60k: r=0.4524 (moderate, q=0)
+TAALES_COVERAGE | Kuperman_AoA_CW: r=0.4463 (moderate, q=0)
+TAALES | COCA_Academic_Range_AW: r=0.4457 (moderate, q=0)
+TAALES | COCA_academic_bi_prop_40k: r=0.4455 (moderate, q=0)
+TAALES_COVERAGE | TL_Freq_CW_Log: r=0.4424 (moderate, q=0)
+TAALES_COVERAGE | TL_Freq_CW: r=0.4424 (moderate, q=0)
+TAALES | MRC_Concreteness_AW: r=-0.4424 (moderate, q=0)
+TAALES_COVERAGE | Sem_D: r=0.4416 (moderate, q=0)
+TAALES | COCA_academic_tri_prop_50k: r=0.4409 (moderate, q=0)
+TAALES | COCA_academic_tri_prop_40k: r=0.4389 (moderate, q=0)
+
+TOP 20 POSITIVE PEARSON CORRELATIONS (WITHOUT LENGTH-DEPENDENT FEATURES)
+------------------------------------------------------------------------
+TAALES | Kuperman_AoA_CW: r=0.5438 (moderate, q=0)
+TAALES | Kuperman_AoA_AW: r=0.5323 (moderate, q=0)
+TAALES_COVERAGE | TL_Freq_AW_Log: r=0.5049 (moderate, q=0)
+TAALES_COVERAGE | TL_Freq_AW: r=0.5049 (moderate, q=0)
+TAALES | COCA_academic_bi_prop_10k: r=0.4764 (moderate, q=0)
+TAALES | COCA_academic_bi_prop_30k: r=0.4663 (moderate, q=0)
+TAALES_COVERAGE | Kuperman_AoA_AW: r=0.4648 (moderate, q=0)
+TAALES | COCA_academic_bi_prop_20k: r=0.4540 (moderate, q=0)
+TAALES | COCA_academic_tri_prop_60k: r=0.4524 (moderate, q=0)
+TAALES_COVERAGE | Kuperman_AoA_CW: r=0.4463 (moderate, q=0)
+TAALES | COCA_Academic_Range_AW: r=0.4457 (moderate, q=0)
+TAALES | COCA_academic_bi_prop_40k: r=0.4455 (moderate, q=0)
+TAALES_COVERAGE | TL_Freq_CW_Log: r=0.4424 (moderate, q=0)
+TAALES_COVERAGE | TL_Freq_CW: r=0.4424 (moderate, q=0)
+TAALES_COVERAGE | Sem_D: r=0.4416 (moderate, q=0)
+TAALES | COCA_academic_tri_prop_50k: r=0.4409 (moderate, q=0)
+TAALES | COCA_academic_tri_prop_40k: r=0.4389 (moderate, q=0)
+TAALES_COVERAGE | fw_percentage: r=0.4342 (moderate, q=0)
+TAALES | COCA_academic_tri_prop_80k: r=0.4247 (moderate, q=0)
+TAALES | COCA_academic_tri_prop_70k: r=0.4216 (moderate, q=0)
+
+TOP 20 NEGATIVE PEARSON CORRELATIONS (WITHOUT LENGTH-DEPENDENT FEATURES)
+------------------------------------------------------------------------
+TAALES | MRC_Imageability_AW: r=-0.5172 (moderate, q=0)
+TAALES | MRC_Meaningfulness_AW: r=-0.5080 (moderate, q=0)
+TAALES | MRC_Concreteness_AW: r=-0.4424 (moderate, q=0)
+TAALES_COVERAGE | cw_percentage: r=-0.4342 (moderate, q=0)
+TAALES | Brysbaert_Concreteness_Combined_AW: r=-0.4271 (moderate, q=0)
+TAASSC | poss_nominal: r=-0.4099 (moderate, q=0)
+TAALES | MRC_Familiarity_CW: r=-0.3870 (weak, q=0)
+TAALES | OLDF_CW: r=-0.3829 (weak, q=0)
+LCA | ls1: r=-0.3565 (weak, q=0)
+TAALES | MRC_Imageability_CW: r=-0.3559 (weak, q=0)
+POLKE | polke_82_per_100_words: r=-0.3554 (weak, q=0)
+POLKE | polke_67_per_100_words: r=-0.3541 (weak, q=0)
+TAALES | hyper_verb_noun_Sav_Pav: r=-0.3539 (weak, q=0)
+TAASSC | pp1: r=-0.3505 (weak, q=0)
+TAALES | hyper_verb_noun_Sav_P1: r=-0.3490 (weak, q=0)
+TAALES | Brysbaert_Concreteness_Combined_CW: r=-0.3479 (weak, q=0)
+TAALES | PLDF_CW: r=-0.3380 (weak, q=0)
+POLKE | polke_68_per_100_words: r=-0.3300 (weak, q=0)
+TAASSC | be_mv: r=-0.3226 (weak, q=0)
+POLKE | polke_312_per_100_words: r=-0.3205 (weak, q=0)
+
+FEATURE-FEATURE CORRELATIONS
+------------------------------------------------------------------------
+Candidates: top 50 Spearman-ranked features per source
+Deterministic matched sample: up to 20,000 texts
+All calculable within-source and cross-source pairs are retained.
+Within-source pairs: 6,716
+Cross-source pairs: 38,735
+Pairs without length-dependent features: 34,980
+very strong: 839
+strong: 1,049
+moderate: 2,493
+weak: 7,491
+very weak: 33,579
+
+TOP 20 FEATURE-FEATURE CORRELATIONS (ALL FEATURES)
+--------------------------------------------------
+ERRANT:errant_family_adj_per_100_words <> ERRANT:errant_r_adj_per_100_words: r=1.0000
+ERRANT:errant_family_morph_per_100_words <> ERRANT:errant_r_morph_per_100_words: r=1.0000
+ERRANT:errant_family_prep_per_100_words <> ERRANT:errant_r_prep_per_100_words: r=1.0000
+ERRANT:errant_family_space_per_100_words <> ERRANT:errant_u_space_per_100_words: r=1.0000
+ERRANT:errant_family_spell_per_100_words <> ERRANT:errant_r_spell_per_100_words: r=1.0000
+ERRANT:errant_r_conj_per_100_words <> ERRANT:errant_family_conj_per_100_words: r=1.0000
+ERRANT:errant_r_det_per_100_words <> ERRANT:errant_family_det_per_100_words: r=1.0000
+LCA:ndw <> LCA:wordtypes: r=1.0000
+POLKE:polke_372_per_100_words <> POLKE:polke_695_per_100_words: r=1.0000
+TAALES_COVERAGE:Brown_Freq_AW_Log <> TAALES_COVERAGE:Brown_Freq_AW: r=1.0000
+TAALES_COVERAGE:COCA_Academic_Bigram_Frequency <> TAALES_COVERAGE:COCA_Academic_Bigram_Frequency_Log: r=1.0000
+TAALES_COVERAGE:COCA_Academic_Bigram_Frequency <> TAALES_COVERAGE:COCA_Academic_Bigram_Range: r=1.0000
+TAALES_COVERAGE:COCA_Academic_Bigram_Frequency <> TAALES_COVERAGE:COCA_Academic_Bigram_Range_Log: r=1.0000
+TAALES_COVERAGE:COCA_Academic_Bigram_Frequency <> TAALES_COVERAGE:COCA_academic_bi_AC: r=1.0000
+TAALES_COVERAGE:COCA_Academic_Bigram_Frequency <> TAALES_COVERAGE:COCA_academic_bi_DP: r=1.0000
+TAALES_COVERAGE:COCA_Academic_Bigram_Frequency <> TAALES_COVERAGE:COCA_academic_bi_MI: r=1.0000
+TAALES_COVERAGE:COCA_Academic_Bigram_Frequency <> TAALES_COVERAGE:COCA_academic_bi_MI2: r=1.0000
+TAALES_COVERAGE:COCA_Academic_Bigram_Frequency <> TAALES_COVERAGE:COCA_academic_bi_T: r=1.0000
+TAALES_COVERAGE:COCA_Academic_Bigram_Frequency_Log <> TAALES_COVERAGE:COCA_Academic_Bigram_Range: r=1.0000
+TAALES_COVERAGE:COCA_Academic_Bigram_Frequency_Log <> TAALES_COVERAGE:COCA_Academic_Bigram_Range_Log: r=1.0000
+
+TOP 20 FEATURE-FEATURE CORRELATIONS (WITHOUT LENGTH-DEPENDENT FEATURES)
+-----------------------------------------------------------------------
+ERRANT:errant_family_adj_per_100_words <> ERRANT:errant_r_adj_per_100_words: r=1.0000
+ERRANT:errant_family_morph_per_100_words <> ERRANT:errant_r_morph_per_100_words: r=1.0000
+ERRANT:errant_family_prep_per_100_words <> ERRANT:errant_r_prep_per_100_words: r=1.0000
+ERRANT:errant_family_space_per_100_words <> ERRANT:errant_u_space_per_100_words: r=1.0000
+ERRANT:errant_family_spell_per_100_words <> ERRANT:errant_r_spell_per_100_words: r=1.0000
+ERRANT:errant_r_conj_per_100_words <> ERRANT:errant_family_conj_per_100_words: r=1.0000
+ERRANT:errant_r_det_per_100_words <> ERRANT:errant_family_det_per_100_words: r=1.0000
+POLKE:polke_372_per_100_words <> POLKE:polke_695_per_100_words: r=1.0000
+TAALES_COVERAGE:Brown_Freq_AW_Log <> TAALES_COVERAGE:Brown_Freq_AW: r=1.0000
+TAALES_COVERAGE:COCA_Academic_Bigram_Frequency <> TAALES_COVERAGE:COCA_Academic_Bigram_Frequency_Log: r=1.0000
+TAALES_COVERAGE:COCA_Academic_Bigram_Frequency <> TAALES_COVERAGE:COCA_Academic_Bigram_Range: r=1.0000
+TAALES_COVERAGE:COCA_Academic_Bigram_Frequency <> TAALES_COVERAGE:COCA_Academic_Bigram_Range_Log: r=1.0000
+TAALES_COVERAGE:COCA_Academic_Bigram_Frequency <> TAALES_COVERAGE:COCA_academic_bi_AC: r=1.0000
+TAALES_COVERAGE:COCA_Academic_Bigram_Frequency <> TAALES_COVERAGE:COCA_academic_bi_DP: r=1.0000
+TAALES_COVERAGE:COCA_Academic_Bigram_Frequency <> TAALES_COVERAGE:COCA_academic_bi_MI: r=1.0000
+TAALES_COVERAGE:COCA_Academic_Bigram_Frequency <> TAALES_COVERAGE:COCA_academic_bi_MI2: r=1.0000
+TAALES_COVERAGE:COCA_Academic_Bigram_Frequency <> TAALES_COVERAGE:COCA_academic_bi_T: r=1.0000
+TAALES_COVERAGE:COCA_Academic_Bigram_Frequency_Log <> TAALES_COVERAGE:COCA_Academic_Bigram_Range: r=1.0000
+TAALES_COVERAGE:COCA_Academic_Bigram_Frequency_Log <> TAALES_COVERAGE:COCA_Academic_Bigram_Range_Log: r=1.0000
+TAALES_COVERAGE:COCA_Academic_Bigram_Frequency_Log <> TAALES_COVERAGE:COCA_academic_bi_AC: r=1.0000
+
+STRENGTH RULE
+------------------------------------------------------------------------
+|correlation| < 0.20: very weak
+0.20 <= |correlation| < 0.40: weak
+0.40 <= |correlation| < 0.60: moderate
+0.60 <= |correlation| < 0.80: strong
+|correlation| >= 0.80: very strong
+
+Positive means the measure tends to increase at higher levels.
+Negative means the measure tends to decrease at higher levels.
+ERRANT uses normalized rates, surface accuracy, and error-free status.
+FDR correction is applied separately across all Pearson tests and all Spearman tests.
+With a very large corpus, a tiny correlation can be statistically significant; interpret correlation strength as the practical effect.
+Highly correlated feature pairs are redundancy candidates, not automatic deletion decisions.
+Correlation does not prove causation or measure multivariable prediction.

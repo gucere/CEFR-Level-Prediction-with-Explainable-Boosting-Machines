@@ -1,0 +1,89 @@
+COMPLEXITY ANALYSIS SUMMARY
+
+Analysis: descriptive statistics for available complexity features
+Proficiency grouping: EFCAMDAT levels 1-15 and CEFR labels
+
+Sources found: LCA, L2SCA, TAASSC, TAALES, TAALES_COVERAGE, POLKE
+Sources skipped (not found): none
+
+SOURCE DETAILS
+
+LCA
+  Input file: feature_dataframe.parquet [LCA]
+  Text rows: 406,062
+  Texts in level statistics: 406,062
+  Texts excluded from level statistics: 0
+  Level-labelled texts without CEFR: 0
+  Candidate features: 33
+  Numeric features analyzed: 33
+  Length-dependent features: 19
+  Level/CEFR groups analyzed: 15
+
+L2SCA
+  Input file: feature_dataframe.parquet [L2SCA]
+  Text rows: 406,062
+  Texts in level statistics: 406,062
+  Texts excluded from level statistics: 0
+  Level-labelled texts without CEFR: 0
+  Candidate features: 23
+  Numeric features analyzed: 23
+  Length-dependent features: 9
+  Level/CEFR groups analyzed: 15
+
+TAASSC
+  Input file: feature_dataframe.parquet [TAASSC]
+  Text rows: 406,062
+  Texts in level statistics: 406,062
+  Texts excluded from level statistics: 0
+  Level-labelled texts without CEFR: 0
+  Candidate features: 149
+  Numeric features analyzed: 149
+  Length-dependent features: 5
+  Level/CEFR groups analyzed: 15
+
+TAALES
+  Input file: feature_dataframe.parquet [TAALES]
+  Text rows: 406,062
+  Texts in level statistics: 406,062
+  Texts excluded from level statistics: 0
+  Level-labelled texts without CEFR: 0
+  Candidate features: 485
+  Numeric features analyzed: 485
+  Length-dependent features: 1
+  Level/CEFR groups analyzed: 15
+
+TAALES_COVERAGE
+  Input file: feature_dataframe.parquet [TAALES_COVERAGE]
+  Text rows: 406,062
+  Texts in level statistics: 406,062
+  Texts excluded from level statistics: 0
+  Level-labelled texts without CEFR: 0
+  Candidate features: 352
+  Numeric features analyzed: 352
+  Length-dependent features: 0
+  Level/CEFR groups analyzed: 15
+
+POLKE
+  Input file: feature_dataframe.parquet [POLKE]
+  Text rows: 406,062
+  Texts in level statistics: 406,062
+  Texts excluded from level statistics: 0
+  Level-labelled texts without CEFR: 0
+  Candidate features: 670
+  Numeric features analyzed: 670
+  Length-dependent features: 3
+  Level/CEFR groups analyzed: 15
+
+OUTPUTS
+
+Overall feature rows: 1,712
+Level-specific feature rows: 25,680
+Overall statistics: complexity_stats.csv
+Level statistics: complexity_level_stats.csv
+
+NOTES
+
+Only missing source files are skipped. A source file that exists but is malformed still raises an error so corrupted data is not silently ignored.
+Valid label columns are used first, with filenames as a fallback. Course levels must be integers from 1 to 15.
+Overall statistics include all text rows. Rows without a valid course level are excluded from level statistics and counted above. Missing CEFR labels remain blank. A source with no valid course levels raises an error.
+The is_text_length_feature column marks the length-dependent features. Length-dependent features are the features on either section-1 length list: blacklist_1_direct_length_features.csv (numbers of words and different words) and blacklist_2_length_correlated_features.csv (other raw counts, and measures that still follow text length within course levels).

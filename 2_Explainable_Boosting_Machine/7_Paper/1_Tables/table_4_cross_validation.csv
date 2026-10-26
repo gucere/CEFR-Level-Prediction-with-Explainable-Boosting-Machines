@@ -1,0 +1,7 @@
+﻿Feature set,Model,experiment,Level macro F1,Level QWK,CEFR macro F1 (via level),Δ vs main (p),Regressor MAE,Regressor Spearman,Δ vs best (p)
+All features,classifier,classifier__combined,0.902 ± 0.006,0.979 ± 0.001,0.955 ± 0.003,+0.0014 (0.102),,,
+All features,regressor,regressor__combined,,,,-0.0159 (<0.001),0.604 ± 0.006,0.948 ± 0.001,
+All − counts and length-dependent (main),classifier,classifier__combined_without_length_correlated_features,0.900 ± 0.006,0.978 ± 0.001,0.953 ± 0.003,,,,-0.0014 (0.102)
+All − counts and length-dependent (main),regressor,regressor__combined_without_length_correlated_features,,,,,0.619 ± 0.005,0.946 ± 0.001,+0.0159 (<0.001)
+Majority class / median level,classifier,classifier__majority,0.026 ± 0.000,0.000 ± 0.000,0.128 ± 0.000,-0.8747 (<0.001),,,-0.8761 (<0.001)
+Majority class / median level,regressor,regressor__median,,,,+1.6238 (<0.001),2.243 ± 0.000,,+1.6397 (<0.001)

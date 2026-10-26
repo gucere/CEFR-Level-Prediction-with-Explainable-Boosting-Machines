@@ -1,0 +1,16 @@
+{
+  "configuration_id": "bf331b387d9fd3b5299f7ce677ee6c59434e7aedf7b28ca15709da4e837b1b17",
+  "minutes": 50.6,
+  "code_sha256": {
+    "cross_validation": "921aaa47436a6bf3e2d01916431d4e68b5a9cebb9b08370fdfd2ed10150709d2",
+    "ebm_workflow": "6a11f8a51fe949270de52926d24c5f85411c4c4786950b779304d6e0d3ef7daf"
+  },
+  "files": {
+    "dimension_contributions.csv": "e2231736abfdb2f8e0d9ee64017a04d882293d059c65b0ad28be37f44eef9a8f",
+    "excluded_features.json": "d893ee32ff79d6f13cd954926d0418fad8fa6531a2d5df60f41e87e20fb1640c",
+    "feature_importance.csv": "847ebf5fa1bafbca00a55f4d06aae3a3a6853e7d47b536f6e2f7c512f9e18a08",
+    "job_config.json": "a9a29b40904599e7c4ad30a529c710baad37b015cf1d859bb69f615b50b19892",
+    "metrics.json": "c250bf4c5691d23500cf7018f80d83d7c82ce7419dd54e502f09f1044d165144",
+    "tool_contributions.csv": "be84e4d9a7e5c35648148bbfb7714d5dd11c7e83da0b6c2ef9bbd4a1a7b6a548"
+  }
+}
